@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<!-- 	<class name="com.webonise.entity.Employee" table="emp">
+		<id name="id">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="firstName"></property>
+		<property name="lastName"></property>
+	</class>
+ -->
+
+	<class name="com.webonise.entity.Player" table="PLAYER">
+		<id name="playerId" type="int" column="player_id">
+			<generator class="assigned" />
+		</id>
+		<property name="playerName">
+			<column name="player_name" />
+		</property>
+		<property name="gameName">
+			<column name="game_name" />
+		</property>
+		<property name="playedDate" type="date">
+			<column name="played_date" />
+		</property>
+	</class>
+
+</hibernate-mapping>

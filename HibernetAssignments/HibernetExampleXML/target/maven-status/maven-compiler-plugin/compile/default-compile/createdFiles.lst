@@ -1,0 +1,5 @@
+com/webonise/sessionmanager/HibernateSessionManager.class
+com/webonise/hibernet/Run.class
+com/webonise/hibernet/StoreData.class
+com/webonise/entity/Player.class
+com/webonise/entity/Employee.class
