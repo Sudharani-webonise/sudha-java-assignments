@@ -1,0 +1,619 @@
+2015-08-18 12:52:19 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 12:52:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 12:52:19 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 12:52:19 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 12:52:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 12:52:20 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 12:52:21 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 12:52:21 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 12:52:21 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 12:52:21 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 12:52:21 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 12:52:21 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 12:52:21 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 12:52:21 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 12:52:21 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 12:52:21 ERROR SqlExceptionHelper:129 - Duplicate entry '5' for key 'PRIMARY'
+2015-08-18 12:52:21 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 12:52:21 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 12:52:21 ERROR MainClass:34 - could not execute statement
+2015-08-18 13:29:41 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 13:29:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 13:29:41 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 13:29:41 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 13:29:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 13:29:41 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 13:29:42 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 13:29:42 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 13:29:42 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 13:29:42 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 13:29:42 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 13:29:42 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 13:29:42 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 13:29:43 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 13:29:43 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 13:29:43 ERROR SqlExceptionHelper:129 - Duplicate entry '5' for key 'PRIMARY'
+2015-08-18 13:29:43 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 13:29:43 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 13:29:43 ERROR MainClass:59 - could not execute statement
+2015-08-18 13:29:43 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 13:30:01 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 13:30:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 13:30:01 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 13:30:01 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 13:30:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 13:30:01 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 13:30:02 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 13:30:02 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 13:30:02 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 13:30:02 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 13:30:02 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 13:30:03 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 13:30:03 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 13:30:03 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 13:30:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 14:08:49 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:08:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:08:49 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:08:49 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:08:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:08:50 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:08:51 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:08:51 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:08:51 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:08:51 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:08:51 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:08:51 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:08:51 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:08:51 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:08:52 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 14:14:54 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:14:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:14:54 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:14:54 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:14:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:14:54 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:14:55 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:14:55 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:14:55 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:14:55 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:14:55 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:14:55 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:14:55 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:14:56 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:14:56 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 14:22:18 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:22:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:22:18 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:22:18 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:22:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:22:18 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:22:19 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:22:19 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:22:19 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:22:19 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:22:19 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:22:19 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:22:19 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:22:20 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:22:20 INFO  MainClass:53 - Insterted succesfully
+2015-08-18 14:24:32 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:24:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:24:32 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:24:32 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:24:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:24:33 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:24:34 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:24:34 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:24:34 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:24:34 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:24:34 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:24:34 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:24:34 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:24:34 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:24:34 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:24:34 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:24:34 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:24:34 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:24:34 ERROR MainClass:44 - could not execute statement
+2015-08-18 14:26:13 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:26:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:26:13 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:26:13 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:26:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:26:13 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:26:14 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:26:14 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:26:14 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:26:14 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:26:14 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:26:14 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:26:15 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:26:15 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:26:15 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:26:15 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:26:15 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:26:15 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:26:15 ERROR MainClass:47 - could not execute statement
+2015-08-18 14:30:35 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:30:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:30:35 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:30:35 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:30:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:30:35 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:30:36 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:30:36 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:30:36 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:30:36 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:30:36 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:30:36 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:30:36 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:30:37 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:30:37 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:30:37 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:30:37 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:30:37 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:30:37 ERROR MainClass:45 - could not execute statement
+2015-08-18 14:31:59 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:31:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:31:59 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:31:59 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:31:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:31:59 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:32:00 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:32:00 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:32:00 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:32:00 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:32:00 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:32:00 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:32:00 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:32:00 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:32:01 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:32:01 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:32:01 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:32:01 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:32:01 ERROR MainClass:49 - could not execute statement
+2015-08-18 14:32:01 ERROR MainClass:34 - Transaction not successfully started
+2015-08-18 14:32:29 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:32:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:32:29 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:32:29 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:32:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:32:30 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:32:31 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:32:31 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:32:31 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:32:31 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:32:31 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:32:31 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:32:31 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:32:31 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:32:31 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:32:31 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:32:31 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:32:31 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:32:31 ERROR MainClass:51 - could not execute statement
+2015-08-18 14:32:32 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:32:32 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:32:32 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:32:32 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:32:32 ERROR MainClass:36 - could not execute statement
+2015-08-18 14:34:11 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:34:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:34:11 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:34:11 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:34:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:34:11 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:34:12 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:34:12 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:34:12 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:34:12 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:34:12 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:34:13 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:34:13 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:34:13 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:34:13 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:34:13 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:34:13 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:34:13 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:34:13 ERROR MainClass:50 - could not execute statement
+2015-08-18 14:34:13 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:34:13 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:34:13 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:34:13 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:34:13 ERROR MainClass:36 - could not execute statement
+2015-08-18 14:36:30 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:36:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:36:30 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:36:30 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:36:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:36:30 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:36:31 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:36:31 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:36:31 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:36:31 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:36:31 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:36:31 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:36:31 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:36:32 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:36:32 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:36:32 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:36:32 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:36:32 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:36:32 ERROR MainClass:50 - could not execute statement
+2015-08-18 14:36:32 WARN  SqlExceptionHelper:127 - SQL Error: 1062, SQLState: 23000
+2015-08-18 14:36:32 ERROR SqlExceptionHelper:129 - Duplicate entry '8' for key 'PRIMARY'
+2015-08-18 14:36:32 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 14:36:32 ERROR SessionImpl:2921 - HHH000346: Error during managed flush [could not execute statement]
+2015-08-18 14:36:32 ERROR MainClass:36 - could not execute statement
+2015-08-18 14:36:59 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:36:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:36:59 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:36:59 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:36:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:36:59 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:37:00 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:37:00 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:37:00 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:37:00 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:37:00 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:37:00 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:37:00 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:37:01 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:37:36 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:37:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:37:36 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:37:36 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:37:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:37:37 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:37:38 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:37:38 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:37:38 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:37:38 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:37:38 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:37:38 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:37:38 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:37:38 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:37:38 INFO  MainClass:35 - UPADATED
+2015-08-18 14:37:55 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:37:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:37:55 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:37:55 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:37:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:37:56 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:37:57 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:37:57 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:37:57 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:37:57 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:37:57 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:37:57 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:37:57 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:37:57 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:37:57 INFO  MainClass:35 - UPADATED
+2015-08-18 14:47:05 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:47:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:47:05 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:47:05 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:47:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:47:05 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:47:06 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:47:06 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:47:06 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:47:06 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:47:06 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:47:06 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:47:06 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:47:07 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:47:07 INFO  MainClass:49 - UPDATED
+2015-08-18 14:47:07 INFO  MainClass:35 - Removed
+2015-08-18 14:48:08 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:48:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:48:08 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:48:08 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:48:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:48:08 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:48:09 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:48:09 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:48:09 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:48:09 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:48:09 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:48:10 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:48:10 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:48:10 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:48:10 ERROR MainClass:37 - 
+2015-08-18 14:48:10 INFO  MainClass:63 - Insterted succesfully
+2015-08-18 14:48:10 INFO  MainClass:49 - UPDATED
+2015-08-18 14:48:40 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:48:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:48:40 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:48:40 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:48:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:48:40 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:48:42 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:48:42 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:48:42 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:48:42 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:48:42 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:48:42 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:48:42 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:48:42 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:48:55 INFO  MainClass:35 - REMOVED
+2015-08-18 14:48:58 INFO  MainClass:63 - Insterted succesfully
+2015-08-18 14:48:59 INFO  MainClass:49 - UPDATED
+2015-08-18 14:56:13 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:56:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:56:13 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:56:13 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:56:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:56:13 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:56:14 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:56:14 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:56:14 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:56:14 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:56:14 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:56:14 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:56:14 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:57:32 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:57:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:57:32 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:57:32 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:57:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:57:32 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:57:33 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:57:33 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:57:33 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:57:33 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:57:33 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:57:33 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:57:33 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:58:14 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:58:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:58:14 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:58:14 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:58:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:58:15 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:58:15 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:58:15 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:58:15 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:58:15 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:58:15 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:58:15 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:58:15 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:59:03 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:59:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:59:03 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:59:03 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:59:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:59:03 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:59:04 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:59:04 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:59:04 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:59:04 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:59:04 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:59:04 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:59:04 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:59:47 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 14:59:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 14:59:47 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 14:59:47 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:59:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 14:59:48 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 14:59:49 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 14:59:49 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 14:59:49 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 14:59:49 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 14:59:49 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 14:59:49 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 14:59:49 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 14:59:49 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 14:59:49 INFO  MainClass:34 - REMOVED
+2015-08-18 14:59:49 INFO  MainClass:62 - Insterted succesfully
+2015-08-18 14:59:49 INFO  MainClass:48 - UPDATED
+2015-08-18 15:30:52 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 15:30:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 15:30:52 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 15:30:52 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 15:30:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 15:30:52 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 15:30:53 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 15:30:53 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 15:30:53 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 15:30:53 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 15:30:53 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 15:30:53 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 15:30:53 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 15:30:54 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 15:30:54 INFO  MainClass:34 - REMOVED
+2015-08-18 15:30:54 INFO  MainClass:62 - Insterted succesfully
+2015-08-18 15:30:54 INFO  MainClass:48 - UPDATED
+2015-08-18 15:30:56 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 15:30:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 15:30:56 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 15:30:56 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 15:30:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 15:30:57 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 15:30:58 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 15:30:58 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 15:30:58 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 15:30:58 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 15:30:58 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 15:30:58 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 15:30:58 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 15:30:58 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 15:30:58 INFO  MainClass:34 - REMOVED
+2015-08-18 15:30:58 INFO  MainClass:62 - Insterted succesfully
+2015-08-18 15:30:59 INFO  MainClass:48 - UPDATED
+2015-08-18 16:56:35 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 16:56:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 16:56:35 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 16:56:35 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:56:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 16:56:35 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:56:36 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 16:56:36 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 16:56:36 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 16:56:36 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 16:56:36 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 16:56:37 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 16:56:37 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 16:56:37 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 16:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 16:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 16:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 16:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 16:56:37 INFO  MainClassAnnot:62 - Insterted succesfully
+2015-08-18 16:56:37 INFO  MainClassAnnot:48 - UPDATED
+2015-08-18 16:59:17 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 16:59:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 16:59:17 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 16:59:17 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:59:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 16:59:18 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:59:19 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 16:59:19 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 16:59:19 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 16:59:19 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 16:59:19 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 16:59:19 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 16:59:19 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 16:59:19 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 16:59:19 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 16:59:19 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 16:59:19 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 16:59:19 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 16:59:34 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 16:59:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 16:59:34 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 16:59:34 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:59:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 16:59:35 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 16:59:36 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 16:59:36 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 16:59:36 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 16:59:36 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 16:59:36 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 16:59:36 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 16:59:36 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 16:59:36 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 16:59:36 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 16:59:36 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:02:43 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:02:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:02:43 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:02:43 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:02:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:02:44 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:02:45 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:02:45 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:02:45 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:02:45 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:02:45 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:02:45 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:02:45 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:02:45 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:02:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 17:02:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 17:02:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 17:02:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 17:02:45 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:02:45 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:03:42 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:03:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:03:42 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:03:42 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:03:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:03:42 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:03:43 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:03:43 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:03:43 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:03:43 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:03:43 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:03:43 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:03:43 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:03:44 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:03:44 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:03:44 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:04:42 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:04:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:04:42 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:04:42 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:04:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:04:42 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:04:43 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:04:43 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:04:43 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:04:43 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:04:43 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:04:43 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:04:43 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:04:44 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:04:44 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 17:04:44 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: hibernate_sequence
+2015-08-18 17:04:44 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:04:44 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:05:14 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:05:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:05:14 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:05:14 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:05:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:05:15 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:05:16 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:05:16 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:05:16 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:05:16 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:05:16 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:05:16 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:05:16 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:05:16 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:05:16 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:05:16 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:06:21 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:06:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:06:21 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:06:21 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:06:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:06:21 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:06:23 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:06:23 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:06:23 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:06:23 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:06:23 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:06:23 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:06:23 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:06:42 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:06:57 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:08:57 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:08:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:08:57 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:08:57 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:08:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:08:57 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:08:58 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:08:58 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:08:58 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:08:58 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:08:58 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:08:58 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:08:58 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:08:59 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:08:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 17:08:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:334 - HHH000262: Table not found: players_anno
+2015-08-18 17:08:59 INFO  MainClass:34 - REMOVED
+2015-08-18 17:08:59 INFO  MainClass:62 - Insterted succesfully
+2015-08-18 17:08:59 INFO  MainClass:48 - UPDATED
+2015-08-18 17:09:12 INFO  Version:37 - HHH000412: Hibernate Core {5.0.0.CR4}
+2015-08-18 17:09:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2015-08-18 17:09:12 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:09:12 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:09:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2015-08-18 17:09:12 WARN  deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2015-08-18 17:09:13 WARN  DriverManagerConnectionProviderImpl:76 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:09:13 INFO  DriverManagerConnectionProviderImpl:149 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:09:13 INFO  DriverManagerConnectionProviderImpl:158 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:09:13 INFO  DriverManagerConnectionProviderImpl:163 - HHH000006: Autocommit mode: false
+2015-08-18 17:09:13 INFO  DriverManagerConnectionProviderImpl:85 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-08-18 17:09:14 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:09:14 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:09:14 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:09:14 ERROR TableStructure:142 - could not read a hi value - you need to populate the table: hibernate_sequence
+2015-08-18 17:09:14 ERROR MainClassAnnot:64 - could not read a hi value - you need to populate the table: hibernate_sequence

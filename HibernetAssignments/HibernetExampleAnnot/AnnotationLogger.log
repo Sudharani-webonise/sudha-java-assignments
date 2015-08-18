@@ -1,0 +1,146 @@
+2015-08-18 17:30:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:30:42 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:30:42 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:30:42 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:30:42 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:30:42 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:30:42 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:30:42 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:30:42 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:30:42 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:30:42 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:30:42 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:30:42 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:30:42 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:30:42 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:30:42 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:30:42 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:30:42 WARN  SqlExceptionHelper:144 - SQL Error: 1146, SQLState: 42S02
+2015-08-18 17:30:42 ERROR SqlExceptionHelper:146 - Table 'demo.players' doesn't exist
+2015-08-18 17:30:42 INFO  AbstractBatchImpl:208 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 17:30:43 ERROR MainClassAnnot:64 - could not execute statement
+2015-08-18 17:31:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:31:38 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:31:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:31:38 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:31:38 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:31:38 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:31:38 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:31:38 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:31:38 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:31:38 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:31:38 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:31:38 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:31:38 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:31:38 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:31:38 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:31:38 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:31:38 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:31:39 WARN  SqlExceptionHelper:144 - SQL Error: 1146, SQLState: 42S02
+2015-08-18 17:31:39 ERROR SqlExceptionHelper:146 - Table 'demo.players' doesn't exist
+2015-08-18 17:31:39 INFO  AbstractBatchImpl:208 - HHH000010: On release of batch it still contained JDBC statements
+2015-08-18 17:31:39 ERROR MainClassAnnot:64 - could not execute statement
+2015-08-18 17:33:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:33:48 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:33:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:33:48 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:33:48 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:33:48 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:33:49 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:33:49 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:33:49 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:33:49 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:33:49 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:33:49 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:33:49 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:33:49 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:33:49 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:33:49 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:33:49 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:33:49 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:33:49 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-08-18 17:33:49 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-08-18 17:33:49 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:33:49 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:33:49 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:33:49 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-08-18 17:33:49 INFO  MainClassAnnot:62 - Insterted succesfully
+2015-08-18 17:35:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:35:29 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:35:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:35:29 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:35:29 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:35:29 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:35:29 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:35:29 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:35:29 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:35:29 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:35:29 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:35:29 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:35:29 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:35:29 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:35:29 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:35:29 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:35:29 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:35:30 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:35:30 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-08-18 17:35:30 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-08-18 17:35:30 INFO  TableMetadata:66 - HHH000261: Table found: demo.players
+2015-08-18 17:35:30 INFO  TableMetadata:67 - HHH000037: Columns: [player_name, played_date, player_id, game_name]
+2015-08-18 17:35:30 INFO  TableMetadata:69 - HHH000108: Foreign keys: []
+2015-08-18 17:35:30 INFO  TableMetadata:70 - HHH000126: Indexes: [primary]
+2015-08-18 17:35:30 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-08-18 17:35:30 INFO  MainClassAnnot:34 - REMOVED
+2015-08-18 17:35:30 WARN  SqlExceptionHelper:144 - SQL Error: 1364, SQLState: HY000
+2015-08-18 17:35:30 ERROR SqlExceptionHelper:146 - Field 'player_id' doesn't have a default value
+2015-08-18 17:35:30 ERROR MainClassAnnot:64 - could not execute statement
+2015-08-18 17:36:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:36:27 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:36:27 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:36:27 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:36:27 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:36:27 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:36:27 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:36:27 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:36:28 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:36:28 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:36:28 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:36:28 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:36:28 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:36:28 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:36:28 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:36:28 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:36:28 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:36:28 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:36:28 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-08-18 17:36:28 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-08-18 17:36:28 INFO  TableMetadata:66 - HHH000261: Table found: demo.players
+2015-08-18 17:36:28 INFO  TableMetadata:67 - HHH000037: Columns: [player_name, played_date, player_id, game_name]
+2015-08-18 17:36:28 INFO  TableMetadata:69 - HHH000108: Foreign keys: []
+2015-08-18 17:36:28 INFO  TableMetadata:70 - HHH000126: Indexes: [primary]
+2015-08-18 17:36:28 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-08-18 17:36:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-08-18 17:36:57 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2015-08-18 17:36:57 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-08-18 17:36:57 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2015-08-18 17:36:57 INFO  Configuration:2073 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 17:36:57 INFO  Configuration:2092 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 17:36:57 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-08-18 17:36:57 INFO  Configuration:2214 - HHH000041: Configured SessionFactory: null
+2015-08-18 17:36:57 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 17:36:57 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 17:36:57 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 17:36:57 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2015-08-18 17:36:57 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2015-08-18 17:36:58 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 17:36:58 INFO  LobCreatorBuilder:97 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-08-18 17:36:58 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 17:36:58 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 17:36:58 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-08-18 17:36:58 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-08-18 17:36:58 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-08-18 17:36:58 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:36:58 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:36:58 INFO  DatabaseMetaData:147 - HHH000262: Table not found: players
+2015-08-18 17:36:58 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-08-18 17:36:58 INFO  MainClassAnnot:62 - Insterted succesfully

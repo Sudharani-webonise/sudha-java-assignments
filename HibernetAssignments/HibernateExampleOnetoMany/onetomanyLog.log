@@ -1,0 +1,32 @@
+2015-08-18 18:39:50 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2015-08-18 18:39:50 INFO  Version:41 - HHH000412: Hibernate Core {4.2.7.SP1}
+2015-08-18 18:39:50 INFO  Environment:238 - HHH000206: hibernate.properties not found
+2015-08-18 18:39:50 INFO  Environment:345 - HHH000021: Bytecode provider name : javassist
+2015-08-18 18:39:50 INFO  Configuration:2010 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2015-08-18 18:39:50 INFO  Configuration:2029 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2015-08-18 18:39:51 INFO  Configuration:2151 - HHH000041: Configured SessionFactory: null
+2015-08-18 18:39:51 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-08-18 18:39:51 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2015-08-18 18:39:51 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: false
+2015-08-18 18:39:51 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2015-08-18 18:39:51 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****}
+2015-08-18 18:39:51 INFO  Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-08-18 18:39:51 INFO  TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-08-18 18:39:51 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-08-18 18:39:51 INFO  PojoInstantiator:85 - HHH000182: No default (no-argument) constructor for class: com.webonise.entity.Medals (class must be instantiated by Interceptor)
+2015-08-18 18:39:51 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-08-18 18:39:51 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-08-18 18:39:51 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-08-18 18:39:51 INFO  TableMetadata:65 - HHH000261: Table found: demo.medals_demo
+2015-08-18 18:39:51 INFO  TableMetadata:66 - HHH000037: Columns: [medal_type, description, medal_name, medal_id]
+2015-08-18 18:39:51 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-08-18 18:39:51 INFO  TableMetadata:69 - HHH000126: Indexes: [primary]
+2015-08-18 18:39:51 INFO  TableMetadata:65 - HHH000261: Table found: demo.player_demo
+2015-08-18 18:39:51 INFO  TableMetadata:66 - HHH000037: Columns: [player_name, phone_number, player_id]
+2015-08-18 18:39:51 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-08-18 18:39:51 INFO  TableMetadata:69 - HHH000126: Indexes: [primary]
+2015-08-18 18:39:51 INFO  TableMetadata:65 - HHH000261: Table found: demo.player_medals
+2015-08-18 18:39:51 INFO  TableMetadata:66 - HHH000037: Columns: [medal_id, player_id]
+2015-08-18 18:39:51 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_l0ekiqm0nfpis0y9m2jjw993l, fk_99ceseoli7c07s1b1uc1iapsu]
+2015-08-18 18:39:51 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_l0ekiqm0nfpis0y9m2jjw993l, fk_99ceseoli7c07s1b1uc1iapsu, uk_l0ekiqm0nfpis0y9m2jjw993l, primary]
+2015-08-18 18:39:51 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
