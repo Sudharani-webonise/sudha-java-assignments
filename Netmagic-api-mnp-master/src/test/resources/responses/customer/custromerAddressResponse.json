@@ -1,0 +1,10 @@
+{
+  "custAddressDetailsId": 123456,
+  "companyAddress": "comapany address",
+  "country": "Country",
+  "state": "state",
+  "city": "city",
+  "pinCode": "582101",
+  "phoneNo": ["111111111"],
+  "companyURL": "mock url"
+}

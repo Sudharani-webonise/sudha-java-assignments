@@ -1,0 +1,16 @@
+{
+  "data": {
+    "transaction": [
+      {
+        "businessUnit": {
+          "businessUnitName": "NMITS"
+        }
+      },
+      {
+        "businessUnit": {
+          "businessUnitName": "NMSPL"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+"mainCustomerId":"1049",
+"associateCustomerId":"3012",
+"projectId":"",
+"pageNumber":1,
+"perPageRecords":20,
+"sortByFieldName":null,
+"ticketSeverity":["S1","S2"],
+"ticketType":["Incident","Request"],
+"ticketStatus":["Opened"]
+}

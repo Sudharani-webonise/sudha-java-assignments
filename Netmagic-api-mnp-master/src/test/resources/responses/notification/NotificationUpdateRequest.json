@@ -1,0 +1,54 @@
+{
+  "customerId":"1049",
+  "newlyAddedTemplateTypeBeans":[
+    {
+      "notificationTypeId":1,
+      "notificationTypeName":"IT Operations",
+      "notificationTypeDataBeans":[
+        {
+          "notificationType":"S1",
+          "sendEmailNotification":"Y",
+          "sendSmsNotification":"N"
+        },
+        {
+          "notificationType":"S2",
+          "sendEmailNotification":"Y",
+          "sendSmsNotification":"N"
+        },
+        {
+          "notificationType":"S3",
+          "sendEmailNotification":"Y",
+          "sendSmsNotification":"Y"
+        },
+        {
+          "notificationType":"S4",
+          "sendEmailNotification":"Y",
+          "sendSmsNotification":"Y"
+        }
+      ]
+    }
+  ],
+  "removedTemplateTypeBeans":[
+    {
+      "notificationTypeId":1,
+      "notificationTypeName":"IT Management",
+      "notificationTypeDataBeans":[
+        {
+          "notificationType":"S5",
+          "sendEmailNotification":"N",
+          "sendSmsNotification":"N"
+        },
+        {
+          "notificationType":"S6",
+          "sendEmailNotification":"N",
+          "sendSmsNotification":"N"
+        },
+        {
+          "notificationType":"S7",
+          "sendEmailNotification":"N",
+          "sendSmsNotification":"N"
+        }
+      ]
+    }
+  ]
+}

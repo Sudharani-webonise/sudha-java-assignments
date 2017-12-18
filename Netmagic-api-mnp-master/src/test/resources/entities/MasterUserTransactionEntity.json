@@ -1,0 +1,19 @@
+{
+  "userTransactionId": "1",
+  "userEmail": "test@gmail.com",
+  "transactionNumber": "tran11", 
+  "merchantRefNumber": "ref11",
+  "transactionCreatedTime": "1326439320",
+  "billToCustomerId": "123",
+  "supportCustomerId": "123",
+  "totalAmount": 1500.0,
+  "nsplTotal": 1000.0,
+  "userTransactionNsplUpdatedTime": "1326439320",
+  "nmitTotal": 500.0,
+  "userTransactionNmitUpdatedTime": "1326439320",
+  "transactionStatus": true,
+  "userTransactionHeliosAdminCreatedTime": 1326439320,
+  "superAdminRquestBody": "",
+  "paymentTypeId": 2,
+  "paymentForId": 2
+}

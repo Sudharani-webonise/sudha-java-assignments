@@ -1,0 +1,38 @@
+{
+  "mynmContactCallingTypeBeans": [
+    {
+      "contactCallingTypeId": 1,
+      "contactCallingTypeName": "Monday - Friday"
+    },
+    {
+      "contactCallingTypeId": 2,
+      "contactCallingTypeName": "Monday - Saturday"
+    },
+    {
+      "contactCallingTypeId": 3,
+      "contactCallingTypeName": "Weekends / Holidays"
+    },
+    {
+      "contactCallingTypeId": 4,
+      "contactCallingTypeName": "All Days"
+    }
+  ],
+  "mynmContactNumberTypeBeans": [
+    {
+      "contactNumberTypeId": 1,
+      "contactNumberTypeName": "Mobile"
+    },
+    {
+      "contactNumberTypeId": 2,
+      "contactNumberTypeName": "Work"
+    },
+    {
+      "contactNumberTypeId": 3,
+      "contactNumberTypeName": "Home"
+    }
+  ],
+  "mynmContactHoursTypeBeans": [
+    "Business Hours (08.00 to 18.30 IST)",
+    "Any Time"
+  ]
+}

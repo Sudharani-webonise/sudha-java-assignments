@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "contactId": "25",
+      "custContFname": "pareekshit",
+      "custContLname": "ankur",
+      "custName": "Zenith Infotech Limited",
+      "custCrmId": "1153",
+      "contactName": null,
+      "contactEmailId": "pareekshit@gmail.com",
+      "contactMobileNo": "9491932962"
+    },
+    {
+      "contactId": "11894",
+      "custContFname": "pareekshit",
+      "custContLname": "ankur",
+      "custName": "Netmagic Solutions Private Limited",
+      "custCrmId": "1049",
+      "contactName": null,
+      "contactEmailId": "pareekshit@gmail.com",
+      "contactMobileNo": "8796417571"
+    },
+    {
+      "contactId": "11916",
+      "custContFname": "Priyank",
+      "custContLname": "Yadav",
+      "custName": "Netmagic Solutions Private Limited",
+      "custCrmId": "1049",
+      "contactName": null,
+      "contactEmailId": "ketan.1806@gmail.com",
+      "contactMobileNo": "0750954749"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "listOfNetmagicContactBean": [
+    {
+      "contactFirtName": "ABHISHEK",
+      "contactLastName": "SHUKLA",
+      "contactEmailId": "abhishek.s@netmagicsolutions.com",
+      "contactType": "Account Manager",
+      "contactMobileNO": "+919920017130"
+    },
+    {
+      "contactFirtName": "RAJESH",
+      "contactLastName": "RAJGOR",
+      "contactEmailId": "rajesh.rajgor@netmagicsolutions.com",
+      "contactType": "Engagement Manager",
+      "contactMobileNO": "+919768817799"
+    }
+  ]
+}

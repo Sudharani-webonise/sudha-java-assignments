@@ -1,0 +1,94 @@
+{
+  "myNmUserModuleAccessBeans": [
+    {
+      "moduleId": 5,
+      "moduleName": "Services",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 47,
+          "functionName": "View Services Widget",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 48,
+          "functionName": "View Services  Listing",
+          "functionCode": "test"
+        }
+       ]
+    },
+    {
+      "moduleId": 4,
+      "moduleName": "Assets",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 43,
+          "functionName": "View Asset Widget",
+          "functionCode": "test"
+        }
+      ]
+    },
+    {
+      "moduleId": 3,
+      "moduleName": "Contacts",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 38,
+          "functionName": "View Contact Widget",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 39,
+          "functionName": "View Contact  Listing",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 40,
+          "functionName": "View Contact Details",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 41,
+          "functionName": "Add Contact",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 42,
+          "functionName": "Edit Contact",
+          "functionCode": "test"
+        }
+      ]
+    },
+    {
+      "moduleId": 1,
+      "moduleName": "Tickets",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 27,
+          "functionName": "View Ticket Widget",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 28,
+          "functionName": "View Ticket Listing",
+          "functionCode": "test"
+        },
+        {
+          "functionId": 32,
+          "functionName": "Reopen Ticket",
+          "functionCode": "test"
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "moduleName": "Outstanding",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 33,
+          "functionName": "View Outstanding Widget",
+          "functionCode": "test"
+        }
+      ]
+    }
+  ]
+}

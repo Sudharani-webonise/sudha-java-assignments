@@ -1,0 +1,11 @@
+{
+  "ticketAttachmentId": 101,
+  "ticketAttachmentDatetime": "2016-06-09 00:00:00",
+  "ticketNumber": "TT22016060911322080",
+  "attachmentFilename": "Work.txt",
+  "receivedfile": "[50,48,32,58,32,74,111,105,10]",
+  "attachmentFullpath": "/usr/local/netmagic/attachment/1465452139735.txt",
+  "tick_atta_filesize": 0,
+  "fileExtension": null,
+  "fileInBytes": null
+}

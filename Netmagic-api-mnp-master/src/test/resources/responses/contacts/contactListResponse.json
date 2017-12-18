@@ -1,0 +1,54 @@
+{
+  "listOfMynmContactHeaderBeans": [
+    {
+      "contactId": 2424,
+      "firstName": "Gaurang",
+      "contactType": "Billing",
+      "lastName": "Shah",
+      "associateCustomerName": "BSE Limited",
+      "listOfProjects": [],
+      "emailAddress": null,
+      "contactNumber": null
+    },
+    {
+      "contactId": 8580,
+      "firstName": "Vaibhav",
+      "contactType": "Billing",
+      "lastName": "Chawathe",
+      "associateCustomerName": "BSE Limited",
+      "listOfProjects": [],
+      "emailAddress": "tech.prog@bseindia.com",
+      "contactNumber": "8879560778"
+    },
+    {
+      "contactId": 7468,
+      "firstName": "Vaibhav",
+      "contactType": "Billing",
+      "lastName": "Chawathe",
+      "associateCustomerName": "BSE Limited",
+      "listOfProjects": [],
+      "emailAddress": "tech.prog@bseindia.com",
+      "contactNumber": "8879560778"
+    },
+    {
+      "contactId": 7365,
+      "firstName": "Vaibhav",
+      "contactType": "Billing",
+      "lastName": "chawathe",
+      "associateCustomerName": "BSE Limited",
+      "listOfProjects": [],
+      "emailAddress": "tech.prog@bseindia.com",
+      "contactNumber": "8879560778"
+    },
+    {
+      "contactId": 11871,
+      "firstName": "Netmagic",
+      "contactType": "Billing",
+      "lastName": "Solutionsss",
+      "associateCustomerName": "BSE Limited",
+      "listOfProjects": [],
+      "emailAddress": "netnagiccom@gmail.com",
+      "contactNumber": "91-4546546546"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "contactSubTypeBeanList": [
+    {
+      "subTypeId": 6,
+      "subTypeName": "Systems",
+      "isActive": null
+    },
+    {
+      "subTypeId": 7,
+      "subTypeName": "Network",
+      "isActive": null
+    },
+    {
+      "subTypeId": 8,
+      "subTypeName": "Database",
+      "isActive": null
+    },
+    {
+      "subTypeId": 9,
+      "subTypeName": "Application",
+      "isActive": null
+    },
+    {
+      "subTypeId": 10,
+      "subTypeName": "Others",
+      "isActive": null
+    }
+  ]
+}

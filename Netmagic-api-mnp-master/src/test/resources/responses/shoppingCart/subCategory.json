@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "subcatid": "18871d0d-d58a-974e-0944-579b359ca7fc",
+      "subcatname": "Virtual Network",
+      "alias": ""
+    },
+    {
+      "subcatid": "e29680d1-8d48-c973-b96e-52dd2713d16b",
+      "subcatname": "Internet Data Transfer",
+      "alias": ""
+    },
+    {
+      "subcatid": "7e39a6ed-507a-4d53-efb0-579b3623de7d",
+      "subcatname": "Virtual Storage",
+      "alias": ""
+    },
+    {
+      "subcatid": "c1cfc2a6-4197-5d23-af2e-579b35b4e76a",
+      "subcatname": "Virtual Server",
+      "alias": ""
+    },
+    {
+      "subcatid": "b75cf973-86c4-fbd8-413d-52dd2659a07d",
+      "subcatname": "Public Cloud",
+      "alias": ""
+    },
+    {
+      "subcatid": "8803c82d-736e-6129-657d-579b353add04",
+      "subcatname": "Services",
+      "alias": ""
+    },
+    {
+      "subcatid": "d67cdb01-3b80-0c19-2b2f-579b36ab0b98",
+      "subcatname": "Bundled Code",
+      "alias": ""
+    },
+    {
+      "subcatid": "82a4c226-76b4-e55e-9c48-52dd2b37eeaf",
+      "subcatname": "Rack",
+      "alias": ""
+    }
+  ]
+}

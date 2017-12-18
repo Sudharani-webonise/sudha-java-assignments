@@ -1,0 +1,70 @@
+[  
+   {  
+      "ServerName":"NM-CS-FGLL64",
+      "LineNumber":"10",
+      "subCatName":"Public Cloud",
+      "subsubCatName":"Virtual Servers_old",
+      "Location":"DC1 - Noida",
+      "ServiceAttribute":"SimpliCompute - Linux 64 bit Medium Fixed Instance",
+      "ServiceAttributeDetail":"SimpliCompute - Linux 64 bit Medium Fixed Instance",
+      "OrderedQty":"3.00",
+      "PartialDeliveryDetails":[  
+         {  
+            "ActivatedQty":"3.00",
+            "Pending":0,
+            "UnderDeactivation":"0",
+            "UnderCancellation":"0",
+            "Date":"2014-04-01"
+         }
+      ]
+   },
+   {  
+      "ServerName":"NM-CS-LB-M-HA",
+      "LineNumber":"30",
+      "subCatName":"Public Cloud",
+      "subsubCatName":"Virtual Network_OLD",
+      "Location":"DC1 - Noida",
+      "ServiceAttribute":"SimpliNet, Virtual Load Balancer Medium Instance with HA",
+      "ServiceAttributeDetail":"SimpliNet, Virtual Load Balancer Medium Instance with HA",
+      "OrderedQty":"1.00",
+      "PartialDeliveryDetails":[  
+         {  
+            "ActivatedQty":"1.00",
+            "Pending":0,
+            "UnderDeactivation":"0",
+            "UnderCancellation":"0",
+            "Date":"2014-04-01"
+         }
+      ]
+   },
+   {  
+      "ServerName":"NM-CS-SSTOR",
+      "LineNumber":"40",
+      "subCatName":"Public Cloud",
+      "subsubCatName":"Virtual Storage_old",
+      "Location":"DC1 - Noida",
+      "ServiceAttribute":"Netmagic Cloud SimpliStor Services, NAS Storage (per 100 GB)",
+      "ServiceAttributeDetail":"Netmagic Cloud SimpliStor Services, NAS Storage (per 100 GB)",
+      "OrderedQty":"4.00",
+      "PartialDeliveryDetails":[  
+         {  
+            "ActivatedQty":"4.00",
+            "Pending":0,
+            "UnderDeactivation":"0",
+            "UnderCancellation":"0",
+            "Date":"2014-04-01"
+         }
+      ]
+   },
+   {  
+      "ServerName":"NM-CS-FW-M-HA",
+      "LineNumber":"50",
+      "subCatName":"Public Cloud",
+      "subsubCatName":"Virtual Network_OLD",
+      "Location":"DC1 - Noida",
+      "ServiceAttribute":"SimpliNet, Virtual Firewall Medium Instance with HA",
+      "ServiceAttributeDetail":"SimpliNet, Virtual Firewall Medium Instance with HA",
+      "OrderedQty":"1.00",
+      "PartialDeliveryDetails":[  ]
+   }
+]

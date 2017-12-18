@@ -1,0 +1,28 @@
+{
+  "authToken": "81be7adf-9783-4681-955f-c126495ecfd0",
+  "loginUserId": 4,
+  "loginUserEmail": "tuhin.kumar@netmagicsolutions.com",
+  "customerSplashPageDataBeans": [
+    {
+      "customerName": "Netmagic IT Services Private Limited",
+      "customerId": "3012",
+      "customerLogoPath": null,
+      "isMainCustomer": "N",
+      "projects": null
+    },
+    {
+      "customerName": "Netmagic Solutions Private Limited",
+      "customerId": "1049",
+      "customerLogoPath": null,
+      "isMainCustomer": "Y",
+      "projects": null
+    },
+    {
+      "customerName": "Ugam Solutions Private Limited",
+      "customerId": "1060",
+      "customerLogoPath": null,
+      "isMainCustomer": "N",
+      "projects": null
+    }
+  ]
+}

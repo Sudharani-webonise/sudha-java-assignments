@@ -1,0 +1,9 @@
+{
+  "EBSOnAccountPaymentRes": {
+    "TransactionID": "Test1",
+    "BillToCustID": "1049",
+    "accountType": "NMITS",
+    "Status": "SUCCESS",
+    "StatusDescr": "Transasction Successful"
+  }
+}

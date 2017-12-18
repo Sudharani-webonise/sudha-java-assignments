@@ -1,0 +1,38 @@
+{
+  "status": "Success",
+  "message": "Request Executed Successfully",
+  "data": [
+    {
+      "contactid": "117da2b8-b9cb-6b72-1259-54478758c2a2",
+      "first_name": "Abhijeet",
+      "last_name": "Dusane",
+      "emailId": "c_umesh.mahadik@netmagicsolutions.com",
+      "mobileCountryCode": "",
+      "mobilephone": "9594021007"
+    },
+    {
+      "contactid": "1c9b559e-036d-364d-4683-4f8ea25a667b",
+      "first_name": "Manpreet Singh",
+      "last_name": "Sabharwal",
+      "emailId": null,
+      "mobileCountryCode": null,
+      "mobilephone": "98180 11011"
+    },
+    {
+      "contactid": "aa5b9ecb-ab8e-7679-13ce-545775ea0bed",
+      "first_name": "Kaushik",
+      "last_name": "Shah",
+      "emailId": "c_umesh.mahadik@netmagicsolutions.com",
+      "mobileCountryCode": null,
+      "mobilephone": "09820276611 "
+    },
+    {
+      "contactid": "e745ec3e-b68e-31dc-4ca6-54253b738141",
+      "first_name": "Manpreet",
+      "last_name": "Singh",
+      "emailId": null,
+      "mobileCountryCode": null,
+      "mobilephone": ""
+    }
+  ]
+}

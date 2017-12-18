@@ -1,0 +1,27 @@
+[
+  {
+    "caseSubTypeId": 7,
+    "caseSubTypeName": "Activity\r\n",
+    "severity": "6"
+  },
+  {
+    "caseSubTypeId": 4,
+    "caseSubTypeName": "Change Request",
+    "severity": "4"
+  },
+  {
+    "caseSubTypeId": 8,
+    "caseSubTypeName": "Material In / Out\r\n",
+    "severity": "6"
+  },
+  {
+    "caseSubTypeId": 6,
+    "caseSubTypeName": "Pro-Active Activity",
+    "severity": "7"
+  },
+  {
+    "caseSubTypeId": 5,
+    "caseSubTypeName": "Routine Activity",
+    "severity": "5"
+  }
+]

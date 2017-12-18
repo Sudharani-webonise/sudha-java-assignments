@@ -1,0 +1,57 @@
+{
+  "token": null,
+  "sofNumber": "1000050029",
+  "lineItemNumber": "1",
+  "lineItemProductCode": "NSBSPCVSRL-FX-GB",
+  "serviceTermDays": "7",
+  "serviceTermMonth": "0",
+  "location": "MUMDC4",
+  "taskNumber": null,
+  "customerId": null,
+  "billToCustomer": null,
+  "quantity": null,
+  "ipType": "",
+  "vmName": "",
+  "ipAddress": "",
+  "requestStatus": "Success",
+  "sofServiceContractSource": "",
+  "projectSugarId": null,
+  "combinationId": null,
+  "productInfoBeans": [
+    {
+      "productCode": "NSSRDTIPAIPADR",
+      "productQty": "1.00!@#IPv4",
+      "comment": "IP Address"
+    },
+    {
+      "productCode": "NSSIMSIMG-CLOUD-OS",
+      "productQty": "1.00!@#YES",
+      "comment": "InfraManage Cloud OS|"
+    },
+    {
+      "productCode": "NSSSPCVSRCLOUD_OS",
+      "productQty": "1.00!@#Win 2012 Std 64 bit",
+      "comment": "Cloud OS"
+    },
+    {
+      "productCode": "NSSSPCVSRVRAM",
+      "productQty": "8.00!@#null",
+      "comment": "Virtual RAM"
+    },
+    {
+      "productCode": "NSSSPCVSRVCPU",
+      "productQty": "4.00!@#null",
+      "comment": "Virtual CPU"
+    },
+    {
+      "productCode": "NSSSPCVSRVHDD",
+      "productQty": "200.00!@#null",
+      "comment": "Virtual HDD inside VM"
+    },
+    {
+      "productCode": "NSSRDTRBBUNTS",
+      "productQty": "40.00!@#null",
+      "comment": "Rate Based Units"
+    }
+  ]
+}

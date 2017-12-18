@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+                      
+	<changeSet id="beforeCreatingTable" author="Sudharani">
+		<tagDatabase tag="before_create_table_tran_pytm_conf" />
+	</changeSet>
+
+	<changeSet id="createTablePaymentConf" author="Sudharani">
+		<createTable tableName="tran_pytm_conf">
+			<column name="pytm_id_pk" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="pytm_name" type="varchar(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="pytm_status" type="boolean" defaultValueBoolean="true" />
+			<column name="pytm_create_date_time" type="timestamp" >
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog> 

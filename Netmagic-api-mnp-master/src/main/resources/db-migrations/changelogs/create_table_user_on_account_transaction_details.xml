@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<changeSet id="beforeCreatingTable" author="Pareekshit">
+		<tagDatabase tag="before_create_table_user_on_acnt_tran_deta_desc" />
+	</changeSet>
+
+	<changeSet id="createTableOnAccountTable" author="Pareekshit">
+		<createTable tableName="user_on_acnt_tran_deta_desc">
+			<column name="on_acnt_tran_id_pk" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="on_acnt_tran_create_date_time" type="timestamp">
+				<constraints nullable="false" />
+			</column>
+			<column name="on_acnt_tran_status" type="boolean" defaultValueBoolean="false" />
+			<column name="on_acnt_mas_user_tran_info_id_fk" type="bigint">
+				<constraints nullable="false" foreignKeyName="on_acnt_mas_user_tran_info_id_fk"
+					references="mas_user_tran_info(user_tran_id_pk)" />
+			</column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog> 

@@ -1,0 +1,190 @@
+{
+  "userFirstName": "Ajay",
+  "userLastName": "Powar",
+  "loginUserEmail": "sailu.naredla@netmagicsolutions.com",
+  "apiKey": "a5725945-8ad9-4699-8565-b4735053840b8157",
+  "secretKey": "4da5534c-65d4-497b-83d7-c06c866ac4c3",
+  "customerBasicHeaderBeanList": [
+    {
+      "cvName": "1011 Infotainment LLP",
+      "cvCode": "1ATN0001",
+      "cvCrmId": "36255"
+    },
+    {
+      "cvName": "10c India Internet Private Limited",
+      "cvCode": "PAYU",
+      "cvCrmId": "5251"
+    },
+    {
+      "cvName": "1685_001",
+      "cvCode": "IMGE0001",
+      "cvCrmId": "36126"
+    },
+    {
+      "cvName": "Cyberplat India Private Limited",
+      "cvCode": "CYIPL",
+      "cvCrmId": "4714"
+    },
+    {
+      "cvName": "Zycus Infotech Private Limited",
+      "cvCode": "ZIPT",
+      "cvCrmId": "1166"
+    }
+  ],
+  "userRoleModulePermissionsBean": {
+    "roleId": 2,
+    "roleName": "Super Admin",
+    "mynmUserModuleAccessBean": [
+      {
+        "moduleId": 1,
+        "moduleName": "Ticket",
+        "myNmUserFunctionAccessBeans": [
+          {
+            "functionId": 1,
+            "functionCode": "tic_wdgt",
+            "functionName": "View Ticket Widget"
+          },
+          {
+            "functionId": 2,
+            "functionCode": "tic_list",
+            "functionName": "View Ticket Listing"
+          },
+          {
+            "functionId": 3,
+            "functionCode": "tic_cret",
+            "functionName": "Create Ticket "
+          },
+          {
+            "functionId": 4,
+            "functionCode": "tic_view",
+            "functionName": "View Ticket"
+          },
+          {
+            "functionId": 5,
+            "functionCode": "tic_edit",
+            "functionName": "Edit Ticket"
+          },
+          {
+            "functionId": 6,
+            "functionCode": "tic_ropn",
+            "functionName": "Reopen Ticket"
+          }
+        ]
+      },
+      {
+        "moduleId": 5,
+        "moduleName": "Services",
+        "myNmUserFunctionAccessBeans": [
+          {
+            "functionId": 21,
+            "functionCode": "ser_wdgt",
+            "functionName": "View Services Widget"
+          },
+          {
+            "functionId": 22,
+            "functionCode": "ser_list",
+            "functionName": "View Services  Listing"
+          },
+          {
+            "functionId": 23,
+            "functionCode": "ser_creq",
+            "functionName": "Business Change Request"
+          },
+          {
+            "functionId": 24,
+            "functionCode": "ser_bynw",
+            "functionName": "Buy New Services"
+          }
+        ]
+      },
+      {
+        "moduleId": 4,
+        "moduleName": "Assets",
+        "myNmUserFunctionAccessBeans": [
+          {
+            "functionId": 17,
+            "functionCode": "ast_wdgt",
+            "functionName": "View Asset Widget"
+          },
+          {
+            "functionId": 18,
+            "functionCode": "ast_list",
+            "functionName": "View Asset  Listing"
+          },
+          {
+            "functionId": 19,
+            "functionCode": "ast_mont",
+            "functionName": "View Asset Monitoring"
+          },
+          {
+            "functionId": 20,
+            "functionCode": "ast_actn",
+            "functionName": "Action on Assets"
+          }
+        ]
+      },
+      {
+        "moduleId": 3,
+        "moduleName": "Contacts",
+        "myNmUserFunctionAccessBeans": [
+          {
+            "functionId": 12,
+            "functionCode": "cnt_wdgt",
+            "functionName": "View Contact Widget"
+          },
+          {
+            "functionId": 13,
+            "functionCode": "cnt_list",
+            "functionName": "View Contact  Listing"
+          },
+          {
+            "functionId": 14,
+            "functionCode": "cnt_dtls",
+            "functionName": "View Contact Details"
+          },
+          {
+            "functionId": 15,
+            "functionCode": "cnt_add",
+            "functionName": "Add Contact"
+          },
+          {
+            "functionId": 16,
+            "functionCode": "cnt_edit",
+            "functionName": "Edit Contact"
+          }
+        ]
+      },
+      {
+        "moduleId": 2,
+        "moduleName": "Outstanding",
+        "myNmUserFunctionAccessBeans": [
+          {
+            "functionId": 7,
+            "functionCode": "ost_wdgt",
+            "functionName": "View Outstanding Widget"
+          },
+          {
+            "functionId": 8,
+            "functionCode": "ost_list",
+            "functionName": "View Outstanding Listing"
+          },
+          {
+            "functionId": 9,
+            "functionCode": "ost_payt",
+            "functionName": "Payment"
+          },
+          {
+            "functionId": 10,
+            "functionCode": "ost_invc",
+            "functionName": "Download Invoices"
+          },
+          {
+            "functionId": 11,
+            "functionCode": "ost_all_invc",
+            "functionName": "Download all Invoices"
+          }
+        ]
+      }
+    ]
+  }
+}

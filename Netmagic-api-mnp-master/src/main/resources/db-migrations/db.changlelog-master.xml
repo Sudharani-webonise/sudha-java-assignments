@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<include file="changelogs/create_table_payment_configurations.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_source_configurations.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_pytm_for_conf.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_master_user_transaction_info.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_user_transaction_details.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_user_sof_transaction_details.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_user_invoice_transaction_details.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/create_table_user_on_account_transaction_details.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/insert_into_payment_configurations.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/insert_into_table_source_configurations.xml" relativeToChangelogFile="true" />
+	<include file="changelogs/insert_into_table_pytm_for_conf.xml" relativeToChangelogFile="true" />
+	
+</databaseChangeLog>

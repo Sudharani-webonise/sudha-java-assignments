@@ -1,0 +1,143 @@
+{
+  "loginUserId": 1,
+  "loginUserName": "Vaibhav Chawathe",
+  "loginUserEmail": "vaibhav.chawathe@bseindia.com",
+  "apiKey": "aasdf",
+  "secretKey": "3324",
+  "customerSplashPageDataBeans": [
+    {
+      "customerName": "BSE Limited",
+      "customerId": "3852",
+      "customerSugarId": "31121000002393161",
+      "customerLogoPath": null,
+      "customerLastUpdatedOn": "2016-12-11 07:48:57",
+      "allTicketsCount": 20,
+      "countBySeverityBeans": [
+        {
+          "severityType": "S1",
+          "ticketCount": 2
+        },
+        {
+          "severityType": "S2",
+          "ticketCount": 3
+        }
+      ],
+      "customerAssetsCount": 105,
+      "customerAlertsCount": 0,
+      "isMainCustomer": "Y",
+      "combinationId": "3852",
+      "projects": [
+        {
+          "projectName": "Colo & Dedicated Hosting",
+          "projectId": "29",
+          "projectLastUpdatedOn": null,
+          "allTicketsCount": 14,
+          "countBySeverityBeans": [
+            {
+              "severityType": "S1",
+              "ticketCount": 3
+            },
+            {
+              "severityType": "S2",
+              "ticketCount": 2
+            }
+          ],
+          "customerAssetsCount": 0,
+          "customerAlertsCount": 0,
+          "combinationId": "385229",
+          "sugarProjectId": "717eef20-557f-7fb6-7d38-54e6eb97852d"
+        }
+      ]
+    },
+    {
+      "customerName": "Marwadi Shares & Finance Ltd",
+      "customerId": "35644",
+      "customerSugarId": "87ca90a5-80a0-6a35-a9f2-54ebfafb89ae",
+      "customerLogoPath": null,
+      "customerLastUpdatedOn": "2015-02-26 10:57:28",
+      "allTicketsCount": 1,
+      "countBySeverityBeans": [
+        {
+          "severityType": "S1",
+          "ticketCount": 0
+        },
+        {
+          "severityType": "S2",
+          "ticketCount": 0
+        }
+      ],
+      "customerAssetsCount": 0,
+      "customerAlertsCount": 0,
+      "isMainCustomer": "N",
+      "combinationId": "385235644_2",
+      "projects": [
+        {
+          "projectName": "Colo & Connectivity",
+          "projectId": "25",
+          "projectLastUpdatedOn": null,
+          "allTicketsCount": 9,
+          "countBySeverityBeans": [
+            {
+              "severityType": "S1",
+              "ticketCount": 0
+            },
+            {
+              "severityType": "S2",
+              "ticketCount": 0
+            }
+          ],
+          "customerAssetsCount": 0,
+          "customerAlertsCount": 0,
+          "combinationId": "38523564425",
+          "sugarProjectId": "261f2d9a-e47f-fb68-02c6-54b7833bcb0d"
+        }
+      ]
+    },
+    {
+      "customerName": "Netmagic Solutions Private Limited",
+      "customerId": "1049",
+      "customerSugarId": "ebd667db-d0a7-20b4-b89d-4ddf7fbb8339",
+      "customerLogoPath": null,
+      "customerLastUpdatedOn": "2017-02-06 05:40:27",
+      "allTicketsCount": 8,
+      "countBySeverityBeans": [
+        {
+          "severityType": "S1",
+          "ticketCount": 0
+        },
+        {
+          "severityType": "S2",
+          "ticketCount": 0
+        }
+      ],
+      "customerAssetsCount": 0,
+      "customerAlertsCount": 0,
+      "isMainCustomer": "N",
+      "combinationId": "38521049",
+      "projects": null
+    },
+    {
+      "customerName": "Well India Securities Limited",
+      "customerId": "5440",
+      "customerSugarId": "42142375-4605-e3b4-52e9-51e3d14669c8",
+      "customerLogoPath": null,
+      "customerLastUpdatedOn": "2015-12-23 11:22:01",
+      "allTicketsCount": 3,
+      "countBySeverityBeans": [
+        {
+          "severityType": "S1",
+          "ticketCount": 0
+        },
+        {
+          "severityType": "S2",
+          "ticketCount": 0
+        }
+      ],
+      "customerAssetsCount": 0,
+      "customerAlertsCount": 0,
+      "isMainCustomer": "N",
+      "combinationId": "38525440",
+      "projects": null
+    }
+  ]
+}

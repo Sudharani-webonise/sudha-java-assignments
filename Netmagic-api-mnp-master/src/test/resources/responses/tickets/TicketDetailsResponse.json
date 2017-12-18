@@ -1,0 +1,65 @@
+{
+  "ticketInformationBean": {
+    "ticketNumber": null,
+    "assignedToGroup": "DNOC S-II TSM",
+    "ticketOwner": "-",
+    "ticketProject": "NA",
+    "ticketSeverity": "S3",
+    "caseType": "Incident",
+    "caseSubType": "Minor Impact",
+    "ticketStatus": "Opened",
+    "ticketSummary": "Create Ticket Log Testing with attachment",
+    "ticketCustomerDesc": "Create Ticket Log Testing with attachment",
+    "ticketOpenSince": "6 days, 5 hours, 26 minutes, 14 seconds.",
+    "ticketRaisedBy": "SHARDA PRASAD SINGH",
+    "ticketCreatedDate": "16-06-2016 11:36:18",
+    "ticketLastUpdatedDate": "2016-06-16 11:36:18",
+    "associatedCustomer": null,
+    "projectName": null
+  },
+  "ticketWorklogUpdatesBeans": [
+    {
+      "worklogUpdatedByUser": "SHARDA PRASAD SINGH",
+      "worklogComment": "Ticket Opened",
+      "worklogCustomerComment": "Ticket Opened",
+      "workLogUpdatetime": "2016-06-16 11:36",
+      "timeSpendOnPreviousAction": "0 days 0Hr 0Min 0Sec",
+      "worklogStatus": "Opened",
+      "listOfTicketAttachmentBeans": [
+        {
+          "ticketAttachmentId": 125,
+          "ticketAttachmentDatetime": "2016-06-16 00:00:00",
+          "ticketNumber": null,
+          "attachmentFilename": "Code Practice Sites.txt",
+          "receivedfile": null,
+          "attachmentFullpath": null,
+          "tick_atta_filesize": 0,
+          "fileExtension": null,
+          "fileInBytes": null
+        },
+        {
+          "ticketAttachmentId": 126,
+          "ticketAttachmentDatetime": "2016-06-16 00:00:00",
+          "ticketNumber": null,
+          "attachmentFilename": "HackrRank Programs.txt",
+          "receivedfile": null,
+          "attachmentFullpath": null,
+          "tick_atta_filesize": 0,
+          "fileExtension": null,
+          "fileInBytes": null
+        },
+        {
+          "ticketAttachmentId": 127,
+          "ticketAttachmentDatetime": "2016-06-16 00:00:00",
+          "ticketNumber": null,
+          "attachmentFilename": "Topics.txt",
+          "receivedfile": null,
+          "attachmentFullpath": null,
+          "tick_atta_filesize": 0,
+          "fileExtension": null,
+          "fileInBytes": null
+        }
+      ]
+    }
+  ]
+}

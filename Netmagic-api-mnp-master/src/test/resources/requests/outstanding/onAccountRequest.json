@@ -1,0 +1,9 @@
+{
+  "EBSOnAccountPaymentReq": {
+    "TransactionID": "Test1",
+    "BusinessUnit": "NMITS",
+    "CustID": "1049",
+    "Amount": 1000,
+    "paymentID": "PAY1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+"PaymentRequest": {
+  "billToCustomerId": "3852",
+  "supportToCustomerId": "3198",
+  "userId": "65895",
+  "paymentId": "PAY5214",
+  "transactionId": "TRANS6985",
+  "accountType": "NMITS",
+  "invoices": [
+    {
+      "invoiceId": "MHSER85621",
+      "value": 10000,
+      "tdsAmount": 200,
+      "amountOutstanding": 0
+    },
+    {
+      "invoiceId": "MHSER85621",
+      "value": 10000,
+      "tdsAmount": 200,
+      "amountOutstanding": 0
+    }
+  ]
+}
+}

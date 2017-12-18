@@ -1,0 +1,18 @@
+{
+  "status": "Success",
+  "message": "",
+  "data": [
+    {
+      "acc_ban_id": "be1d2ad8-b2b5-73f6-55ee-542a8ea0254a",
+      "name": "Bilt_Billing_1",
+      "address_type": "^BillingAddress^",
+      "address": "Gurgaon, First India Place,Tower C Mehrauli Road,,,HR,124002,IND"
+    },
+    {
+      "acc_ban_id": "4f50bcd5-0a49-cd36-8587-546dbfa1d0e6",
+      "name": "BILT Graphic Paper Products Limited_bill_6",
+      "address_type": "^BillingAddress^",
+      "address": "Gurgaon, First India Place,Tower C Mehrauli Road,,Gurgaon,HR,124001,IND"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "userId": 12971,
+  "contactSugarId": null,
+  "isMynmUser": "Y",
+  "activeUser": "Y",
+  "mainCustomerId": "3852",
+  "mainCustomerName": "BSE Limited",
+  "firstName": "Production user",
+  "lastName": "user ",
+  "designation": "Dev",
+  "primaryEmailId": "productionuser@weboapps.com",
+  "secondaryEmailId": "",
+  "kycStatus": "",
+  "accessCardStatus": "",
+  "callingPreferredDaysTypeId": 1,
+  "callingPreferredDaysTypeName": "Monday - Friday",
+  "callingPreferredTime": "Business Hours (08.00 to 18.30 IST)",
+  "contactTypeSubTypeBeansList": [
+    {
+      "typeId": 3,
+      "typeName": "Billing",
+      "isActive": "Y",
+      "contactSubTypeBeans": []
+    },
+    {
+      "typeId": 2,
+      "typeName": "IT Management",
+      "isActive": "Y",
+      "contactSubTypeBeans": [
+        {
+          "subTypeId": 6,
+          "subTypeName": "Systems",
+          "isActive": "Y"
+        }
+      ]
+    },
+    {
+      "typeId": 1,
+      "typeName": "IT Operations",
+      "isActive": "Y",
+      "contactSubTypeBeans": [
+        {
+          "subTypeId": 1,
+          "subTypeName": "Systems",
+          "isActive": "Y"
+        }
+      ]
+    }
+  ],
+  "contactNumbersInfoList": [
+    {
+      "contactNumberCategory": "Mobile",
+      "countryCode": "AF +93",
+      "contactNumber": "1111111111"
+    }
+  ],
+  "mynmRoleFunctionsBeanList": [
+    {
+      "associteCustomerID": "35644",
+      "associteCustomerName": "Marwadi Shares & Finance Ltd",
+      "projectId": "",
+      "projectName": null,
+      "roleId": 1,
+      "roleName": "Admin",
+      "isActive": "Y",
+      "functionIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "associteCustomerID": "3852",
+      "associteCustomerName": "BSE Limited",
+      "projectId": "",
+      "projectName": null,
+      "roleId": 5,
+      "roleName": "Commercial ",
+      "isActive": "Y",
+      "functionIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "associteCustomerID": "5440",
+      "associteCustomerName": "Well India Securities Limited",
+      "projectId": "",
+      "projectName": null,
+      "roleId": 2,
+      "roleName": "Super Admin",
+      "isActive": "Y",
+      "functionIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "associteCustomerID": "35644",
+      "associteCustomerName": "Marwadi Shares & Finance Ltd",
+      "projectId": "25",
+      "projectName": "Colo & Connectivity",
+      "roleId": 5,
+      "roleName": "Commercial ",
+      "isActive": "Y",
+      "functionIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "associteCustomerID": "35644",
+      "associteCustomerName": "Marwadi Shares & Finance Ltd",
+      "projectId": "",
+      "projectName": null,
+      "roleId": 5,
+      "roleName": "Commercial ",
+      "isActive": "Y",
+      "functionIds": []
+    },
+    {
+      "associteCustomerID": "5440",
+      "associteCustomerName": "Well India Securities Limited",
+      "projectId": "",
+      "projectName": null,
+      "roleId": 5,
+      "roleName": "Commercial ",
+      "isActive": "Y",
+      "functionIds": []
+    }
+  ],
+  "notificationsModulesList": [
+    {
+      "notificationModuleName": "Ticket",
+      "contactTypesList": [
+        {
+          "associteCustomerID": "1049",
+          "associteCustomerName": "Netmagic Solutions Private Limited",
+          "projectId": "",
+          "projectName": null,
+          "notificationTypeId": 0,
+          "notificationTypeName": null,
+          "contactNotifysList": [
+            {
+              "notificationType": "S1",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S2",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S3",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S4",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S5",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S6",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S7",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            }
+          ]
+        },
+        {
+          "associteCustomerID": "5440",
+          "associteCustomerName": "Well India Securities Limited",
+          "projectId": "",
+          "projectName": null,
+          "notificationTypeId": 0,
+          "notificationTypeName": null,
+          "contactNotifysList": [
+            {
+              "notificationType": "S1",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S2",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S3",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S4",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S5",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S6",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S7",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            }
+          ]
+        },
+        {
+          "associteCustomerID": "35644",
+          "associteCustomerName": "Marwadi Shares & Finance Ltd",
+          "projectId": "",
+          "projectName": null,
+          "notificationTypeId": 0,
+          "notificationTypeName": null,
+          "contactNotifysList": [
+            {
+              "notificationType": "S1",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S2",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S3",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S4",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S5",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S6",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S7",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            }
+          ]
+        },
+        {
+          "associteCustomerID": "35644",
+          "associteCustomerName": "Marwadi Shares & Finance Ltd",
+          "projectId": "25",
+          "projectName": "Colo and Connectivity",
+          "notificationTypeId": 0,
+          "notificationTypeName": null,
+          "contactNotifysList": [
+            {
+              "notificationType": "S1",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S2",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S3",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S4",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S5",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S6",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S7",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            }
+          ]
+        },
+        {
+          "associteCustomerID": "3852",
+          "associteCustomerName": "BSE Limited",
+          "projectId": "",
+          "projectName": null,
+          "notificationTypeId": 0,
+          "notificationTypeName": null,
+          "contactNotifysList": [
+            {
+              "notificationType": "S1",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S2",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S3",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S4",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S5",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            },
+            {
+              "notificationType": "S6",
+              "sendEmailNotification": "Y",
+              "sendSmsNotification": "Y"
+            },
+            {
+              "notificationType": "S7",
+              "sendEmailNotification": "N",
+              "sendSmsNotification": "N"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "Response": {
+    "Status": {
+      "HttpCode": "200",
+      "StatusDesc": "successfully deleted"
+    }
+  }
+}

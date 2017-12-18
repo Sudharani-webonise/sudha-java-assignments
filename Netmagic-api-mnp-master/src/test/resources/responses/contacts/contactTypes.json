@@ -1,0 +1,32 @@
+{
+  "contactTypeBeans": [
+    {
+      "typeId": 1,
+      "typeName": "IT Operations"
+    },
+    {
+      "typeId": 2,
+      "typeName": "IT Management"
+    },
+    {
+      "typeId": 3,
+      "typeName": "Billing"
+    },
+    {
+      "typeId": 4,
+      "typeName": "Legal"
+    },
+    {
+      "typeId": 5,
+      "typeName": "Sr. Managers"
+    },
+    {
+      "typeId": 6,
+      "typeName": "Other Functions"
+    },
+    {
+      "typeId": 7,
+      "typeName": "Generic ID"
+    }
+  ]
+}

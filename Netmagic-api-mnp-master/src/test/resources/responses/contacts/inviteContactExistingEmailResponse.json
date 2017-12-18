@@ -1,0 +1,7 @@
+{
+  "contactId": null,
+  "responseStatusBean": {
+    "responseCode": "100085",
+    "responseMessage": "This contact is already added"
+  }
+}

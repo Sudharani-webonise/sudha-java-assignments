@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+        
+	<changeSet id="beforeInsertValuesIntoSourceConf" author="sudharani">
+		<tagDatabase tag="before_insert_into_table_source_configurations" />
+	</changeSet>
+
+	<changeSet id="insertSourceEntries" author="Sudharani">
+		<insert tableName="othr_sour_conf">
+			<column name="sour_id_pk" value="1" />
+			<column name="sour_name" value="peoplesoft" />
+			<column name="sour_create_date_time" valueDate="now()"/>
+		</insert>
+
+		<insert tableName="othr_sour_conf">
+			<column name="sour_id_pk" value="2" />
+			<column name="sour_name" value="sugar" />
+			<column name="sour_create_date_time" valueDate="now()" />
+		</insert>
+
+		<insert tableName="othr_sour_conf">
+			<column name="sour_id_pk" value="3" />
+			<column name="sour_name" value="helios" />
+			<column name="sour_create_date_time" valueDate="now()"/>
+		</insert>
+
+		<insert tableName="othr_sour_conf">
+			<column name="sour_id_pk" value="4" />
+			<column name="sour_name" value="cloud" />
+			<column name="sour_create_date_time" valueDate="now()"/>
+		</insert>
+	</changeSet>
+</databaseChangeLog>

@@ -1,0 +1,7 @@
+{
+  "ShopCartPayResponse": {
+    "transactionId": "TTTT",
+    "paymentStatus": "FAILURE",
+    "StatusDescr": "Transaction ID already exists"
+  }
+}

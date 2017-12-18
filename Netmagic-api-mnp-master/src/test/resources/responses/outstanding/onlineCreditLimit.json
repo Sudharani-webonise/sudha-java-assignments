@@ -1,0 +1,11 @@
+{
+  "onlineCreditMsgdata": {
+    "creditLimitTrasaction": {
+      "onlineCredit": {
+        "billtoCustomer": 4172,
+        "currency": "INR",
+        "onlineCreditLimit": -1296753.98
+      }
+    }
+  }
+}

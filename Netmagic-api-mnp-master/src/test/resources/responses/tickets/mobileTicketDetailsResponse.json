@@ -1,0 +1,24 @@
+{
+  "ticketInformationBean": {
+    "ticketNumber": "TT220160531124152716",
+    "ticketSeverity": "S9",
+    "caseType": "Request",
+    "caseSubType": "Activity\r\n",
+    "ticketStatus": "Opened",
+    "ticketSummary": "xvx",
+    "ticketOpenSince": "128 days, 23 hours, 0 minutes, 16 seconds.",
+    "ticketRaisedBy": "Netmagic",
+    "ticketCreatedDate": "31-05-2016 12:41:47",
+    "ticketLastUpdatedDate": "2016-05-31 12:41:52",
+    "associatedCustomer": null,
+    "projectName": null
+  },
+  "ticketWorklogUpdatesBeans": [
+    {
+      "worklogComment": "Ticket Opened",
+      "worklogCustomerComment": "Ticket Opened",
+      "workLogUpdatetime": "2016-05-31 12:41",
+      "listOfTicketAttachmentBeans": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+    {
+      "moduleId": 1,
+      "moduleName": "Tickets",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 27,
+          "functionName": "View Ticket Widget"
+        },
+        {
+          "functionId": 28,
+          "functionName": "View Ticket Listing"
+        },
+        {
+          "functionId": 29,
+          "functionName": "Create Ticket"
+        },
+        {
+          "functionId": 30,
+          "functionName": "View Ticket"
+        },
+        {
+          "functionId": 31,
+          "functionName": "Edit Ticket"
+        },
+        {
+          "functionId": 32,
+          "functionName": "Reopen Ticket"
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "moduleName": "Outstanding",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 33,
+          "functionName": "View Outstanding Widget"
+        },
+        {
+          "functionId": 34,
+          "functionName": "View Outstanding Listing"
+        },
+        {
+          "functionId": 35,
+          "functionName": "Payment"
+        },
+        {
+          "functionId": 36,
+          "functionName": "Download Invoices"
+        },
+        {
+          "functionId": 37,
+          "functionName": "Download all Invoices"
+        }
+      ]
+    },
+    {
+      "moduleId": 3,
+      "moduleName": "Contacts",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 38,
+          "functionName": "View Contact Widget"
+        },
+        {
+          "functionId": 39,
+          "functionName": "View Contact  Listing"
+        },
+        {
+          "functionId": 40,
+          "functionName": "View Contact Details"
+        },
+        {
+          "functionId": 41,
+          "functionName": "Add Contact"
+        },
+        {
+          "functionId": 42,
+          "functionName": "Edit Contact"
+        }
+      ]
+    },
+    {
+      "moduleId": 4,
+      "moduleName": "Assets",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 43,
+          "functionName": "View Asset Widget"
+        },
+        {
+          "functionId": 44,
+          "functionName": "View Asset  Listing"
+        },
+        {
+          "functionId": 45,
+          "functionName": "View Asset Monitoring"
+        },
+        {
+          "functionId": 46,
+          "functionName": "Action on Assets"
+        }
+      ]
+    },
+    {
+      "moduleId": 5,
+      "moduleName": "Services",
+      "myNmUserFunctionAccessBeans": [
+        {
+          "functionId": 47,
+          "functionName": "View Services Widget"
+        },
+        {
+          "functionId": 48,
+          "functionName": "View Services  Listing"
+        },
+        {
+          "functionId": 49,
+          "functionName": "Business Change Request"
+        },
+        {
+          "functionId": 50,
+          "functionName": "Buy New Services"
+        }
+      ]
+    }
+  ]
+  
+  

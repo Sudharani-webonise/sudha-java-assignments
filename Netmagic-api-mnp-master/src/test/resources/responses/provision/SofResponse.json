@@ -1,0 +1,218 @@
+[
+  {
+    "sofNumber": "1000050023",
+    "type": "New",
+    "source": "online",
+    "contractedPeriod": 7,
+    "lineItemNumber": "1",
+    "productCode": "NSBSPCVSRL-FX-GB",
+    "location": "DC5 - Mumbai",
+    "quantity": "1.0",
+    "productDesc": "Large Virtual Machine (Fixed Plan)|\tIP Address - 1.00 EA|\tVersion : IPv4 EA (Default: 4.00EA)|\tInfraManage Cloud OS| - 1.00 EA|\tManagement : YES EA (Default: 1.00EA)|\tCloud OS - 1.00 EA|\tCloud_OS : Win 2012 Std 64 bit EA (Default: 1.00EA)|\tVirtual RAM - 8.00 GB|\tVirtual CPU - 4.00 EA|\tVirtual HDD inside VM - 200.00 GB|\tRate Based Units - 40.00 GB",
+    "serviceCategory": "Bundle",
+    "serviceContractDetailsBean": [
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSRDTIPAIPADR",
+        "serviceDesc": "IP Address",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSIMSIMG-CLOUD-OS",
+        "serviceDesc": "InfraManage Cloud OS|",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSSPCVSRCLOUD_OS",
+        "serviceDesc": "Cloud OS",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "8.00",
+        "serviceProductCode": "NSSSPCVSRVRAM",
+        "serviceDesc": "Virtual RAM",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "4.00",
+        "serviceProductCode": "NSSSPCVSRVCPU",
+        "serviceDesc": "Virtual CPU",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "200.00",
+        "serviceProductCode": "NSSSPCVSRVHDD",
+        "serviceDesc": "Virtual HDD inside VM",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "40.00",
+        "serviceProductCode": "NSSRDTRBBUNTS",
+        "serviceDesc": "Rate Based Units",
+        "serviceCategory": "Standard"
+      }
+    ]
+  },
+  {
+    "sofNumber": "1000050023",
+    "type": "New",
+    "source": "online",
+    "contractedPeriod": 7,
+    "lineItemNumber": "2",
+    "productCode": "NSSSPCVMNVFA",
+    "location": "DC5 - Mumbai",
+    "quantity": "1.0",
+    "productDesc": "Virtual Firewall|\t|\tCloud_VFA : Medium EA (Default: 1.00EA)",
+    "serviceCategory": "Attribute",
+    "serviceContractDetailsBean": [
+      {
+        "isBillingGroup": "Y",
+        "isExcessUsage": "N",
+        "productSubSubCategory": "Virtual Network",
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.0",
+        "serviceProductCode": null,
+        "serviceDesc": "Virtual Firewall|\t|\tCloud_VFA : Medium EA (Default: 1.00EA)",
+        "serviceCategory": "Attribute"
+      }
+    ]
+  },
+  {
+    "sofNumber": "1000050029",
+    "type": "New",
+    "source": "online",
+    "contractedPeriod": 7,
+    "lineItemNumber": "1",
+    "productCode": "NSBSPCVSRL-FX-GB",
+    "location": "DC5 - Mumbai",
+    "quantity": "1.0",
+    "productDesc": "Large Virtual Machine (Fixed Plan)|\tIP Address - 1.00 EA|\tVersion : IPv4 EA (Default: 4.00EA)|\tInfraManage Cloud OS| - 1.00 EA|\tManagement : YES EA (Default: 1.00EA)|\tCloud OS - 1.00 EA|\tCloud_OS : Win 2012 Std 64 bit EA (Default: 1.00EA)|\tVirtual RAM - 8.00 GB|\tVirtual CPU - 4.00 EA|\tVirtual HDD inside VM - 200.00 GB|\tRate Based Units - 40.00 GB",
+    "serviceCategory": "Bundle",
+    "serviceContractDetailsBean": [
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSRDTIPAIPADR",
+        "serviceDesc": "IP Address",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSIMSIMG-CLOUD-OS",
+        "serviceDesc": "InfraManage Cloud OS|",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.00",
+        "serviceProductCode": "NSSSPCVSRCLOUD_OS",
+        "serviceDesc": "Cloud OS",
+        "serviceCategory": "Attribute"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "8.00",
+        "serviceProductCode": "NSSSPCVSRVRAM",
+        "serviceDesc": "Virtual RAM",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "4.00",
+        "serviceProductCode": "NSSSPCVSRVCPU",
+        "serviceDesc": "Virtual CPU",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "200.00",
+        "serviceProductCode": "NSSSPCVSRVHDD",
+        "serviceDesc": "Virtual HDD inside VM",
+        "serviceCategory": "Standard"
+      },
+      {
+        "isBillingGroup": null,
+        "isExcessUsage": null,
+        "productSubSubCategory": null,
+        "serviceDetailsAttributeBeans": null,
+        "serviceContractedQty": "40.00",
+        "serviceProductCode": "NSSRDTRBBUNTS",
+        "serviceDesc": "Rate Based Units",
+        "serviceCategory": "Standard"
+      }
+    ]
+  },
+  {
+    "sofNumber": "1000050029",
+    "type": "New",
+    "source": "online",
+    "contractedPeriod": 7,
+    "lineItemNumber": "2",
+    "productCode": "NSSSPCVMNVFA",
+    "location": "DC5 - Mumbai",
+    "quantity": "1.0",
+    "productDesc": "Virtual Firewall|\t|\tCloud_VFA : Medium EA (Default: 1.00EA)",
+    "serviceCategory": "Attribute",
+    "serviceContractDetailsBean": [
+      {
+        "isBillingGroup": "Y",
+        "isExcessUsage": "N",
+        "productSubSubCategory": "Virtual Network",
+        "serviceDetailsAttributeBeans": [],
+        "serviceContractedQty": "1.0",
+        "serviceProductCode": null,
+        "serviceDesc": "Virtual Firewall|\t|\tCloud_VFA : Medium EA (Default: 1.00EA)",
+        "serviceCategory": "Attribute"
+      }
+    ]
+  }
+]

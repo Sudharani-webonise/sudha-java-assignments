@@ -1,0 +1,38 @@
+{
+  "ticketInformationBean": {
+    "ticketNumber": null,
+    "assignedToGroup": "DNOC S-II TSM",
+    "ticketOwner": "-",
+    "ticketProject": "NA",
+    "ticketSeverity": "S3",
+    "caseType": "Incident",
+    "caseSubType": "Minor Impact",
+    "ticketStatus": "Opened",
+    "ticketsummary": "Create Ticket Log Testing with attachment",
+    "ticketCustomerDesc": "Create Ticket Log Testing with attachment",
+    "ticketOpenSince": "2 days, 23 hours, 14 minutes, 16 seconds.",
+    "ticketRaisedBy": "SHARDA PRASAD SINGH",
+    "ticketCreatedDate": "13-06-2016 12:20:19",
+    "ticketLastUpdatedDate": "2016-06-13 12:20:20",
+    "associatedCustomer": null,
+    "projectName": null
+  },
+  "ticketWorklogUpdatesBeans": [
+    {
+      "worklogUpdatedByUser": "SHARDA PRASAD SINGH",
+      "worklogComment": "Ticket Opened",
+      "worklogCustomerComment": "Ticket Opened",
+      "workLogUpdatetime": "2016-06-13 12:20",
+      "timeSpendOnPreviousAction": "0 days 0Hr 0Min 0Sec",
+      "worklogStatus": "Opened"
+    },
+    {
+      "worklogUpdatedByUser": "Netmagic ERP System",
+      "worklogComment": "Ticket has been Breached Update SLA",
+      "worklogCustomerComment": "Ticket has been Breached Update SLA",
+      "workLogUpdatetime": "2016-06-13 20:21",
+      "timeSpendOnPreviousAction": "0 days 8Hr 1Min 22Sec",
+      "worklogStatus": "Opened"
+    }
+  ]
+}

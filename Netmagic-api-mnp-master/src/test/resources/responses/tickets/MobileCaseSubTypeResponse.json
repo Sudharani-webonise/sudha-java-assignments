@@ -1,0 +1,20 @@
+{
+  "ticketCaseSubTypes": [
+    {
+      "caseSubTypeId": 11,
+      "caseSubTypeName": "ProActive\n",
+      "severity": 8
+    },
+    {
+      "caseSubTypeId": 10,
+      "caseSubTypeName": "Reactive",
+      "severity": 8
+    },
+    {
+      "caseSubTypeId": 9,
+      "caseSubTypeName": "S1/S2 RCA",
+      "severity": 8
+    }
+  ]
+}
+

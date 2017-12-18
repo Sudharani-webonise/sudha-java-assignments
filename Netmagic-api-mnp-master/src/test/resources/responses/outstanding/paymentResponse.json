@@ -1,0 +1,8 @@
+{
+"PaymentResponse":{
+"billToCustomerId":"3852",
+"paymentId":"PAY69854",
+"paymentStatus":"FAILURE",
+"accountType":"NMITS"
+}
+}

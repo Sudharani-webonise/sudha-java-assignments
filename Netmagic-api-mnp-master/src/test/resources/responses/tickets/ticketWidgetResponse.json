@@ -1,0 +1,54 @@
+{
+  "openTicketsCount": 18,
+  "ticketsCountByType": null,
+  "ticketsCountBySeverity": [
+    {
+      "severityType": "S1",
+      "ticketCount": 2
+    },
+    {
+      "severityType": "S2",
+      "ticketCount": 2
+    },
+    {
+      "severityType": "S3",
+      "ticketCount": 4
+    },
+    {
+      "severityType": "S4-7",
+      "ticketCount": 10
+    }
+  ],
+  "ticketsCountByTimeDelay": [
+    {
+      "timeDelayUnit": "30 Minute(s)",
+      "ticketCount": 0
+    },
+    {
+      "timeDelayUnit": "60 Minute(s)",
+      "ticketCount": 0
+    },
+    {
+      "timeDelayUnit": "61 Minute(s)",
+      "ticketCount": 18
+    }
+  ],
+  "ticketsCountByStatus": [
+    {
+      "ticketStatus": "Waiting on Customer",
+      "ticketCount": 0
+    },
+    {
+      "ticketStatus": "Resolved Pending Closure",
+      "ticketCount": 0
+    },
+    {
+      "ticketStatus": "Reopen",
+      "ticketCount": 1
+    },
+    {
+      "ticketStatus": "Assigned/WIP",
+      "ticketCount": 0
+    }
+  ]
+}

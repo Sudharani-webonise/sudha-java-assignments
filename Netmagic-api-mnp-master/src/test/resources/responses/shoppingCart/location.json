@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "loc": "5d427b1c-b8e0-4c6a-c25b-4ef066eec43e",
+      "locname": "DC1 - Noida",
+      "alias": ""
+    },
+    {
+      "loc": "902d86fb-935b-353e-d543-52f4ceeb0629",
+      "locname": "DC2 - Bengaluru",
+      "alias": ""
+    },
+    {
+      "loc": "9d1324ea-28a0-2270-ac21-4ef066cb4877",
+      "locname": "DC4 - Mumbai",
+      "alias": ""
+    },
+    {
+      "loc": "a4b7027e-15ae-60dd-6da7-555eed67b608",
+      "locname": "DC5 - Mumbai",
+      "alias": ""
+    },
+    {
+      "loc": "c14ea8cc-cf60-8cad-4d63-4ef066871e5c",
+      "locname": "DC1 - Chennai",
+      "alias": ""
+    },
+    {
+      "loc": "29a59bc2-bcd7-d7ae-4d3a-4ef06543f65e",
+      "locname": "DC2 - Mumbai",
+      "alias": ""
+    },
+    {
+      "loc": "9b9263c5-1416-45a7-2f7e-4ef06516bc01",
+      "locname": "DC1 - Mumbai",
+      "alias": ""
+    },
+    {
+      "loc": "db118ae5-9c39-6799-55a3-4ef06647b82d",
+      "locname": "DC3 - Mumbai",
+      "alias": ""
+    },
+    {
+      "loc": "e680c291-01f3-ff24-9bca-4ef0667ec38c",
+      "locname": "DC1 - Bengaluru",
+      "alias": ""
+    },
+    {
+      "loc": "f25f9433-f109-6934-b32c-5242c42bbf6e",
+      "locname": "TDC- Santa Clara",
+      "alias": ""
+    }
+  ]
+}

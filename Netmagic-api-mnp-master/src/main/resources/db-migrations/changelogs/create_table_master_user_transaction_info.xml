@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<changeSet id="beforeCreatingTable" author="Sudharani">
+		<tagDatabase tag="before_create_table_mas_user_tran_info" />
+	</changeSet>
+
+	<changeSet id="createTableUser" author="Sudharani">
+		<createTable tableName="mas_user_tran_info">
+			<column name="user_tran_id_pk" type="bigint" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="user_tran_email" type="varchar(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_number" type="varchar(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_mrch_number" type="varchar(255)">
+				<constraints nullable="false" unique="true" />
+			</column>
+			<column name="user_tran_create_date_time" type="timestamp" >
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_bill_to_cust_id" type="varchar(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_suppo_to_cust_id" type="varchar(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_total_amount" type="double">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_nspl_amount" type="double" />
+			<column name="user_tran_nspl_update_date_time" type="timestamp" />
+			<column name="user_tran_nmit_amount" type="double" />
+			<column name="user_tran_nmit_update_date_time" type="timestamp" />
+			<column name="user_tran_pytm_status" type="boolean" defaultValueBoolean="false" />
+			<column name="user_tran_is_mnp_user" type="boolean">
+				<constraints nullable="false" />
+			</column>
+			<column name="user_tran_helios_admin" type="boolean" defaultValueBoolean="false" />
+			<column name="user_tran_helios_admin_req_body" type="longtext"/>
+			<column name="user_tran_helios_admin_create_date_time" type="timestamp"/>
+			<column name="tran_pytm_conf_pytm_id_fk" type="int">
+				<constraints nullable="false" foreignKeyName="tran_pytm_conf_pytm_id_fk"
+					references="tran_pytm_conf(pytm_id_pk)" />
+			</column>
+			<column name="pytm_for_conf_pytm_for_id_fk" type="int">
+				<constraints nullable="false" foreignKeyName="pytm_for_conf_pytm_for_id_fk"
+					references="pytm_for_conf(pytm_for_id_pk)" />
+			</column>
+			
+		</createTable>
+		<addUniqueConstraint tableName="mas_user_tran_info"
+			columnNames="user_tran_number, user_tran_mrch_number" 
+			constraintName="tran_ref_id" />
+	</changeSet>
+</databaseChangeLog> 

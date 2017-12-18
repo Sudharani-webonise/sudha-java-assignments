@@ -1,0 +1,12 @@
+{
+  "ticketCaseType": [
+    {
+      "caseTypeId": 2,
+      "caseTypeName": "Request"
+    },
+    {
+      "caseTypeId": 3,
+      "caseTypeName": "Incident"
+    }
+  ]
+}

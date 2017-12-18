@@ -1,0 +1,76 @@
+{
+  "ticketDetailsBeans": [
+    {
+      "ticketNumber": "TT12016112214551056",
+      "ticketSeverity": "S5",
+      "caseType": "Request",
+      "ticketStatus": "Opened",
+      "ticketSummary": "Test 22nd Nov 15",
+      "ticketOpenSince": "1 days, 0 hours, 45 minutes, 44 seconds.",
+      "ticketLastUpdatedDate": "2016-11-22 14:55:10",
+      "associatedCustomer": "Netmagic IT Services Private Limited",
+      "ticketWorklogUpdatesBean": {
+        "worklogUpdatedByUser": "Global Service Desk",
+        "worklogComment": "Ticket Opened",
+        "worklogCustomerComment": "Ticket is Created From MyNetmagic Portal.",
+        "workLogUpdatetime": "2016-11-22 14:55:10",
+        "worklogSource": "Mynetmagic",
+        "listOfTicketAttachmentBeans": []
+      }
+    },
+    {
+      "ticketNumber": "TT12016092712074824",
+      "ticketSeverity": "S5",
+      "caseType": "Request",
+      "ticketStatus": "Opened",
+      "ticketSummary": "27/09 [8]",
+      "ticketOpenSince": "57 days, 3 hours, 33 minutes, 6 seconds.",
+      "ticketLastUpdatedDate": "2016-09-01 11:40:35",
+      "associatedCustomer": "Netmagic IT Services Private Limited",
+      "ticketWorklogUpdatesBean": {
+        "worklogUpdatedByUser": "Global Service Desk",
+        "worklogComment": "Ticket Opened",
+        "worklogCustomerComment": "Ticket is Created From MyNetmagic Portal.",
+        "workLogUpdatetime": "2016-09-27 12:07:48",
+        "worklogSource": "Mynetmagic",
+        "listOfTicketAttachmentBeans": []
+      }
+    },
+    {
+      "ticketNumber": "TT120160927105008447",
+      "ticketSeverity": "S5",
+      "caseType": "Request",
+      "ticketStatus": "Opened",
+      "ticketSummary": "asf",
+      "ticketOpenSince": "57 days, 4 hours, 50 minutes, 47 seconds.",
+      "ticketLastUpdatedDate": "2016-09-01 11:40:35",
+      "associatedCustomer": "Netmagic IT Services Private Limited",
+      "ticketWorklogUpdatesBean": {
+        "worklogUpdatedByUser": "Global Service Desk",
+        "worklogComment": "Ticket Opened",
+        "worklogCustomerComment": "Ticket is Created From MyNetmagic Portal.",
+        "workLogUpdatetime": "2016-09-27 10:50:08",
+        "worklogSource": "Mynetmagic",
+        "listOfTicketAttachmentBeans": []
+      }
+    },
+    {
+      "ticketNumber": "TT12016092610430359",
+      "ticketSeverity": "S5",
+      "caseType": "Request",
+      "ticketStatus": "Opened",
+      "ticketSummary": "asdf",
+      "ticketOpenSince": "58 days, 4 hours, 57 minutes, 51 seconds.",
+      "ticketLastUpdatedDate": "2016-09-01 11:40:35",
+      "associatedCustomer": "Netmagic IT Services Private Limited",
+      "ticketWorklogUpdatesBean": {
+        "worklogUpdatedByUser": "Global Service Desk",
+        "worklogComment": "Ticket Opened",
+        "worklogCustomerComment": "Ticket is Created From MyNetmagic Portal.",
+        "workLogUpdatetime": "2016-09-26 10:43:03",
+        "worklogSource": "Mynetmagic",
+        "listOfTicketAttachmentBeans": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "outstandingWidgetData": {
+    "transaction": {
+      "widgetInfo": {
+        "customerId": 3852,
+        "currency": "INR",
+        "totalOutstandingAmount": 167333.31,
+        "creditLimit": 0,
+        "creditUnbilled": 0,
+        "outstandingSinceThirty": 0,
+        "outstandingSinceSixty": 0,
+        "outstandingSinceNinty": 167333.31
+      }
+    }
+  }
+}

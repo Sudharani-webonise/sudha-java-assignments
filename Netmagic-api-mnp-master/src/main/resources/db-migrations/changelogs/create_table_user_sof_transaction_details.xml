@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<changeSet id="beforeCreatingTable" author="Sudharani">
+		<tagDatabase tag="before_create_table_user_sof_tran_deta_desc" />
+	</changeSet>
+
+	<changeSet id="createTableSofTable" author="Sudharani">
+		<createTable tableName="user_sof_tran_deta_desc">
+			<column name="sof_tran_deta_id_pk" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="sof_tran_req_body" type="longtext">
+				<constraints nullable="false" />
+			</column>
+			<column name="sof_tran_status" type="boolean" defaultValueBoolean="false" />
+			<column name="sof_tran_sof_number" type="longtext" />
+			<column name="sof_tran_sof_type" type="varchar(255)" />
+			<column name="sof_tran_create_date_time" type="timestamp">
+				<constraints nullable="false" />
+			</column>
+			<column name="sof_tran_last_retrival_date_time" type="timestamp" />
+			<column name="sof_tran_retrive_count" type="int" />
+			<column name="sof_tran_token_id" type="varchar(255)" >
+				<constraints unique="true" />
+			</column>
+			<column name="sof_mas_user_tran_info_id_fk" type="bigint">
+				<constraints nullable="false" foreignKeyName="sof_mas_user_tran_info_id_fk"
+					references="mas_user_tran_info(user_tran_id_pk)" />
+			</column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog> 

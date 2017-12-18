@@ -1,0 +1,9 @@
+{
+  "sofTransactionId": "11",
+  "sofTransactionrRquestBody": "{\"token\": null,\"acc\": \"2ce91a96-6a63-4cd6-c2ac-4ece059b3e15\",\"suppto\":\"2ce91a963e15\",\"sofToken\": \"d07f5f85-dd4c-45c4-8e763\",\"billgroup\": [{\"projectname\": \"test1\",\"isExistingProject\": \"No\",\"projectid\": null,\"loc\": \"9d1324ea-28a0-2270-ac21-4ef066cb4877\",\"cntrperiod\": \"1\",\"cntrperiodunit\": \"months\", \"start_date\": \"2017-04-10\",\"end_date\": \"2017-05-09\",\"varGroupProdAddedOfType\": \"GB\",\"items\": [{\"pid\": \"8e794d\",\"pname\": \"NSBVSRELSSASGB\"}],\"pmrc\": 1500,\"potc_tax\": 10,\"pmrc_tax\": 1500}]}",
+  "sofTransactionStatus": true,
+  "sofTransactionSofNumber":"{\"status\":\"success\",\"message\":\"\",\"data\":[{\"prop_id\":\"Q43888\",\"ProjectId\":\"587197a5-f42e-3a33-dcd2-58eb305551d5\",\"sof_id\":[\"1000030932\"]}]}",
+  "sofTransactionSofType": "",
+  "sofTransactionRetriveCount": "",
+  "sofTransactionTockenId": ""
+}

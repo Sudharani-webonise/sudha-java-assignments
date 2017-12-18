@@ -1,0 +1,24 @@
+{
+  "ShoppingCartPaymentRequest": {
+    "transactionId": "TTTT",
+    "transactionAmount": "10000.00",
+    "creditUsed": "100.00",
+    "ebsPaymentId": "PAY05",
+    "ebsPaymentAmount": "1000",
+    "dateAndTime": "2016-12-05 00:00:00",
+    "userId": "1234",
+    "userFirstName": "ABC",
+    "userLastName": "XYZ",
+    "userEmailId": "Test@gmail.com",
+    "sofDetail": [
+      {
+        "sofNumber": "1000010050",
+        "sofAmount": 10000
+      },
+      {
+        "sofNumber": "1000010050",
+        "sofAmount": 10000
+      }
+    ]
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "listOfSupportToCustomerInfo": [
+    {
+      "cvName": "A4analytics",
+      "cvCode": "AICY0001",
+      "cvCrmId": "36453"
+    },
+    {
+      "cvName": "Abans Securities Limited",
+      "cvCode": "AEBS0001",
+      "cvCrmId": "35842"
+    },
+    {
+      "cvName": "Adroit Financial Services Private Limited",
+      "cvCode": "ADFSL",
+      "cvCrmId": "4573"
+    },
+    {
+      "cvName": "Anand Rathi Share and Stock brokers",
+      "cvCode": "ARSL",
+      "cvCrmId": "3666"
+    },
+    {
+      "cvName": "ANG Capital Services Private Limited",
+      "cvCode": "ANGCS",
+      "cvCrmId": "4981"
+    },
+    {
+      "cvName": "APT Portfolio Private Limited",
+      "cvCode": "APTT",
+      "cvCrmId": "4427"
+    },
+    {
+      "cvName": "Arcadia Share & Stock Brokers Private Limited",
+      "cvCode": "AARE0001",
+      "cvCrmId": "36237"
+    },
+    {
+      "cvName": "Arch Finance Limited",
+      "cvCode": "BARFL",
+      "cvCrmId": "6598"
+    },
+    {
+      "cvName": "Asit C Mehta Investment Intermediates",
+      "cvCode": "AMAM",
+      "cvCrmId": "3777"
+    },
+    {
+      "cvName": "AXIS Equities Private Limited",
+      "cvCode": "AXISO",
+      "cvCrmId": "5536"
+    },
+    {
+      "cvName": "Baba Bhoothnath Trade and Commerce Private Limited",
+      "cvCode": "BBTL",
+      "cvCrmId": "5058"
+    },
+    {
+      "cvName": "BHAIJEE PORTFOLIO LIMITED",
+      "cvCode": "BBHPL",
+      "cvCrmId": "6571"
+    },
+    {
+      "cvName": "Bombay Stock Exchange - Paterson Securities Private Limited",
+      "cvCode": "BPSPL",
+      "cvCrmId": "6510"
+    },
+    {
+      "cvName": "Bonanza Portfolio Limited",
+      "cvCode": "BORO0001",
+      "cvCrmId": "35490"
+    },
+    {
+      "cvName": "BSE Limited",
+      "cvCode": "BSEP",
+      "cvCrmId": "3852"
+    },
+    {
+      "cvName": "Celerix Infotech Pvt. Ltd",
+      "cvCode": "CEIE0002",
+      "cvCrmId": "35634"
+    },
+    {
+      "cvName": "CPR Capital Services Limited",
+      "cvCode": "CPRC",
+      "cvCrmId": "4648"
+    },
+    {
+      "cvName": "Cresco Futures Limited",
+      "cvCode": "CTTC0001",
+      "cvCrmId": "35933"
+    },
+    {
+      "cvName": "CRIMSON FINANCIAL SERVICES LIMITED",
+      "cvCode": "CRFL",
+      "cvCrmId": "4950"
+    },
+    {
+      "cvName": "Crosseas Capital Services Private Limited",
+      "cvCode": "CCAS",
+      "cvCrmId": "4795"
+    },
+    {
+      "cvName": "Crossseas Capital Services Pvt. Ltd",
+      "cvCode": "CAVT0001",
+      "cvCrmId": "35631"
+    },
+    {
+      "cvName": "DB International Stock Brokers Limited",
+      "cvCode": "DBSB",
+      "cvCrmId": "4772"
+    },
+    {
+      "cvName": "Divya Portfolio Private Limited",
+      "cvCode": "DIPPL",
+      "cvCrmId": "4435"
+    },
+    {
+      "cvName": "Dynamic Equities Private Limited.",
+      "cvCode": "DEPL",
+      "cvCrmId": "4561"
+    },
+    {
+      "cvName": "East India Securities Limited",
+      "cvCode": "EISL",
+      "cvCrmId": "4622"
+    },
+    {
+      "cvName": "Edelweiss",
+      "cvCode": "BSEED",
+      "cvCrmId": "6506"
+    },
+    {
+      "cvName": "EDELWEISS FINANCIAL ADVISORS LTD",
+      "cvCode": "BSEF",
+      "cvCrmId": "6502"
+    },
+    {
+      "cvName": "Edelweiss Securities Limited",
+      "cvCode": "ESIL",
+      "cvCrmId": "3198"
+    },
+    {
+      "cvName": "Emkay Global Financial Services",
+      "cvCode": "ELLI0001",
+      "cvCrmId": "35200"
+    },
+    {
+      "cvName": "Estee Advisory Private Limited",
+      "cvCode": "ESTEE",
+      "cvCrmId": "4214"
+    },
+    {
+      "cvName": "Evermore Stock Brokers",
+      "cvCode": "EKRS0001",
+      "cvCrmId": "8856"
+    },
+    {
+      "cvName": "Excel Stock Broking Private Limited",
+      "cvCode": "EAKT0001",
+      "cvCrmId": "6569"
+    },
+    {
+      "cvName": "GKN Securities",
+      "cvCode": "GKNS",
+      "cvCrmId": "5832"
+    },
+    {
+      "cvName": "GOGIA Capital Services Limited",
+      "cvCode": "GOGI",
+      "cvCrmId": "5423"
+    },
+    {
+      "cvName": "Graviton Research Capital LLP",
+      "cvCode": "GRRI0001",
+      "cvCrmId": "36269"
+    },
+    {
+      "cvName": "GRD Securities Limited",
+      "cvCode": "GRDS",
+      "cvCrmId": "4545"
+    },
+    {
+      "cvName": "Greeksoft Technologies Ltd",
+      "cvCode": "BGREE",
+      "cvCrmId": "6609"
+    },
+    {
+      "cvName": "ICDS Securities limited",
+      "cvCode": "ICDS",
+      "cvCrmId": "4176"
+    },
+    {
+      "cvName": "Indira Securities Private Limited",
+      "cvCode": "IRPT0001",
+      "cvCrmId": "36268"
+    },
+    {
+      "cvName": "Indra Securities Private Limited",
+      "cvCode": "BISPL",
+      "cvCrmId": "6581"
+    },
+    {
+      "cvName": "Indus Portfolio Private Limited",
+      "cvCode": "INDSP",
+      "cvCrmId": "5729"
+    },
+    {
+      "cvName": "J M Global Equities Pvt Ltd",
+      "cvCode": "JBLU0001",
+      "cvCrmId": "36278"
+    },
+    {
+      "cvName": "Jaypee Capital Services Limited",
+      "cvCode": "JCSL",
+      "cvCrmId": "6572"
+    },
+    {
+      "cvName": "Jindal Exports & Imports Private Limited",
+      "cvCode": "JPEO0001",
+      "cvCrmId": "7479"
+    },
+    {
+      "cvName": "KIFS SECURITIES LTD",
+      "cvCode": "KRUT0001",
+      "cvCrmId": "6564"
+    },
+    {
+      "cvName": "KIFS Securities Private Limited",
+      "cvCode": "KIFS",
+      "cvCrmId": "3409"
+    },
+    {
+      "cvName": "Kotak Securities Limited",
+      "cvCode": "KOTAK",
+      "cvCrmId": "5195"
+    },
+    {
+      "cvName": "Kredent Brokerage Services Private Limited",
+      "cvCode": "KBSPL",
+      "cvCrmId": "5530"
+    },
+    {
+      "cvName": "LFC Securities Private Limited",
+      "cvCode": "LFCP",
+      "cvCrmId": "6501"
+    },
+    {
+      "cvName": "Mansukh Stock Brokers Limited",
+      "cvCode": "MASBL",
+      "cvCrmId": "4933"
+    },
+    {
+      "cvName": "MARCK SECURITIES PRIVATE LIMITED",
+      "cvCode": "MARCK",
+      "cvCrmId": "4605"
+    },
+    {
+      "cvName": "Marwadi Shares & Finance Ltd",
+      "cvCode": "MNSA0001",
+      "cvCrmId": "35644"
+    },
+    {
+      "cvName": "Matri Mangaal",
+      "cvCode": "BSEMT",
+      "cvCrmId": "6606"
+    },
+    {
+      "cvName": "Millennium Stock Broking Private Limited",
+      "cvCode": "MSBL",
+      "cvCrmId": "4819"
+    },
+    {
+      "cvName": "Mithun Securities Private Limited",
+      "cvCode": "BMSPL",
+      "cvCrmId": "6583"
+    },
+    {
+      "cvName": "Modex International Securities Limited",
+      "cvCode": "MXII0001",
+      "cvCrmId": "12041"
+    },
+    {
+      "cvName": "Multitrade Softech Pvt. Ltd.",
+      "cvCode": "MTOF0001",
+      "cvCrmId": "36250"
+    },
+    {
+      "cvName": "Neha Forex Private Limited",
+      "cvCode": "NXVE0001",
+      "cvCrmId": "35741"
+    },
+    {
+      "cvName": "NTTCI - SBI Holdings",
+      "cvCode": "NTTSBI",
+      "cvCrmId": "6568"
+    },
+    {
+      "cvName": "Open Futures and Commodities P Ltd",
+      "cvCode": "OFCL",
+      "cvCrmId": "4423"
+    },
+    {
+      "cvName": "Open Futures And Commodities Private Limited",
+      "cvCode": "OAUL0001",
+      "cvCrmId": "35575"
+    },
+    {
+      "cvName": "Opg Securities Private Limited",
+      "cvCode": "OPGS",
+      "cvCrmId": "5631"
+    },
+    {
+      "cvName": "Orion Stock Limited",
+      "cvCode": "ORIO",
+      "cvCrmId": "4550"
+    },
+    {
+      "cvName": "Pace Stock Broking Services Private Limited",
+      "cvCode": "PACES",
+      "cvCrmId": "4621"
+    },
+    {
+      "cvName": "Pashupati Captial Services Private Limited",
+      "cvCode": "BPCS",
+      "cvCrmId": "6577"
+    },
+    {
+      "cvName": "PRB Securities Private Limited",
+      "cvCode": "BPRB",
+      "cvCrmId": "6511"
+    },
+    {
+      "cvName": "Proficient Equities Private Limited",
+      "cvCode": "POTD0001",
+      "cvCrmId": "35397"
+    },
+    {
+      "cvName": "Quadeye Securities Private Limited",
+      "cvCode": "QSPL",
+      "cvCrmId": "3905"
+    },
+    {
+      "cvName": "Raghunandan Capital Private Limited",
+      "cvCode": "RGCPL",
+      "cvCrmId": "5665"
+    },
+    {
+      "cvName": "Rangoli Portfolio Private Limited",
+      "cvCode": "RLTA0001",
+      "cvCrmId": "35618"
+    },
+    {
+      "cvName": "RKSV Securities India Private Limited.",
+      "cvCode": "BRKSV",
+      "cvCrmId": "4799"
+    },
+    {
+      "cvName": "RV Currency Private Limited",
+      "cvCode": "RDEL0001",
+      "cvCrmId": "35574"
+    },
+    {
+      "cvName": "Shaastra Securities Trading Private Limited",
+      "cvCode": "STUI0001",
+      "cvCrmId": "14632"
+    },
+    {
+      "cvName": "Shaastra Securities TradingPrivate Limited",
+      "cvCode": "SSTL",
+      "cvCrmId": "6578"
+    },
+    {
+      "cvName": "SHAILESH SHAH SECURITIES PRIVATE LIMITED",
+      "cvCode": "SHAPL",
+      "cvCrmId": "5487"
+    },
+    {
+      "cvName": "Shareindia Securities Ltd",
+      "cvCode": "SHSL",
+      "cvCrmId": "6514"
+    },
+    {
+      "cvName": "Sharekhan Limited",
+      "cvCode": "SLSL",
+      "cvCrmId": "3416"
+    },
+    {
+      "cvName": "Shree Bahubali International Limited",
+      "cvCode": "BSBIL",
+      "cvCrmId": "4966"
+    },
+    {
+      "cvName": "Silver Stream Equities Private Limited",
+      "cvCode": "SSEL",
+      "cvCrmId": "4801"
+    },
+    {
+      "cvName": "SMC Global Securities Limited",
+      "cvCode": "SMCG",
+      "cvCrmId": "4816"
+    },
+    {
+      "cvName": "SMC Global Services Ltd",
+      "cvCode": "BSMC",
+      "cvCrmId": "6516"
+    },
+    {
+      "cvName": "SMK SHARES & STOCK PRIVATE LTD",
+      "cvCode": "BSSSP",
+      "cvCrmId": "6596"
+    },
+    {
+      "cvName": "Sona Global Ltd",
+      "cvCode": "BSSGL",
+      "cvCrmId": "6567"
+    },
+    {
+      "cvName": "Sunstar Securities Limited",
+      "cvCode": "BSUSL",
+      "cvCrmId": "6605"
+    },
+    {
+      "cvName": "Symphony Fintech Solutions Private Limited",
+      "cvCode": "SINM0001",
+      "cvCrmId": "35946"
+    },
+    {
+      "cvName": "Thomson Reuters International Service Pvt Ltd",
+      "cvCode": "TIOO0001",
+      "cvCrmId": "35981"
+    },
+    {
+      "cvName": "Trustline Securities Private Limited",
+      "cvCode": "TISE0001",
+      "cvCrmId": "35518"
+    },
+    {
+      "cvName": "uTrade Solutions Pvt. Ltd.",
+      "cvCode": "UAUU0001",
+      "cvCrmId": "36441"
+    },
+    {
+      "cvName": "VARUN TRADECOM Private Limited",
+      "cvCode": "VARUN",
+      "cvCrmId": "6570"
+    },
+    {
+      "cvName": "VARUN TRADECOM PVT LTD",
+      "cvCode": "VTTD0001",
+      "cvCrmId": "34967"
+    },
+    {
+      "cvName": "Vedika Vanijya Private Limited",
+      "cvCode": "BVVPL",
+      "cvCrmId": "4862"
+    },
+    {
+      "cvName": "Way2Wealth Brokers Private Limited",
+      "cvCode": "WWBL",
+      "cvCrmId": "3723"
+    },
+    {
+      "cvName": "Well India Securities Limited",
+      "cvCode": "WISL",
+      "cvCrmId": "5440"
+    }
+  ]
+}
+

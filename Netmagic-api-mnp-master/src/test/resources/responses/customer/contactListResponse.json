@@ -1,0 +1,21 @@
+[
+  {
+    "contactId": "1",
+    "custContFname": "Generic_3",
+    "custContLname": "Contact",
+    "custName": "Netmagic Solutions Private Limited",
+    "custCrmId": "1049",
+    "contactEmailId": "support@netmagicsolutions.com",
+    "contactMobileNo": ""
+    
+  },
+  {
+    "contactId": "4413",
+    "custContFname": "Yogesh",
+    "custContLname": "Vaidya",
+    "custName": "Netmagic Solutions Private Limited",
+    "custCrmId": "1049",
+    "contactEmailId": "-",
+    "contactMobileNo": ""
+  }
+]

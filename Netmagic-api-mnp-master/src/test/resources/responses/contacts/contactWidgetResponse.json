@@ -1,0 +1,30 @@
+{
+"totalContactsCount": 37,
+"listOfContactsByTypeBean": [
+{
+"contactType": "Generic ID",
+"contactTypeId": null,
+"contactTypeCount": 1
+},
+{
+"contactType": "Billing",
+"contactTypeId": null,
+"contactTypeCount": 4
+},
+{
+"contactType": "Other Functions",
+"contactTypeId": null,
+"contactTypeCount": 24
+},
+{
+"contactType": "IT Operations",
+"contactTypeId": null,
+"contactTypeCount": 9
+},
+{
+"contactType": "IT Management",
+"contactTypeId": null,
+"contactTypeCount": 8
+}
+]
+}

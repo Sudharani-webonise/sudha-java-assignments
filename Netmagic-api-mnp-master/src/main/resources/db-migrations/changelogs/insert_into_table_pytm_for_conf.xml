@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+        
+	<changeSet id="beforeInsertValuePaymentForSourceConf" author="sudharani">
+		<tagDatabase tag="before_insert_into_table_pytm_for_conf" />
+	</changeSet>
+
+	<changeSet id="insertPAymentForConfEntries" author="Sudharani">
+		<insert tableName="pytm_for_conf">
+			<column name="pytm_for_id_pk" value="1" />
+			<column name="pytm_for_name" value="Invoice" />
+			<column name="pytm_for_create_date_time" valueDate="now()"/>
+		</insert>
+
+		<insert tableName="pytm_for_conf">
+			<column name="pytm_for_id_pk" value="2" />
+			<column name="pytm_for_name" value="SOF" />
+			<column name="pytm_for_create_date_time" valueDate="now()" />
+		</insert>
+
+		<insert tableName="pytm_for_conf">
+			<column name="pytm_for_id_pk" value="3" />
+			<column name="pytm_for_name" value="On_Account" />
+			<column name="pytm_for_create_date_time" valueDate="now()"/>
+		</insert>
+	</changeSet>
+</databaseChangeLog>

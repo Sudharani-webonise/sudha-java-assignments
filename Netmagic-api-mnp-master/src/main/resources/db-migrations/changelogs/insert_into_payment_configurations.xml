@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="beforeInsertValuesIntoPaymentConf" author="sudharani">
+        <tagDatabase tag="before_insert_into_payment_configuration"/>
+    </changeSet>
+
+	<changeSet id="insertPaymentEntries" author="Sudharani">
+		<insert tableName="tran_pytm_conf">
+			<column name="pytm_id_pk" value="1" />
+			<column name="pytm_name" value="credit" />
+			<column name="pytm_create_date_time" valueDate="now()"/>
+		</insert>
+
+		<insert tableName="tran_pytm_conf">
+			<column name="pytm_id_pk" value="2" />
+			<column name="pytm_name" value="EBS" />
+			<column name="pytm_create_date_time" valueDate="now()" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>

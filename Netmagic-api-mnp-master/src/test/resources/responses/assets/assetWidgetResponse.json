@@ -1,0 +1,50 @@
+{
+  "assetCount": 26,
+  "listOfAssetTypeCount": [
+    {
+      "assetTypeId": 0,
+      "assetType": "Storage",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Cloud Firewall",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Physical  Server",
+      "assetCount": 20
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "InternalIT",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Network",
+      "assetCount": 6
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Physical Firewall",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Facility",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Other",
+      "assetCount": 0
+    },
+    {
+      "assetTypeId": 0,
+      "assetType": "Cloud Server",
+      "assetCount": 0
+    }
+  ]
+}

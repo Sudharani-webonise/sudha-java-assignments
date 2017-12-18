@@ -1,0 +1,9 @@
+{
+  "billingGroupNumber": "BW_1049_1049_20161205220631",
+  "billingGroupTypes": "Rate",
+  "unitOfMeasurment": "GB",
+  "totalContractedValue": 0,
+  "variableCharges": 0,
+  "variableChargesProduct": "NSSRBBBSTIBB",
+  "rateBasedType": "Capped"
+}

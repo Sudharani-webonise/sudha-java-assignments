@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<changeSet id="beforeCreatingTable" author="Pareekshit">
+		<tagDatabase tag="before_create_table_user_invo_tran_deta_desc" />
+	</changeSet>
+
+	<changeSet id="createTableInvoiceTable" author="Pareekshit">
+		<createTable tableName="user_invo_tran_deta_desc">
+			<column name="invo_tran_id_pk" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" />
+			</column>
+			<column name="invo_tran_create_date_time" type="timestamp">
+				<constraints nullable="false" />
+			</column>
+			<column name="invo_tran_status" type="boolean" defaultValueBoolean="false" />
+			<column name="invo_tran_number" type="longtext" />
+			<column name="invo_tran_amount" type="double" />
+			<column name="invo_tran_tds_amount" type="double" />
+			<column name="invo_tran_Outstanding_amount" type="double" />
+			<column name="invo_mas_user_tran_info_id_fk" type="bigint">
+				<constraints nullable="false" foreignKeyName="invo_mas_user_tran_info_id_fk"
+					references="mas_user_tran_info(user_tran_id_pk)" />
+			</column>
+		</createTable>
+	</changeSet>
+
+</databaseChangeLog> 

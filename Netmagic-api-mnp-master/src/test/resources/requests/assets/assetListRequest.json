@@ -1,0 +1,13 @@
+{
+"mainCustomerId":"1049",
+"associateCustomerId":"1049",
+"projectId":"POC project ID",
+"assetTypeName":"ALL",
+"assetTypeId":"",
+"listOfAssetTagName":[
+"sever",
+"windows"
+],
+"pageNumber":1,
+"maxResults":5
+}

@@ -1,0 +1,31 @@
+{
+"customerIdHidden":null,
+"supportToCustomerId":"1049",
+"projectName":"NA",
+"ticketType":3,
+"ticketCategory":3,
+"ticketoriginator":"SHARDA PRASAD SINGH",
+"ticketSummary":"Create Ticket Log Testing with attachment",
+"ticketDescription":"Create Ticket Log Testing with attachment",
+"additionalNotificationPersonTableList":[
+{
+"userName":"Eswar",
+"userEmail":"eswar@gmail.com",
+"userMobile":"8765467765",
+"isNewlyAdded":null
+}
+],
+"listOfFilesInByte":[
+{
+"ticketAttachmentId":0,
+"ticketAttachmentDatetime":null,
+"ticketNumber":null,
+"attachmentFilename":"Code Practice Sites.txt",
+"receivedfile":null,
+"attachmentFullpath":"",
+"tick_atta_filesize":78,
+"fileExtension":"txt",
+"fileInBytes":"aHR0cHM6Ly93d3cuaGFja2VycmFuay5jb20vDQpodHRwczovL3d3dy5rYWdnbGUuY29tDQpodHRwOi8vd3d3LmhhY2thdGhvbi5pbw0K"
+}
+]
+}
