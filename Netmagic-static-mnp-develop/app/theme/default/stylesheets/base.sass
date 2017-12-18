@@ -1,0 +1,2133 @@
+// Font Variables
+$fontArialRegular: 'Arial', 'sans-serif'
+$fontRobotLight: 'robotolight', 'sans-serif', 'arial'
+$fontRobotThin: 'robotothin', 'sans-serif', 'arial'
+$fontRobotoRegular: 'robotoregular', 'sans-serif', 'arial'
+$fontRobotoMedium: 'robotomedium', 'sans-serif', 'arial'
+$headerBoxShadow: 0 2px 5px rgba(0,0,0,0.05)
+
+.blackBtn
+  border: solid 1px $darkBlackish333
+  color: $darkBlackish333
+  padding: 10px
+  display: inline-block
+  &:hover
+    color: $pinkTextColor
+    border-color: $pinkTextColor
+    text-decoration: none
+
+.btn
+  padding: 5px
+  min-width: 75px
+  line-height: 22px
+  border-radius: 0
+  font-size: 12px
+  display: inline-block
+  &.blueBorderd
+    border: solid 1px $blueLink
+    color: $blueLink
+  &.pinkBordered
+    border: solid 1px $pinkTextColor
+    color: $pinkTextColor
+
+.redLink
+  color: $colorREDff0000
+  font-size: 12px
+  text-decoration: underline
+  margin: 0 10px
+  cursor: pointer
+  &:hover
+    text-decoration: none
+    color: $colorREDff0000
+
+.smallTag
+  padding: 2px 5px
+  text-align: center
+  font-size: 9px
+  &.green
+    border: solid 1px $greenDarkText
+    color: $greenDarkText
+  &.blue
+    border: solid 1px $alertInfoFont
+    color: $alertInfoFont
+  &.red
+    border: solid 1px $alertErrorFont
+    color: $alertErrorFont
+
+.iconEdit
+  background: url("../images/shopping-cart-sprite.png") 0 -19px no-repeat
+  width: 21px
+  height: 21px
+  display: inline-block
+.border_none
+  ul
+    li
+      border: none !important
+
+=posRelative
+  position: relative
+=posAbsolute
+  position: absolute
+=displayNone
+  display: none
+=displayBlock
+  display: block
+=displayInlineBlock
+  display: inline-block
+=posFixed
+  position: fixed
+=transitions
+  transition: all .2s ease-in-out
+  -webkit-transition: all .2s ease-in-out
+  -moz-transition: all .2s ease-in-out
+=anchorProperties
+  color: #fff
+  font:
+    family: $fontRobotoRegular
+    size: 12px
+  line-height: 14px
+=hamburgerProp
+  +displayBlock
+  width: 24px
+  height: 1px
+  background: $colorPink
+  top: 50%
+  left: 50%
+  margin: 0 0 0 -12px
+  &:after, &:before
+    background: $colorPink
+=outLineNone
+  outline: none
+  outline-style: none
+  outline-width: 0
+
+=borderTopBottom
+  border-top-width: 1px
+  border-bottom-width: 1px
+  border-style: solid
+  border-left: none
+  border-right: none
+
+=buttonPink
+  background-color: $colorPink
+  color: #fff
+  +transitions
+  &:hover
+    background-color: $colorPink
+    color: #fff
+  &:focus:active, &:focus, &:active
+    +outLineNone
+    color: #fff
+    border: none
+    background-color: $colorPink
+    text-decoration: none
+
+=buttonBorderPorp
+  background: transparent
+  font:
+    family: $fontRobotoRegular
+    size: 12px
+    weight: normal
+  line-height: 14px
+  padding: 8px 10px
+  +transitions
+=buttonBlueBorder
+  color: $blueLinkColor
+  border: 1px solid $blueLinkColor
+  &:hover, &:focus
+    background-color: $blueLinkColorHover
+    color: $white
+    text-decoration: none
+=buttonPinkBorder
+  color: $colorPink
+  border: 1px solid $colorPink
+  &:hover, &:focus
+    background-color: $colorPinkHover
+    color: $white
+    text-decoration: none
+
+=customCheckbox
+  width: 19px
+  height: 19px
+  margin: 0
+  +posAbsolute
+=pullLeft
+  float: left
+=pullRight
+  float: right
+=h2Style
+  font:
+    family: $fontRobotoMedium
+    size: 24px
+    weight: normal
+  color: $darkBlackish333
+  text-transform: uppercase
+  line-height: 26px
+=ellipsisProp
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+=disableTextSelection
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -o-user-select: none
+  user-select: none
+=rotate-180deg
+  -webkit-transform: rotate(-180deg)
+  -ms-transform:     rotate(-180deg)
+  transform:         rotate(-180deg)
+=rotate180deg
+  -webkit-transform: rotate(180deg)
+  -ms-transform:     rotate(180deg)
+  transform:         rotate(180deg)
+=rotate360deg
+  -webkit-transform: rotate(360deg)
+  -ms-transform:     rotate(360deg)
+  transform:         rotate(360deg)
+
+=formElementLabel
+  font:
+    family: $fontRobotoRegular
+    size: 12px
+    weight: normal
+  color: $darkBlackish333
+  left: 14px
+  top: 4px
+  z-index: 3
+  margin: 0
+
+input:-moz-placeholder
+    box-shadow:none !important
+
+input,textarea:invalid
+    box-shadow: none
+
+input,textarea
+    box-shadow: none
+
+html
+  min-height: 100%
+  font-family: $fontArialRegular
+  +posRelative
+.paddingBottom174
+  padding-bottom: 174px
+.paddingBottom0
+  padding-bottom: 0
+
+
+
+body
+  scrollbar-face-color: $darkBlackish333;
+  scrollbar-track-color: $lightGreyFC;
+  font-family: $fontArialRegular
+  background: $lightGreyFC
+  min-width: 1000px
+  &.listElementWrap
+    padding-top: 157px
+  &.outStandList
+    padding-top: 223px
+
+.seviceContentWrap
+  *::-webkit-scrollbar
+        width:  5px;
+        height: 5px;
+        border-radius: 10px;
+  *::-webkit-scrollbar-thumb
+        background: $darkBlackish333;
+        border-radius: 10px;
+  *::-webkit-scrollbar-track
+        background: $lightGreyFC;
+        border-radius: 10px;
+*::-moz-selection
+  background-color: $colorPink
+  color: $white
+*::selection
+  background-color: $colorPink
+  color: $white
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="phone"],
+input[type="file"],
+textarea,
+select
+  border: 1px solid $lightGreyBorderDDD
+  color: $fontColorDarker666
+  &:focus
+    +outLineNone
+    border-color: $lightColorGreyBBB
+.paddingZero
+  padding: 0
+.paddingTop40
+  padding-top: 40px
+.paddingTop103
+  padding-top: 103px !important
+.paddingTop110
+  padding-top: 110px !important
+.paddingTop125
+  padding-top: 125px !important
+.marginTop20
+  margin-top: 20px
+.marginTop8
+  margin-top: 8px
+.mesgLabel
+  +displayInlineBlock
+  padding: 0 4px
+  font:
+    family: $fontArialRegular
+    size: 11px
+    weight: bold
+  border-radius: 4px
+.mesgLabel-danger
+  background-color: $colorLightPink
+  color: $colorPink
+.mandatoryStar
+  color: $colorPink
+.mandatoryField
+  color: $greyFontAAA
+//Custom Radio
+.radioButtons
+  +posRelative
+  height: 30px
+  background: $colorPink
+  border-radius: 20px
+  overflow: hidden
+  .toggleIcon
+    +displayBlock
+    width: 26px
+    height: 26px
+    border-radius: 50%
+    background: $white
+    +posAbsolute
+    left: 2px
+    top: 50%
+    margin-top: -13px
+    z-index: 0
+    cursor: pointer
+    +transitions
+  label
+    +posAbsolute
+    height: 100%
+    color: $white
+    font:
+      family: $fontRobotoMedium
+      size: 12px
+      weight: normal
+    line-height: 30px
+    cursor: pointer
+    z-index: 1
+    +transitions
+    input
+      +posAbsolute
+      opacity: 0
+      top: 4px
+      left: 2px
+      cursor: pointer
+.peopleWrap
+  .midHeader
+    z-index: 100
+    .actionBtnsWrap
+      padding-right: 0
+      margin: 15px 0
+      .darkPinkBtn
+        margin: 0 10px
+
+.raiseElementWrap
+  .breadCrumbSection
+    z-index: 100
+//Custom Info Tooltip
+.infoLabel
+  +posAbsolute
+  right: 3%
+  top: 50%
+  margin-top: -10px
+  .infoIlabel
+    +displayBlock
+    width: 20px
+    height: 20px
+    text-align: center
+    font-family: $fontRobotoRegular
+    font-size: 12px
+    line-height: 17px
+    border-radius: 50%
+    border: 1px solid $greyFontAAA
+    color: $greyFontAAA
+    background-color: $white
+    cursor: pointer
+    &:hover
+        background-color: $blueLinkColor
+        border-color: $blueLinkColor
+        color: $white
+.toolTipWrap
+  background: $blueLink
+  padding: 10px
+  width: 270px
+  color: $white
+  +posAbsolute
+  text-align: left
+  right: -288px
+  top: -14px
+  opacity: 0
+  +transitions
+  &:after, &:before
+    right: 100%
+    top: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    +posAbsolute
+    pointer-events: none
+  &:after
+    border-color: rgba(17, 102, 238, 0)
+    border-right-color: $blueLink
+    border-width: 8px
+    margin-top: -9px
+  &:before
+    border-color: rgba(17, 102, 238, 0)
+    border-right-color: $blueLink
+    border-width: 10px
+    margin-top: -11px
+.infoIlabel:hover + .toolTipWrap
+  opacity: 1
+  right: -283px
+
+.pinkText
+  color: $colorPink
+.greenDarkText
+  color: $greenDarkText
+.greenText
+  color: $stronGreenColor
+.grayText
+  color: $greyColorLight999
+.darkGrayText
+  color: $fontColorDarker666
+.blueText
+  color: $blueLinkColor
+.balckText
+  color: $darkBlackish333
+
+// Highlight texts
+.pinkHilight
+  background: $darkErrorPink
+  color: $alertErrorFont
+.lightHilight
+  background: $lightWarningPink
+  color: $alertWarningFont
+.blueHilight
+  background: $lightInfoBlue
+  color: $alertInfoFont
+.greenHilight
+  background: $lightSuccessGreen
+  color: $alertSuccessFont
+.grayHilight
+  background-color: $grayBgcolor
+  color: $fontColorDarker666
+.whiteHilight
+  background: $white
+  color: $darkBlackish333
+
+// Strong and weak Labels
+.strongLabel, .weakLabel
+  +displayInlineBlock
+  font:
+    family: $fontArialRegular
+    size: 9px
+    weight: bold
+  color: $white
+  padding: 0 2px
+  text-transform: uppercase
+  background: $stronGreenColor
+.weakLabel
+  background: $colorREDff0000
+// Custom Selectbox
+.customSelectGroup
+  width: 100%
+  +posRelative
+  .customSelectList
+    list-style: none
+    +displayNone
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 84px !important
+    +posAbsolute
+    top: 48px !important
+    overflow-y: auto
+    left: 0
+    border: 1px solid $lightGreyBorderDDD
+    border-top: none
+    background: $white
+    z-index: 10
+    .disabledItem
+      pointer-events: none
+    li
+      padding: 7px 14px
+      cursor: pointer
+      font-size: 12px
+      color: $black
+      &:first-child
+        color: $black
+        &:hover
+          background: none
+      &:hover
+        background: $colorGreyHoverHeader
+      label
+        position: relative
+        width: 100%
+        left: 0
+  p
+    border-radius: 0
+    width: 100%
+    border: 1px solid $lightGreyBorderDDD
+    border-left: none
+    height: 48px
+    top: 0
+    left: 0
+    +posRelative
+    z-index: 2
+    background: $white
+    +transitions
+    cursor: pointer
+    font-size: 14px
+    margin: 0
+    white-space: nowrap
+    text-overflow: ellipsis
+    overflow: hidden
+    padding-right: 30px
+  &:first-child
+    p
+      border-left: 1px solid $lightGreyBorderDDD
+  label
+    +formElementLabel
+    +posAbsolute
+    opacity: 1
+    margin: 0
+    z-index: 3
+    &.signUpLabel
+        color: $greyFontAAA
+        &:hover
+            color: $darkBlackish333
+  p:after
+    background: url("../images/icon-sprite.png") no-repeat -48px -324px
+    top: 50%
+    left: 95%
+    border: none
+    content: " "
+    width: 13px
+    height: 8px
+    +posAbsolute
+    pointer-events: none
+    margin-top: -4px
+    +transitions
+  p.selectOpen:after
+    +rotate-180deg
+  &:hover
+    label
+      color: $black
+  &.dropDownOpened
+    .selectContent,
+    .customSelectList,
+    .selectContentBox
+      border: 1px solid $lightColorGreyBBB
+    .customSelectList
+      border-top: none
+.selectContent,
+.selectContentBox
+  padding: 26px 0 0 14px
+
+//Start: Drop down and sorting arrow on Ticket listing page
+.sortDownArrow, .dropDownArrow
+  +displayInlineBlock
+  +posAbsolute
+  +transitions
+.sortDownArrow
+  transition: none
+  background: $colorDarkGreyArrow9E
+  top: 50%
+  right: 4px
+  margin-top: -2px
+  &:before, &:after
+    top: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    border-color: rgba(158, 158, 158, 0)
+    border-top-color: $colorDarkGreyArrow9E
+    border-width: 4px
+    margin-left: -10px
+.dropDownArrow
+  background: $white
+  top: 19px
+  right: 10px
+  &:before, &:after
+    top: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+  &:before
+    border-color: rgba(95, 95, 95, 0)
+    border-top-color: $colorGreyArrow5F
+    border-width: 6px
+    margin-left: -8px
+  &:after
+    border-color: rgba(255, 255, 255, 0)
+    border-top-color: $white
+    border-width: 4px
+    margin-left: -6px
+
+//Sprite Icon css
+[class^="IconVend-"], [class*="IconVend-"],
+[class^="NMIcon-"], [class*="NMIcon-"]
+  +displayInlineBlock
+  width: auto
+  height: auto
+  vertical-align: text-top
+  background: none
+  border: none
+  +outLineNone
+  background: url("../images/icon-sprite.png") no-repeat center
+
+.NMIcon-attachFile
+  background-position: 0 0
+
+.NMIcon-userGrey
+  background-position: 0 -71px
+
+.NMIcon-darkTickMark
+  background-position: 0 -124px
+
+.NMIcon-pinkSearch
+  background-position: 0 -179px
+
+.NMIcon-graySearch
+  background-position: -40px -383px
+
+.NMIcon-pinkBell
+  background-position: -1px -215px
+
+.NMIcon-userPink
+  background-position: -1px -251px
+
+.NMIcon-cartPink
+  background-position: -1px -287px
+
+.NMIcon-settingsPink
+  background-position: -1px -324px
+
+.NMIcon-filter
+  background-position: -41px -287px
+  width: 20px
+  height: 18px
+  margin: -9px 0 0 -10px
+
+.NMIcon-assignedUserIcon
+  background-position: 0 -450px
+
+.NMIcon-doubleArrowUp
+  background-position: 0 -522px
+
+.NMIcon-loginScaling
+  background-position: 0 -557px
+
+.NMIcon-loginInformation
+  background-position: 0 -594px
+
+.NMIcon-loginWhitepaper
+  background-position: 0 -629px
+
+.NMIcon-loginLeadership
+  background-position: 0 -666px
+
+.NMIcon-setting
+  width: 19px
+  height: 16px
+  margin: -8px 0 0 -9px
+  background-position: -42px -58px
+
+.NMIcon-accrodArow
+  height: 21px
+  width: 21px
+  display: inline-block
+  background-position: -45px -88px
+  &:hover
+    background-color: $blueLink
+    background-position: -45px -105px
+  &.active
+    background-color: $fontColorDarker666
+    background-position: -45px -122px
+
+.NMIcon-filterClose
+  background-position: 0 -350px
+  width: 12px
+  height: 13px
+  margin: -7px 0 0 -6px
+
+.NMIcon-edit
+  background-position: -25px -216px
+  width: 36px
+  height: 32px
+
+.NMIcon-download
+  background-position: -26px -588px
+  width: 36px
+  height: 32px
+.NMIcon-attachment
+  background-position: -25px -411px
+  width: 36px
+  height: 32px
+
+a
+  +anchorProperties
+  &:hover, &:focus
+    color: #fff
+    +outLineNone
+p
+  font-size: 12px
+  line-height: 14px
+
+h2
+  +h2Style
+
+.marginBottom17
+  margin-bottom: 17px
+
+.marginBottom10
+  margin-bottom: 10px
+
+.rippleBtn, .reOpenBtn, .provideInputBtn
+  +posRelative
+  overflow: hidden
+
+.darkGreyBtn,
+.darkPinkBtn,
+.darkBlueBtn
+  border: none
+  background: none
+  padding: 14px 21px
+  text-align: center
+  cursor: pointer
+  line-height: 14px
+  font:
+    family: $fontRobotoRegular
+    size: 14px
+    weight: normal
+  text-transform: capitalize
+  color: $white
+  background: $darkBlackish333
+  &:focus
+    +outLineNone
+  &:hover
+    text-decoration: none
+
+.customLinks
+  text-decoration: none
+  font:
+    family: $fontRobotoRegular
+    size: 16px
+    weight: normal
+  line-height: 18px
+  color: $blueLinkColor
+  &:hover
+    text-decoration: none
+    color: $darkGrey222
+.darkPinkBtn
+  background: $colorPink
+  &:hover
+    background: $colorPinkHover
+.darkGreyBtn:hover
+  background: $darkGreyHover12
+.blackTheme
+  background: $black url("../images/NM_wave.png") no-repeat center bottom
+  background-size: contain
+  background-color: $lightGreyFC
+  padding-top: 0
+.errorPage
+  background: url("../images/error-page-bg.jpg") no-repeat center/cover
+  header, footer
+    +displayNone
+  // Starts: Header
+  header
+    padding: 18px 30px 18px 18px
+.whiteColorLogo
+  margin: 28px 0 50px 0
+  .netMagiclogo
+    float: none
+    margin: 0 auto
+    display: block
+.leftMenuWrap
+  a, span
+    float: left
+    +transitions
+.hamburgerMenu
+  margin-right: 27px
+  &.active
+    .hamburgerOverlay
+      background: $hamburgerGreyColor
+    .hamburgerBtn:before, .hamburgerBtn:after
+      top: 0
+      background: $darkBlackish333
+  &.activeCross
+    .hamburgerBtn:before
+      transform: rotate(45deg)
+    .hamburgerBtn:after
+      transform: rotate(-45deg)
+    .hamburgerBtn
+      background: transparent
+.headerWrap
+  .leftMenuWrap
+    .hamburgerMenu.active
+      background: $colorGreyHoverHeader
+
+.hamburgerOverlay
+  padding: 12px 12px 28px 12px
+  margin-right: 5px
+.textMenu
+  margin-top: 12px
+.hamburgerBtn
+  +posRelative
+  +hamburgerProp
+  +transitions
+  &:after, &:before
+    content: ""
+    +posAbsolute
+    +hamburgerProp
+    +transitions
+  &:before
+    top: -6px
+  &:after
+    top: 6px
+
+.headerNttLogo
+    display: inline-block
+    vertical-align: middle
+    margin-top: 90px
+    &:nth-child(1)
+        margin-right: 30px
+.netMagiclogo
+  background: url('../images/net-logo-white.png') no-repeat center/100%
+  width: 50%
+  height: 44px
+.signUpWrap
+  color: #8c8c8c
+  margin-top: 10px
+  text-align: center
+// Starts: Left slider menu
+.leftSliderMenu
+  +posFixed
+  width: 260px
+  background: #696969
+  min-height: 100%
+  top: 60px
+  left: -278px
+  +transitions
+  &.slideOut
+    left: 18px
+
+//Starts: New White Header Design
+.whiteThemeHeader
+  height: 54px
+  z-index: 11
+.headerWrap
+  border-bottom: 1px solid $lightFontGreyCCC
+  background: $white
+  padding: 0
+  margin-left: 0
+  +transitions
+  &.bottomShadowScroll
+    box-shadow: $headerBoxShadow
+  .leftMenuWrap
+    padding: 0
+    height: 53px
+    a
+      width: 53px
+      height: 53px
+      display: block
+      margin: 0
+      +posRelative
+      background: #fff
+      border-right: 1px solid $lightFontGreyCCC
+      +transitions
+      &:hover
+        background: $colorGreyHoverHeader
+    .netMagicMainlogo
+        width: 50%
+        height: 53px
+        img
+            width: 100%
+            height: 100%
+    .netMagiclogo
+      width: 50%
+      height: 53px
+      span
+        +displayBlock
+        width: 100%
+        height: 34px
+        padding: 9px 15px
+        box-sizing: border-box
+        img
+          width: 100%
+    span
+      float: none
+.headerSearchBox
+  padding: 0
+  height: 53px
+  color: #b3b3b3
+  font-size: 14px
+  +posRelative
+  .sliderWrapper
+    width: 87%
+    position: absolute
+    z-index: 5
+  .autoFill-widget
+    width: calc(100% - 109px)
+    height: 53px
+    +posRelative
+  .searchBox
+    +transitions
+    +posAbsolute
+    border-right: 1px solid rgb(204, 204, 204)
+    position: relative
+    min-height: 53px
+  .slideSearchLeft
+    display: inline-block
+    height: 53px
+    width: 48px
+    &:hover
+      background-color: #F8F8F8
+  .slideLeft
+    position: absolute
+    top: 0
+    width: 0
+    right: 0
+    height: 100%
+    min-height: 53px
+    z-index: 4
+    overflow: hidden
+    .searchBox
+      width: 100%
+      padding-left: 55px
+  .searchBox
+    +transitions
+    position: absolute
+    width: 100%
+    border: none
+    box-shadow: none
+    height: 53px
+    padding: 8px 50px 8px 15px
+    cursor: pointer
+     position: absolute
+    &:focus
+      +outLineNone
+  &:hover
+    .searchBox
+      background: $colorGreyHoverHeader
+  &:hover
+    .noHover
+      background: transparent
+  .submitSearch, .submitSearch:hover, .submitSearch:focus
+    +posAbsolute
+    right: 18px
+    top: 18px
+    width: 17px
+    height: 17px
+    text-indent: -9999px
+  .showSearch, .showSearch:hover, .showSearch:focus
+    +posAbsolute
+    left: 18px
+    top: 18px
+    width: 17px
+    height: 17px
+    text-indent: -9999px
+    float: left
+    z-index: 1
+.rightMenuPanel
+  padding-left: 0
+  height: 53px
+  +posRelative
+  a
+    +pullLeft
+    +outLineNone
+    border-right: 1px solid $lightFontGreyCCC
+    +posRelative
+    height: 53px
+    line-height: 52px
+    color: $darkGrey222
+    +transitions
+    &:hover
+      background: $colorGreyHoverHeader
+      overflow: visible
+
+.settingsDropDown, .buyDropDown
+  border: 1px solid $lightFontGreyCCC
+  border-top: none
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.06)
+  +posAbsolute
+  right: 0
+  top: 54px
+  list-style: none
+  width: 275px
+  margin: 0
+  padding: 15px
+  background: $white
+  +displayNone
+  li
+    border-top: 1px solid $lightGreyEEE
+    float: none
+    &:first-child
+      border-top: none
+      a
+          span
+              font-size: 18px
+              line-height: 20px
+              color: $darkBlackish333
+              font-family: $fontRobotLight
+
+
+
+    a
+      border: none
+      height: auto
+      float: none
+      +displayBlock
+      padding: 12px 15px
+      font:
+        family: $fontRobotoRegular
+        size: 14px
+      line-height: 16px
+      color: $blueLink
+      &:hover
+        text-decoration: none
+        background: $colorGreyHoverHeader
+      &.logoutLink
+        color: $colorPink
+
+.searchWrapper
+  .customerName,
+  .assocCustomerName
+    width: auto
+    font: 12px/18px Arial
+    border-radius: 15px
+    display: inline-block
+    vertical-align: middle
+    text-align: center
+    padding: 4px 16px 3px 16px
+    color: $white
+    margin: 14px 5px
+    span
+      display: inline-block
+    .idNum
+        color: $darkBlackish333
+  .assocCustomerName
+      padding: 4px 22px 3px 10px
+  .associateHoverName
+    position: absolute
+    display: none
+    top: 100%
+    margin-bottom: -33px
+    left: 0
+    background-color: $darkBlackish333
+    color: $white
+    padding: 5px 10px
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: 49%
+      margin-top: -5px
+      width: 0
+      height: 0
+      border-left: 5px solid transparent
+      border-right: 5px solid transparent
+      border-bottom: 5px solid $darkBlackish333
+      border-radius: 5px
+  .customerName
+    border: 1px solid $blueLink
+    color: $blueLink
+    +posRelative
+    &:hover
+      .associateHoverName
+        display: block
+  .assocCustomerName
+    background-color: $lightGreyEEE
+    +posRelative
+    color: grey
+    &.projectName
+      background: $lightGreyBorderDDD
+    .removeIcon
+      +posAbsolute
+      right: 7px
+      top: 3px
+      font-style: normal
+      font-weight: bold
+      font-size: 12px
+      cursor: pointer
+      &:hover
+          color: $blueLinkColor
+    &:hover
+      .associateHoverName
+        display: block
+  .searchBox
+    width: 75.3%
+.headRightMenus
+  width: 53px
+  [class^="NMIcon-"], [class*="NMIcon-"]
+    +displayBlock
+    +posAbsolute
+    top: 50%
+    left: 50%
+  &.activeLink
+    background: $colorGreyHoverHeader
+    .pinkSettingsWrap
+      background-position-x: -19px
+.pinkBellWrap, .pinkCartWrap
+  width: 20px
+  height: 20px
+  margin: -10px 0 0 -10px
+  overflow: hidden
+  +animationEffects
+.pinkSettingsWrap
+  width: 18px
+  height: 18px
+  margin: -9px 0 0 -9px
+  +animationEffects
+.headRightMenus:hover
+  .pinkBellWrap
+    +swingAnime
+  .pinkSettingsWrap
+    +rotateIn
+  .pinkCartWrap
+    +bounceInLeft
+.notifyNumber
+  +displayBlock
+  +posAbsolute
+  width: 22px
+  height: 17px
+  border-radius: 25%
+  top: 6px
+  right: 5px
+  font:
+    family: $fontArialRegular
+    size: 10px
+    weight: normal
+  line-height: 16px
+  color: $white
+  background: $colorPink
+  text-align: center
+.userInfoWrap
+  padding: 0 15px
+  width: 70px
+  border-left: 1px solid $lightFontGreyCCC
+  &:after
+    background: url("../images/icon-sprite.png") no-repeat -48px -324px
+    top: 50%
+    right: 20%
+    border: none
+    content: " "
+    width: 13px
+    height: 8px
+    +posAbsolute
+    pointer-events: none
+    margin-top: -4px
+    +transitions
+  &.activeLink:after
+    +rotate-180deg
+    background-position: -48px -332px
+  &.activeLink
+    background: $colorGreyHoverHeader
+    .userPinkIcon
+      background-position: -39px -350px
+  span
+    float: left
+  .userNameInfo
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+    color: $darkGrey222
+    margin: 15px 0 0 14px
+    line-height: 16px
+    float: none
+    display: block
+  .userId
+    font:
+      family: $fontArialRegular
+      size: 11px
+    color: $fontColorDarker666
+    line-height: 14px
+    margin-left: 14px
+    float: none
+    display: block
+.userPinkIcon
+  width: 22px
+  height: 22px
+  margin-top: 15px
+.rightMenuPanel
+  .userInfoWrap
+    border-right: none
+    .userInfo
+      padding-left: 20px
+      .userNameInfo
+        width: 150px
+        text-overflow: ellipsis
+        overflow: hidden
+        text-align: center
+
+
+//Starts: Breadcrumb
+.breadCrumbSection
+  top: 54px
+  background: $white
+  +posFixed
+  width: 100%
+  z-index: 101
+  padding: 7px 0
+  border-bottom: 1px solid $lightFontGreyCCC
+  .container
+    padding-left: 0
+    padding-right: 0
+  .breadcrumb
+    margin-bottom: 0
+  .pageHeading
+    font:
+      family: $fontRobotoRegular
+      size: 24px
+      weight: normal
+    color: $darkBlackish333
+    text-transform: capitalize
+    margin: 10px 0 3px 0
+
+.bottomShadowScroll
+  box-shadow: $headerBoxShadow
+.listElementWrap, .raiseElementWrap
+  padding-top: 91px
+  .breadCrumbSection
+    top: 54px
+.tableHeader, .headerWrap, .breadCrumbSection
+  +transitions
+
+.breadCrumbCustom
+  background-color: transparent
+  padding: 0
+  border-radius: 0
+  font-size: 12px
+  li
+    +pullLeft
+  a
+    font:
+      family: $fontArialRegular
+    color: $blueLink
+    text-decoration: underline
+    &:hover
+      text-decoration: none
+  & > li + li:before
+    content: ">"
+    color: $lightColorGreyBBB
+  & > .active
+    color: $lightColorGreyBBB
+
+//Starts: Footer Css
+.pageData
+    min-height: 530px
+
+.footerForLogin
+  width: 100%
+  bottom: 0
+.betaMsg
+    position: fixed
+    bottom: 0
+    left: 17%
+    margin-bottom: 30px
+    color: $darkBlackish333
+    width: 75%
+    .pinkText
+      color: $colorPink
+      &:hover
+        color: $colorPink
+        text-decoration: underline
+.classicmnpLink
+    position: fixed
+    bottom: 30px
+    z-index: 1
+    margin: 0
+    right: 20px
+    color: #FFFFFF
+    background-color: #333333
+    font-size: 12px
+    line-height: 14px
+    text-transform: uppercase
+    text-decoration: none
+    padding: 15px 20px
+    border-radius: 27px
+
+.footerMainWrap
+    margin-top: 30px
+    font-size: 12px
+    padding: 15px 0
+    border-top: 1px solid $lightGreyEEE
+    text-align: center
+    a:hover
+        text-decoration: underline
+        color: $pinkTextColor
+.footerLinkWrap
+  list-style: none
+  margin: 0
+  padding: 10px 0
+  width: 100%
+  text-align: center
+  li
+    +displayInlineBlock
+    padding: 0 14px
+    border-left: 1px solid $fontColorDarker666
+    line-height: 14px
+    &:first-child
+      border-left: none
+    a
+      font:
+        family: $fontArialRegular
+        size: 12px
+        weight: normal
+      color: $fontColorDarker666
+      text-transform: capitalize
+.blackTheme
+  .footerLinkWrap
+    li
+      border-color: $white
+      a
+        color: $white
+//Starts: Login Footer
+.footerForLogin
+  background: rgba(0, 0, 0, 0.5)
+  padding: 16px 0
+  text-align: center
+  p
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+    line-height: 16px
+    color: $fontColorDarker666
+    margin-bottom: 0
+  .companyLogosWrap
+    list-style: none
+    margin: 18px 0 0 0
+    padding: 0
+    li
+      +displayInlineBlock
+      vertical-align: middle
+      margin-left: 36px
+      &:first-child
+        margin-left: 0
+//Ends: Login Footer
+
+//Starts: Dashboard: TEMP
+.widgetWrap
+  background: #fff
+  margin: 30px auto
+  width: 400px
+  height: 200px
+  border: 1px solid $lightGreyColorEA
+  text-align: center
+  color: #888
+  margin-bottom: 54px
+  a
+    +displayInlineBlock
+    border: 2px solid $colorPink
+    background: $colorPink
+    border-radius: 2px
+    width: 100px
+    padding: 20px
+    color: #fff
+    font-size: 18px
+    line-height: 20px
+    +transitions
+    &:hover
+      text-decoration: none
+      background: transparent
+      color: $colorPink
+
+// Error Page CSS
+.errorPage
+  text-align: center
+  +posRelative
+  color: $white
+.errorWrapper
+  margin-top: 140px
+  span
+    +displayInlineBlock
+    width: 143px
+    height: 38px
+    margin-bottom: 56px
+  h1
+    font:
+      family: $fontRobotThin, "sans-serif"
+      size: 48px
+      weight: normal
+    line-height: 50px
+    margin: 0 0 44px 0
+  .customSubmitBtn
+    +displayInlineBlock
+    font:
+      family: $fontRobotoRegular, "sans-serif"
+      size: 14px
+      weight: normal
+    width: 150px
+    height: 40px
+
+//NOTE: Listing Filter css
+.listingFilterWrap
+  width: 0
+  background: $white
+  min-height: 100%
+  +posFixed
+  top: 157px
+  left: auto
+  z-index: 5
+  overflow: hidden
+  +transitions
+  box-shadow : 3px 4px 17px rgba(0, 0, 0, 0.05)
+  .darkInputBoxWrap
+    +displayInlineBlock
+  h3
+    opacity: 0
+    padding: 26px 30px
+    margin: 0
+    font:
+      family: $fontRobotoRegular
+      size: 16px
+      weight: normal
+    color: $lightColorGreyBBB
+    +transitions
+  .accordionParent, .filterbtnWrap
+    opacity: 0
+    +transitions
+  &.filterActive
+    left: auto
+    width: 370px
+    h3, .accordionParent, .filterbtnWrap
+      -webkit-transition-delay: 0.4s
+      -moz-transition-delay: 0.4s
+      -ms-transition-delay: 0.4s
+      transition-delay: 0.4s
+      opacity: 1
+  .listFilterInnerWrap
+    .dropDownArrow
+      background: url("../images/icon-sprite.png") no-repeat -48px -324px
+      top: 22px
+      right: 15px
+      width: 13px
+      height: 8px
+      &:before, &:after
+        background: none
+        border: none
+    height: calc(100% - 200px)
+    margin-bottom: 200px
+  .scrollbar-inner > .scroll-element.scroll-y
+    width: 4px
+.filersLists, .accordionChild
+  width: 100%
+  margin: 0
+  padding: 0
+  list-style: none
+  border-top: 1px solid $lightFontGreyCCC
+.filersLists > li, .accordionChild > li
+  +transitions
+  border-bottom: 1px solid $lightFontGreyCCC
+  background: $white
+.filersLists > li:hover
+  background: $colorGreyHoverHeader
+.accordionParent
+  width: 100%
+  height: 100%
+  padding: 14px 26px 14px 58px
+  box-sizing: border-box
+  margin: 0
+  cursor: pointer
+  +posRelative
+  span
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+      weight: normal
+    color: $blueLinkColor
+    line-height: 20px
+  input, .checkboxLayer
+    +customCheckbox
+    top: 14px
+    left: 26px
+    cursor: pointer
+  .checkboxLayer
+    border: 1px solid $blueLinkColor
+    z-index: 1
+  input
+    z-index: 2
+    opacity: 0
+  .dropDownArrow
+    right: 30px
+    &:before
+      border-top-color: $colorPink
+  &.openAccordion
+    background: $lightBGGreyFB
+    .dropDownArrow
+      +rotate-180deg
+      &:before
+        border-top-color: $colorGreyArrow5F
+  i.checkboxChecked
+    background: url("../images/icon-sprite.png") no-repeat 3px -401px
+.accordionChild
+  +displayNone
+  border: none
+  margin: 0
+  padding: 0 0 0 56px
+  background: $lightBGGreyFB
+  li
+    border: none
+    padding: 14px 20px 14px 32px
+    background: $lightBGGreyFB
+    +posRelative
+    &:nth-child(odd), &:nth-child(odd):hover
+      background: $lightBGGreyFB
+    input, .checkboxLayer
+      +customCheckbox
+      left: 0
+      top: 50%
+      margin-top: -10px
+    .checkboxLayer
+      border: 1px solid $darkBlackish333
+      z-index: 1
+    input
+      z-index: 2
+      opacity: 0
+    &.openAccordion
+      background: $lightBGGreyFB
+    i.checkboxChecked
+      background: url("../images/icon-sprite.png") no-repeat 3px -419px
+.filterbtnWrap
+  padding: 10px 30px
+  .darkPinkBtn
+    padding: 12px 21px
+  .clearCheckbox
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+      weight: bold
+    color: $blueLinkColor
+    line-height: 16px
+    +displayInlineBlock
+    vertical-align: top
+    margin: 16px 0 0 12px
+    &:hover
+      text-decoration: none
+.mainMenu
+  top: 53px
+  z-index: 11
+  width: 335px
+  left: -350px
+  padding: 15px 0
+  box-sizing: border-box
+  box-shadow: 0 1px 50px 5px rgba(0, 0, 0, 0.2)
+  .mainMenuBtnWrap, .mainMenuListWrap
+    padding: 0 14px 15px 14px
+  .mainMenuBtnWrap
+    border-bottom: 1px solid $lightFontGreyCCC
+  .mainMenuListWrap
+    height: calc(100% - 100px)
+  +transitions
+  .filersLists
+    border-top: none
+  .accordionParent, .filterbtnWrap
+    opacity: 1
+  .darkPinkBtn
+    +displayBlock
+    width: 47%
+    padding: 12px 21px
+  .accordionParent
+    padding: 14px 16px 14px 18px
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+    &:hover, &.openAccordion
+      background: $mainMenuHoverColor
+      span
+        color: $darkGrey222
+    .dropDownArrow
+      background: url("../images/icon-sprite.png") no-repeat -48px -324px
+      top: 22px
+      right: 15px
+      width: 13px
+      height: 8px
+      &:before, &:after
+        background: none
+        border: none
+    &.openAccordion
+      .dropDownArrow
+        margin-top: 0
+  .accordionChild
+    padding-left: 15px
+    li
+      padding: 14px 11px 14px 15px
+      cursor: pointer
+      background: none
+      font:
+        family: $fontRobotoRegular
+        size: 13px
+      &:hover
+        background: $subMenuHoverColor
+        color: $blueLinkColor
+      &:first-child
+        border-top: none
+  &.slideIn
+    left: 0
+.blackOverlay, .fullscreenOverlay
+  +displayNone
+  width: 100%
+  min-height: 100%
+  height: 100%
+  top: 0
+  background: rgba(0, 0, 0, 0.3)
+  +posFixed
+  z-index: 7
+
+.fullscreenOverlay
+  z-index: 11
+
+// Start: Tool Tip Stye
+.toolTipBox
+  +posAbsolute
+  +displayNone
+  width: 80px
+  background: rgba(51, 51, 51, 0.9)
+  border: 4px solid rgba(51, 51, 51, 0)
+  font:
+    family: $fontRobotoRegular
+    size: 12px
+  color: $lightGreyBorderDDD
+  line-height: 16px
+  padding: 3px 5px
+  text-align: center
+  font-style: normal
+  border-radius: 3px
+  white-space: nowrap
+  top: 53px
+  left: -14px
+  z-index: 10
+  &:before
+    bottom: 100%
+    left: 50%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    +posAbsolute
+    pointer-events: none
+  &:before
+    top: -20px
+    border-color: rgba(51, 51, 51, 0)
+    border-bottom-color: rgba(51, 51, 51, 0.9)
+    border-width: 8px
+    margin-left: -8px
+.shoppingCartLink
+  .toolTipBox
+    width: 116px
+    left: -32px
+.hamburgerMenu
+  .toolTipBox
+    width: 84px
+    left: 0
+    &:before
+      margin-left: -23px
+.headerWrap
+  a:hover
+    .toolTipBox
+      +displayBlock
+      top: 53px
+.filterIconWrap
+  .toolTipBox
+    width: 55px
+    left: -4px
+    top: 55px
+.filterIconWrap:hover
+  .toolTipBox
+    +displayBlock
+  &:before
+    margin-left: 8px
+.accordTrigger:hover + .toolTipBox
+  +displayBlock
+
+// Starts: Alert box
+.alertBox
+  +displayNone
+  .closeAlert
+    +posAbsolute
+    right: 15px
+    top: 13px
+    width: 11px
+    height: 11px
+    &:before, &:after
+      +posAbsolute
+      content: ''
+      left: 5px
+      height: 14px
+      width: 1px
+      background-color: $alertInfoFont
+    &:before
+      transform: rotate(45deg)
+      -webkit-transform: rotate(45deg)
+      -moz-transform: rotate(45deg)
+      -ms-transform: rotate(45deg)
+    &:after
+      transform: rotate(-45deg)
+      -webkit-transform: rotate(-45deg)
+      -moz-transform: rotate(-45deg)
+      -ms-transform: rotate(-45deg)
+  position: fixed !important
+  z-index: 10
+  left: 50%
+  margin-left: -585px
+  top: 64px
+  box-sizing: border-box
+  padding: 10px 42px 10px 15px
+  background: $lightInfoBlue
+  border: 1px solid $alertInfoBlueBrdr
+  font:
+    family: $fontRobotoRegular
+    size: 13px
+  color: $alertInfoFont
+  &.successMsg
+    background: $lightSuccessGreen
+    border-color: $alertSuccessGreenBrdr
+    color: $alertSuccessFont
+    .closeAlert:before, .closeAlert:after
+      background-color: $alertSuccessFont
+  &.warningMsg
+    background: $lightWarningPink
+    border-color: $alertWarningOrangeBrdr
+    color: $alertWarningFont
+    .closeAlert:before, .closeAlert:after
+      background-color: $alertWarningFont
+  &.errorMsg
+    background: $darkErrorPink
+    border-color: $alertErrorPinkBrdr
+    color: $alertErrorFont
+    .closeAlert:before, .closeAlert:after
+      background-color: $alertErrorFont
+// Ends: Alert box
+
+//Starts: Shopping cart Message box
+.cartMsgBox
+  +transitions
+  +displayNone
+  width: 377px
+  box-sizing: border-box
+  padding: 11px 20px
+  +posAbsolute
+  top: 54px
+  right: 234px
+  background: $white
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.12)
+  &:after, &:before
+    +posAbsolute
+    content: ''
+    border: solid transparent
+    height: 0
+    width: 0
+    pointer-events: none
+    bottom: 100%
+    right: 56px
+  &:after
+    border-color: rgba(255, 255, 255, 0)
+    border-bottom-color: $white
+    border-width: 11px
+    margin-left: -11px
+  &:before
+    border-color: rgba(255, 255, 255, 0)
+    border-bottom-color: rgba(0, 0, 0, 0.17)
+    border-width: 11px
+    margin-left: -11px
+  .cartTitleWrap
+    border-bottom: 1px solid $lightFontGreyCCC
+  .cartTitle
+    font:
+      family: $fontRobotoRegular
+      size: 18px
+    color: $darkBlack111
+    text-transform: uppercase
+    line-height: 30px
+  a
+    width: 95px
+    height: 30px
+    color: $white
+    padding: 0
+    text-align: center
+    line-height: 30px
+    overflow: hidden
+    &:hover
+      background: $colorPinkHover
+  .cartIsEmpty
+    text-align: center
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+    color: $greyColorLight999
+  .cartDetails
+    padding: 20px 0 15px
+  &.slideIn
+    top: 65px
+//Ends: Shopping cart Message box
+
+// Disable links Anchors
+.disableLinkBtn
+  background: $lightGreyBorderDDD
+  color: $lightColorGreyBBB
+  pointer-events: none
+  border: 1px solid $lightGreyBorderDDD
+
+.disableLinkBtn.redBorderBtn
+  color: $lightColorGreyBBB
+  border: 1px solid $lightGreyBorderDDD
+
+.dropDownData
+  overflow: auto
+
+// Alert message style
+.customAlertMsg
+  border-radius: 0
+  position: fixed
+  width: 74%
+  top: 55px
+  left: 50%
+  z-index: 9999
+  display: none
+  margin-left: -37%
+  &.fade.in
+    opacity: 0.9
+// Dashboard Widget Loader
+.loaderOverlay
+  +posFixed
+  width: 100%
+  height: 100%
+  background: $white
+  z-index: 999
+  top: 0
+  left: 0
+  .customLoader
+    +posAbsolute
+    background: url("../images/spinner.gif")
+    background-repeat: no-repeat
+    z-index: 1029
+    width: 60px
+    height: 60px
+    top: 50%
+    left: 50%
+.loader
+  +posFixed
+  top: 0
+  left: 0
+  background: transparent
+  z-index: 1029
+  width: 100%
+  height: 100%
+
+.ticketListItems
+  padding-top: 45px
+.invoiceListItems
+  padding-top: 241px
+  .forSpace
+    width: 36px
+.widgetCommonProp
+  .loader
+    +posAbsolute
+.cssCheckBox
+  .lightColorLabel
+    border: 1px solid $greyColorLight999 !important
+.textOverflow
+  width: 100px
+  word-wrap: normal
+  overflow: hidden
+  text-overflow: ellipsis
+.disableWidget
+  opacity: 0.5
+  pointer-events: none
+
+.ssoIframeContainer
+  width: 100%
+  height: calc(120vh - 167px)
+  border-style: none
+  padding-top: 25px
+.provisionScreen
+  .ssoIframeContainer
+    width: 100%
+    height: calc(100vh - 22px)
+    border-style: none
+.flashMessage
+  color: $black
+  +posAbsolute
+  top: 50%
+  right: 50%
+  font-size: 24px
+.searchBar
+  margin: 5px
+  width: 30%
+  border: 1px solid $lightGreyEEE
+  border-radius: 15px
+  display: inline-block
+  vertical-align: middle
+  input
+    height: 42px
+    width: 100%
+    border: none
+    border-radius: 15px
+    padding: 0 15px
+.actionBtn
+  cursor: pointer
+  color: #1166ee
+input::-webkit-calendar-picker-indicator
+  display: none
+.marginLeft5
+  margin-left: 5px
+.iframe
+  width: 100%
+  height: 120vh
+  margin: 100px auto 0
+  padding: 0
+.tipBox
+  background-color: #000
+  width: 161px
+  position: absolute
+  left: 58px
+  top: 30px
+  padding: 10px
+  opacity: 0.7
+  height: auto
+  z-index: 1000
+  h2
+    color: $white
+    font-size: 12px
+  &::before
+    content: ''
+    display: block
+    width: 0
+    height: 0
+    position: absolute
+    border-right: 8px solid transparent
+    border-left: 8px solid transparent
+    border-bottom: 8px solid black
+    top: -6px
+  .fileAttachment
+    margin-top: 5px
+    display: block
+    &::first-child
+      margin-top: 0
+  .downloadIcon
+    background: url("../images/icon-download.png")
+    display: block
+    width: 20px
+    height: 20px
+    background-size: cover
+    margin-top: 0px
+    float: left
+    margin-right: 10px
+  .downloadText
+    display: block
+    line-height: 20px
+    float: left
+    word-wrap: normal
+    overflow: hidden
+    text-overflow: ellipsis
+    text-transform: none
+.rightMenuPanel
+    .cartDropDown
+        width: 480px
+        position: absolute
+        top: 124%
+        right: 0
+        margin-right: -50px
+        display: block
+        background-color: $white
+        border: 1px solid $lightFontGreyCCC
+        &::after, &::before
+            content: ''
+            position: absolute
+            display: block
+            top: 0
+            left: 85%
+            margin-left: -11px
+            width: 0
+            height: 0
+            border-left: 10px solid transparent
+            border-right: 10px solid transparent
+        &::after
+            margin-top: -12px
+            border-bottom: 14px solid $white
+        &::before
+            margin-top: -13px
+            border-bottom: 13px solid $lightFontGreyCCC
+        .cartHeader
+            padding: 10px 20px
+            border-bottom: 1px solid $lightFontGreyCCC
+            .cartCount
+                float: left
+                margin: 6px 0
+                font-size: 18px
+                line-height: 20px
+                color: $darkBlackish333
+                text-transform: uppercase
+                font-family: $fontRobotoRegular
+                .countNumber
+                    font-size: 12px
+                    line-height: 14px
+                    color: $white
+                    padding: 2px 10px
+                    background-color: $darkBlackish333
+                    border-radius: 8px
+                    margin-left: 5px
+
+        .cartListing
+            padding: 0 20px
+            margin-bottom: 10px
+            .productName
+                width: 128px
+            .quantity
+                width: 25px
+                text-align: center
+            .contract
+                width: 80px
+            .location
+                width: 96px
+            .listingHeader
+                list-style-type: none
+                border-bottom: 1px solid $lightGreyEEE
+                margin: 0
+                li
+                    display: inline-block
+                    margin-right: 5px
+                    span
+                        color: $greyFontAAA
+                        font-size: 12px
+                        line-height: 14px
+                        display: block
+            .cartListingData
+                border-bottom: 1px solid $lightGreyEEE
+                padding: 5px 0
+                .listingBlock
+                    display: inline-block
+                    vertical-align: middle
+                    margin-right: 5px
+                    span
+                        font-size: 12px
+                        line-height: 14px
+                        color: $fontColorDarker666
+                        display: inline-block
+                        word-break: break-all
+                        font-family: $fontRobotoRegular
+                .productName.listingBlock
+                    span
+                        display: block
+                    span:nth-child(1)
+                        font-size: 14px
+                        line-height: 16px
+                        color: $blueLink
+                        text-decoration: underline
+                        margin-bottom: 5px
+                    span:nth-child(2)
+                        font-size: 12px
+                        line-height: 14px
+                        color: $darkBlackish333
+                .editBtn
+                    color: $darkBlackish333
+                    border: 1px solid $darkBlackish333
+                    font-size: 14px
+                    line-height: 16px
+                    padding: 10px 10px
+                    margin: 0 20px 0 10px
+                    &:hover
+                        background-color: $darkBlackish333
+                        color: $white
+                .closeBtn
+                    position: relative
+                    &::after, &::before
+                        content: ''
+                        position: absolute
+                        width: 21px
+                        border: 1px solid $greyFontAAA
+                        top: 0
+                    &::after
+                        left: 50%
+                        transform: rotate(45deg)
+                    &::before
+                        left: 50%
+                        transform: rotate(-45deg)
+
+
+
+    .cartLink, .buyingLink, .provisionLink
+        border-right: none
+        border-left: 1px solid $lightFontGreyCCC
+    .cartLink
+        position: relative
+        cursor: pointer
+    .buyingLink
+        text-decoration: none
+        padding: 0 10px
+        span
+            color: $white
+            background-color: $pinkTextColor
+            padding: 5px 10px
+            border-radius: 2px
+            font-size: 13px
+            line-height: 15px
+    .provisionLink
+        display: block
+        padding: 0 10px
+        i
+            display: inline-block
+            vertical-align: middle
+            background: url(../images/provisionIcon.png) no-repeat
+            height: 21px
+            width: 20px
+            margin: 0 6px
+
+.visibilityHidden
+  visibility: hidden
+.disableDropDown
+  cursor: not-allowed
+  pointer-events: none
+  p.selectContent
+    background: $lightGreyEEE
+.modal-dialog
+  margin: 111px auto
+  
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button
+  -webkit-appearance: none
+  margin: 0
+input[type="number"]
+  -moz-appearance: textfield
+@media (max-width: 1199px)
+    .headerWrap
+        .leftMenuWrap
+            .netMagiclogo
+                span
+                    padding: 12px 5px
+    .userInfoWrap
+        padding: 0 6px
+        width: 56px
+    .rightMenuPanel .buyingLink
+        padding: 0 5px
+
+@media (max-width: 991px)
+    .container
+        width: 970px
+// Retina Css
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
+  [class^="NMicon-"], [class*="NMicon-"]
+    background-image: url("../images/2x-icon-sprite.png")

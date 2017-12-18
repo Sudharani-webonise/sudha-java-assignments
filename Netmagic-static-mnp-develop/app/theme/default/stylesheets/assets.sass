@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700)
+
+.assetsContainer
+  width: 1168px
+  margin: 124px auto 0
+  border: 1px solid #cccccc
+  position: relative
+  .Select-menu-outer
+    z-index: 100
+  .is-open
+    z-index: 100
+  .is-searchable.is-open
+    z-index: 100
+.assetsHeader
+  border-bottom: 1px solid #d7d7d7
+  position: fixed
+  width: 1168px
+  z-index: 101
+
+.assetsMenu
+  width: 1166px
+  list-style-type: none
+  margin-bottom: 0
+  padding: 0
+  background: white
+  li
+    float: left
+    border-right: 1px solid #d7d7d7
+    background-color: #fafafa
+    cursor: pointer
+    &.activeTab
+      background-color: #ffffff
+      margin-bottom: -1px
+      span
+        color: #4e4e4e
+        font-weight: 500
+        margin-top: 1px
+        display: block
+    span
+      display: block
+      font-size: 16px
+      line-height: 18px
+      color: #999999
+      font-weight: 500
+      padding: 14px 20px
+      label
+        font-size: 13px
+        line-height: 22px
+        color: #afafaf
+        background-color: #eaeaea
+        padding: 1px 13px
+        border-radius: 12px
+        margin-left: 10px
+        display: inline-block
+        vertical-align: middle
+    &.activeTab span label
+      background-color: #999999
+      color: #ffffff
+
+
+.expandedMenu
+  right: 0
+
+.searchBtn
+  background: #ffffff url("../images/search_icon.png") center no-repeat
+  width: 51px
+  padding: 26px 0 27px 10px
+  text-align: center
+  cursor: pointer
+  float: left
+  display: block
+
+.searchInput
+  font-size: 14px
+  line-height: 24px
+  color: #aaaaaa
+  padding: 13px 10px 13px 0
+  float: left
+  width: 220px
+
+.assetsContent
+  margin-top: 100px
+  background-color: #ffffff
+
+.serversNav
+  border-bottom: 1px solid #dddddd
+  li
+    float: left
+    a
+      font-size: 16px
+      line-height: 18px
+      color: #1166ee
+      font-weight: 500
+      padding: 21px 26px
+      border-bottom: 2px solid transparent
+    &.activeLink a
+      border-bottom: 2px solid #ed1651
+.virtualServerHeader
+  border-bottom: 1px solid #dddddd
+  border-top: 1px solid #dddddd
+  padding: 9px 19px 9px 19px
+  font-size: 13px
+  line-height: 15px
+  font-weight: 400
+  color: #aaaaaa
+  font-family: 'Arial', sans-serif
+  position: absolute
+  top: 101px
+  background: white
+  width: 1166px
+  z-index: 1
+.leftAlign
+  float: left
+  margin-left: 25px
+
+.downArrow
+  background-image: url("../images/down_arrow.png")
+  width: 8px
+  height: 4px
+  margin-left: 8px
+  display: inline-block
+  vertical-align: baseline
+  margin-bottom: 1px
+
+.serialNum
+  width: 104px
+
+.barCode
+  width: 106px
+
+.typeMake
+  width: 97px
+  margin-right: 40px
+
+.typMakeHeading, .rackHeading
+  display: inline-block
+
+.typMakeHeading span, .privateIpHeading span, .rackHeading span
+  display: block
+
+.typeMake .downArrow, .rack .downArrow
+  vertical-align: top
+  margin-top: 7px
+
+.privateIP
+  width: 226px
+  span
+    max-width: 226px
+    word-wrap: break-word
+
+.location
+  width: 76px
+
+.rack
+  width: 80px
+
+.warranty
+  width: 100px
+
+.virtualServerList
+  padding: 65px 19px 0
+  li
+    margin-bottom: 15px
+    &:hover
+      box-shadow: 0 3px 5px -3px $black
+  h4
+    font-size: 14px
+    line-height: 18px
+    font-weight: 400
+    color: #ed1651
+    margin-bottom: 8px
+
+.accordianHeader
+  border: 1px solid #cccccc
+  font-size: 13px
+  line-height: 18px
+  font-weight: 400
+  color: #666666
+  padding: 18px 22px 20px 0
+  background-color: #fafafa
+  font-family: $fontRobotoRegular
+  &:hover
+    background-color: $white
+  span
+    display: block
+  .serialNum
+    a
+      font-weight: 500
+      text-decoration: none
+      color: #1166ee
+      display: block
+      word-wrap: break-word
+  .barCode
+    span
+      max-width: 106px
+      word-wrap: break-word
+
+.accordianBtn
+  float: right
+  span
+    background: url(../images/accordian_open_btn.png) no-repeat
+    width: 21px
+    height: 21px
+    margin: 7px 0
+    padding: 0
+    cursor: pointer
+    display: block
+  &.active span
+    background: url(../images/accordian_close_btn.png) no-repeat
+
+
+.accordianData
+  display: none
+  border: 1px solid #cccccc
+  border-top: none
+  padding: 20px 24px 20px 24px
+  background-color: $white
+  .tag
+      label
+          margin-bottom: 0
+  label
+    font-size: 12px
+    font-weight: 400
+    line-height: 14px
+    color: #aaaaaa
+    margin-bottom: 7px
+  span
+    display: block
+    font-size: 12px
+    line-height: 22px
+    font-weight: 400
+    color: #333333
+    &.actionBtn
+      cursor: pointer
+      color: #1166ee
+  .leftFloat
+    margin-right: 20px
+    float: left
+
+.hwId
+  width: 239px
+  margin-bottom: 28px
+
+.hostName
+  width: 208
+  margin-bottom: 28px
+
+.ownedBy, .assignTo
+  width: 252px
+  margin-bottom: 28px
+
+.osVersion
+  width: 238px
+
+.tag
+  a
+    font-size: 12px
+    line-height: 22px
+    font-weight: 400
+    color: #1166ee
+.addTagComponent
+  width: 249px
+  .Select-arrow
+    display: none
+  .Select-menu-outer
+    width: 249px
+    right: 0
+  .Select-clear
+    display: none
+.tags
+  width: 690px
+  padding: 5px
+  border-radius: 10px
+  overflow-y: auto
+  margin-left: 255px
+  .label
+    color: $darkBlackish333
+    margin: 0 0 10px 5px
+    padding: 6px 15px
+    font-size: 11px
+    background-color: $lightFontGreyCCC
+    position: relative
+.tagList
+  color: $greyColorLight999
+  position: absolute
+  top: 47px
+  width: 100%
+  label
+    display: inline-block
+    max-width: 100px
+    padding-left: 26px
+    margin-bottom: 5px
+    font-weight: bold
+    float: left
+  p.tag
+    color: #1166EE
+    word-break: break-word
+    font-size: 16px
+    margin-bottom: 0
+    float: left
+    margin-left: 10px
+    line-height: 25px
+    height: 53px
+    max-height: 53px
+    width: 1068px
+    overflow-y: auto
+  .tagSearch
+    width: 100%
+    height: 54px
+    input
+      outline: none
+      border: none
+    .searchBarWrapper
+      width: calc(100% - 51px)
+      height: 53px
+      margin: 0
+      float: left
+      position: relative
+      z-index: 2
+      .Select
+        height: 54px
+      .Select-control
+        border-radius: 0
+        height: 53px
+        border: none
+        .Select-value
+          vertical-align: middle
+          clear: both
+          .Select-value-icon
+            float: right
+            padding: 6px 5px 5px 5px
+          .Select-value-label
+            float: left
+            font-size: 13px
+            line-height: 15px
+            padding: 4px 5px
+      .Select-menu-outer
+        .Select-menu
+          .Select-option:nth-child(1)
+            border-top: none
+          .Select-option
+            border-top: 1px solid $lightFontGreyCCC
+            padding: 11px 10px
+
+      .Select-placeholder
+        line-height: 50px
+      .Select-input
+        height: 45px
+      .Select-input > input
+        padding: 15px 0 15px
+      .Select--multi .Select-value
+        line-height: 1
+        margin-left: 5px
+        margin-top: 5px
+      .Select-arrow
+        display: none
+      .Select-menu-outer
+        width: 100%
+        right: 0
+        z-index: 1
+        max-height: 300px
+        .Select-menu
+          max-height: 257px
+          overflow-y: auto
+      .Select-multi-value-wrapper
+        height: 49px
+        width: 100%
+        overflow-y: auto
+      .Select-arrow-zone
+        padding: 0
+      .Select-clear-zone
+        display: none
+.close
+  position: absolute
+  top: 1px
+  right: 2px
+  font-size: 16px
+  color: black !important
+  font-weight: bold !important
+
+@media (max-width: 1199px)
+    .assetsContainer
+        width: 100%
+        .leftAlign
+            margin-left: 13px
+        .virtualServerHeader
+            width: 100%
+            .assetsContent
+                margin-top: 120px
+                .virtualServerList
+                    width: 970px
+                    margin: 0 auto

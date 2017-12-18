@@ -1,0 +1,1395 @@
+.customModalWrapper
+    .productType, .productCode
+        font-family: $fontRobotoRegular
+        display: block
+    .productType
+        color: $pinkTextColor
+        font-size: 16px
+        line-height: 18px
+        margin-bottom: 10px
+    .productCode
+        font-size: 12px
+        line-height: 14px
+        color: $darkBlackish333
+    .warningMsg, .questionIcon
+        display: inline-block
+        vertical-align: middle
+    .questionIcon
+        display: inline-block
+        font-size: 30px
+        height: 50px
+        width: 50px
+        font-family: $fontRobotLight
+        margin-right: 30px
+        line-height: 50px
+        text-align: center
+        color: $blueLink
+        border-radius: 50%
+        border: 1px solid $blueLink
+    .warningMsg
+        font-size: 14px
+        line-height: 18px
+        margin-bottom: 0
+        color: $fontColorDarker666
+        font-family: $fontRobotLight
+    .cancelLink , .removeBtn
+        background-color: $white
+        outline: none
+    .cancelLink
+        font-size: 16px
+        line-height: 18px
+        color: $blueLink
+        border: none
+        margin: 11px 45px
+        text-decoration: underline
+    .removeBtn
+        color: $darkBlackish333
+        padding: 10px 20px
+        font-size: 16px
+        line-height: 20px
+        border: 1px solid $darkBlackish333
+
+
+.shoppingCartWrap
+    .shoppingCartHeader
+        padding: 20px 0
+
+.listDetails
+  display: inline-block
+  margin-right: 25px
+  span, label
+    display: block
+    text-align: left
+  label
+    color: $greyFontAAA
+    font-family: $fontRobotLight
+    font-size: 12px
+    line-height: 14px
+    margin-bottom: 10px
+  span
+    color: $darkBlackish333
+    font-size: 14px
+    line-height: 16px
+
+.addInfraBtn, .placeOrderBtn
+  padding: 10px 25px
+  display: inline-block
+  vertical-align: middle
+  font-size: 16px
+  line-height: 18px
+  font-family: $fontRobotoRegular
+  cursor: pointer
+.addInfraBtn
+  color: $pinkTextColor
+  border: 1px solid $pinkTextColor
+  margin-right: 20px
+  margin-left: 51px
+  &:hover
+    background-color: $pinkTextColor
+    color: $white
+.placeOrderBtn
+  color: $white
+  background-color: $pinkTextColor
+  border: 1px solid $pinkTextColor
+
+.emptyCartSection
+  .midHeader
+    padding: 10px 0
+    border-bottom: 1px solid $lightFontGreyCCC
+    .darkPinkBtn
+      padding: 14px 40px
+  .emptyCartDetails
+    width: 604px
+    margin: 30px auto
+    padding: 50px 70px
+    border: 1px dashed $lightBlueBorder
+    .emptyIcon
+      +displayBlock
+      width: 160px
+      height: 109px
+      background: url(/app/theme/default/images/dashBoard-widget-info-icons.png) no-repeat -5px -679px
+      margin-bottom: 40px
+    .emptyCartMsg
+      font-size: 24px
+      line-height: 26px
+      font-family: $fontRobotLight
+      color: $darkBlackish333
+      margin-bottom: 20px
+    .chooseMessage
+      font-size: 14px
+      line-height: 16px
+      font-family: $fontRobotoRegular
+      color: $greyFontAAA
+      margin-bottom: 30px
+    .darkPinkBtn
+      padding: 10px 40px
+
+.paymentDoneMsg
+  width: 585px
+  margin: 165px auto
+  .greenCheck
+    display: block
+    margin: 0 auto
+    margin-bottom: 35px
+    height: 82px
+    width: 82px
+    border-radius: 50%
+    background-color: $semiLightGreenColor
+    position: relative
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      top: 23%
+      left: 45%
+      width: 11px
+      height: 33px
+      border: solid #FFFFFF
+      border-width: 0 3px 3px 0
+      transform: rotate(45deg)
+  .thankYouMsg
+    font-size: 24px
+    line-height: 26px
+    font-family: $fontRobotLight
+    color: $darkBlackish333
+    margin-bottom: 45px
+  .transactionInfo
+    font-size: 14px
+    line-height: 16px
+    font-family: $fontRobotoRegular
+    color: $darkBlackish333
+    margin-bottom: 20px
+    text-align: center
+    span
+      font-weight: bold
+      padding: 10px 8px
+      background-color: $lightGreenish
+  .backButton
+    color: $blueLink
+    border: 1px solid $blueLinkColor
+    background-color: $white
+    padding: 13px 16px
+    margin: 0 15px 0 145px
+    &:hover
+      color: $white
+      background-color: $blueLink
+  a
+    padding: 15px 20px
+    font-size: 14px
+    line-height: 16px
+    font-family: $fontRobotoRegular
+    display: inline-block
+    margin: 0 auto
+    text-decoration: none
+.hoverData
+  position: relative
+  .labelHoverData
+    display: none
+    top: -13%
+    margin-bottom: -35px
+    width: 100%
+    text-align: left
+    left: 0
+    background-color: $darkBlackish333
+    color: $white
+    border-radius: 2px
+    font-size: 12px
+    line-height: 14px
+    position: absolute
+    padding: 8px 15px
+    z-index: 51
+    &::after
+      content: ''
+      position: absolute
+      bottom: -5px
+      left: 12%
+      margin-top: -5px
+      width: 0
+      height: 0
+      border-left: 5px solid transparent
+      border-right: 5px solid transparent
+      border-top: 5px solid rgba(0, 0, 0, 0.8)
+      border-radius: 5px
+  &:hover
+    .labelHoverData
+      display: block !important
+.shoppingCartContainer
+  margin-top: 164px
+  .errorMsg
+    color: $colorREDff0000
+    font-size: 10px
+    line-height: 12px
+
+  .customSelectGroup
+    p
+      border-left: 1px solid $lightGreyBorderDDD
+    .labelHoverData
+      display: none
+      top: -48px
+      margin-bottom: -35px
+      width: 100%
+      text-align: left
+      left: 0
+      background-color: $darkBlackish333
+      color: $white
+      border-radius: 2px
+      font-size: 12px
+      line-height: 14px
+      padding: 8px 15px
+      &::after
+        content: ''
+        position: absolute
+        bottom: -5px
+        left: 49%
+        margin-top: -5px
+        width: 0
+        height: 0
+        border-left: 5px solid transparent
+        border-right: 5px solid transparent
+        border-top: 5px solid rgba(0, 0, 0, 0.8)
+        border-radius: 5px
+    &:hover
+      .labelHoverData
+        display: block !important
+    label
+      color: $greyFontAAA
+      position: absolute
+      font-size: 12px
+      line-height: 11px
+      top: 6%
+      left: 4%
+      z-index: 3
+    .Select
+      .Select-arrow
+        transform: rotate(0deg)
+        transition: all .2s ease-in-out
+    .Select.is-focused
+      .Select-arrow
+        transform: rotate(180deg)
+        transition: all .2s ease-in-out
+    .Select-control
+      padding-top: 10px
+      border-radius: 0
+      .Select-placeholder
+        margin-top: 10px
+        color: $darkBlackish333
+      .Select-value-label
+        position: absolute
+        top: 31%
+      .Select-arrow-zone
+        position: relative
+        .Select-arrow
+          border: none
+          background: url(/app/theme/default/images/icon-sprite.png) no-repeat -48px -324px
+          top: 50%
+          right: 50%
+          content: " "
+          width: 13px
+          height: 8px
+          position: absolute
+          pointer-events: none
+          margin-top: -4px
+    .Select-menu-outer
+      z-index: 100
+
+  .listDetails
+    display: inline-block
+    margin-right: 25px
+    margin-top: 10px
+    span, label
+      display: block
+      text-align: left
+    label
+      color: $greyFontAAA
+      font-family: $fontRobotLight
+      font-size: 12px
+      line-height: 14px
+      margin-bottom: 10px
+    span
+      color: $darkBlackish333
+      font-size: 14px
+      line-height: 16px
+  .navigationBtns
+    margin-top: 20px
+    border-top: 1px solid $lightGreyBorderDDD
+    padding-top: 20px
+    .cancelBtn, .nextBtn, .backBtn
+      cursor: pointer
+      padding: 7px 25px
+    .backBtn
+      color: $blueLink
+      background-color: $white
+      border: 1px solid $blueLink
+      margin-right: 15px
+    .cancelBtn
+      color: $darkBlackish333
+      border: 1px solid $darkBlackish333
+    .nextBtn
+      color: $white
+      background-color: $semiLightGreenColor
+      padding: 8px 25px
+  a
+    text-decoration: none
+  .purchaseBlock
+    border: 1px solid $lightFontGreyCCC
+    padding: 0
+    background-color: $whiteShadeColor
+    margin-bottom: 20px
+  .assistanceBlock
+    padding: 19px 25px
+    background-color: $blueLink
+    margin-bottom: 15px
+    li
+      margin: 6px 0
+      span
+        display: inline-block
+        vertical-align: middle
+        color: $fadedBlueColor
+        font-size: 15px
+        line-height: 17px
+        font-family: $fontRobotoRegular
+        a
+          text-decoration: underline
+    i
+      display: inline-block
+      vertical-align: middle
+      margin-right: 15px
+    .shareIcon
+      width: 16px
+      height: 13px
+      background: url("../images/icon-sprite.png") no-repeat -36px -627px
+    .callIcon
+      width: 14px
+      height: 16px
+      background: url("../images/icon-sprite.png") no-repeat -36px -642px
+    .chatIcon
+      width: 16px
+      height: 16px
+      background: url("../images/icon-sprite.png") no-repeat -36px -660px
+    .chatIcon + span
+      color: $white
+  .totalPricingBlock
+    padding: 25px 19px
+    border: 1px solid $lightFontGreyCCC
+    h1
+      font-size: 24px
+      line-height: 26px
+      color: $darkBlackish333
+      font-family: $fontRobotThin
+      margin: 0 0 30px
+    .pricingList
+        li
+            span:nth-child(1)
+                float: left
+            span:nth-child(2)
+                float: right
+                font-size: 16px
+                line-height: 18px
+                color: $pinkTextColor
+
+  .cartHeaderTabs
+    list-style-type: none
+    margin-bottom: 0
+    padding: 25px 30px
+    border-bottom: 1px solid $lightFontGreyCCC
+    background-color: $white
+    li
+      display: inline-block
+      margin-right: 40px
+      span
+        display: inline-block
+        vertical-align: middle
+      .numCircle
+        width: 24px
+        height: 24px
+        border-radius: 50%
+        border: 1px solid $greyFontAAA
+        color: $greyFontAAA
+        font-size: 12px
+        line-height: 14px
+        margin-right: 10px
+        padding: 4px 7px
+      .alreadyChecked
+        background-color: $semiLightGreenColor
+        border-color: $semiLightGreenColor
+        position: relative
+        &::after
+          content: ''
+          display: block
+          position: absolute
+          top: 16%
+          left: 40%
+          width: 5px
+          height: 11px
+          border: solid $white
+          border-width: 0 2px 2px 0
+          transform: rotate(45deg)
+      .visited
+        color: $greyFontAAA
+        font-size: 16px
+        line-height: 18px
+    li.currentStep
+      .numCircle
+        color: $white
+        background-color: $semiLightGreenColor
+        border-color: $semiLightGreenColor
+      .visited
+        color: $darkBlackish333
+  .periodSelectionContainer
+    padding: 20px 30px 25px 30px
+    .iconSection
+      width: 490px
+      margin: 24px 0px
+      .shoppingMsg, .periodIcon
+        display: inline-block
+        vertical-align: middle
+      .periodIcon
+        width: 162px
+        height: 109px
+        background: url(/app/theme/default/images/dashBoard-widget-info-icons.png) no-repeat 0 -559px
+      .shoppingMsg
+        width: 288px
+        margin-left: 40px
+        h3
+          font-size: 18px
+          line-height: 20px
+          color: $darkBlackish333
+          font-family: $fontRobotThin
+          margin: 10px 0
+        p
+          font-size: 16px
+          line-height: 18px
+          color: $greyFontAAA
+          font-family: $fontRobotThin
+  .locationSelectionContainer
+    .locationUpperList
+      padding: 15px 30px
+      border-bottom: 1px solid $lightFontGreyCCC
+      background-color: $white
+    .locationListing
+      padding: 20px 30px 25px 30px
+      .customSelectGroup
+        width: 40%
+      .selectProducts
+        h3
+          color: $greyFontAAA
+          font-size: 18px
+          line-height: 20px
+          margin: 0
+          font-family: $fontRobotLight
+        .productList
+          display: inline-block
+          .productType
+            display: inline-block
+            vertical-align: middle
+            width: 192px
+            height: 100px
+            background-color: $white
+            padding: 30px 10px
+            position: relative
+            overflow: hidden
+            cursor: pointer
+            margin: 5px 0 5px 15px
+            .productIcon
+              width: 60px
+              height: 38px
+              display: inline-block
+              vertical-align: middle
+              background: url("../images/Icon-ShoppingCart-Sprite.png") no-repeat
+            .productName
+              display: inline-block
+              vertical-align: middle
+              text-transform: uppercase
+              width: 90px
+              font-family: $fontRobotoRegular
+              word-wrap: break-word
+            .redCheck
+              padding: 12px
+              background-color: $pinkTextColor
+              position: absolute
+              top: 0
+              right: 0
+              &::after
+                width: 12px
+                height: 6px
+                content: ''
+                position: absolute
+                top: 30%
+                left: 25%
+                border: 2px solid $white
+                border-top: none
+                border-right: none
+                background: transparent
+                transform: rotate(-45deg)
+            &:nth-child(1)
+                margin-left: 0
+          .checkedType
+            border: 1px solid $pinkTextColor
+            .redCheck
+              display: block
+            .virtualServerIcon
+              background-position: -10px -64px
+            .virtualNetworkIcon
+              background-position: -76px -64px
+            .virtualStorageIcon
+              background-position: -142px -64px
+            .serviceIcon
+              background-position: -209px -64px
+          .uncheckedType
+            border: 1px solid $lightFontGreyCCC
+            .redCheck
+              display: none
+            .virtualServerIcon
+              background-position: -10px -13px
+            .virtualNetworkIcon
+              background-position: -76px -13px
+            .virtualStorageIcon
+              background-position: -142px -13px
+            .serviceIcon
+              background-position: -209px -13px
+
+
+  .planSelectionContainer
+    .planUpperList
+      padding: 15px 30px
+      border-bottom: 1px solid $lightFontGreyCCC
+      background-color: $white
+    .planListing
+      h3
+        color: $greyFontAAA
+        font-size: 18px
+        line-height: 20px
+        margin: 10px 0
+        font-family: $fontRobotLight
+      .planTypeList
+        .planType
+          display: inline-block
+          vertical-align: middle
+          background-color: $white
+          padding: 30px 10px
+          position: relative
+          overflow: hidden
+          cursor: pointer
+          margin: 5px 15px 5px 0
+          height: 100px
+          width: 250px
+          .planIcon
+            width: 60px
+            height: 37px
+            display: inline-block
+            vertical-align: middle
+            background: url("../images/Icon-ShoppingCart-Sprite.png") no-repeat
+          .planName
+            font-size: 14px
+            line-height: 16px
+            color: $darkBlackish333
+            font-family: $fontRobotoRegular
+            text-transform: uppercase
+            display: inline-block
+            vertical-align: middle
+            width: 158px
+          .redCheck
+            padding: 12px
+            background-color: $pinkTextColor
+            position: absolute
+            top: 0
+            right: 0
+            &::after
+              width: 12px
+              height: 6px
+              content: ''
+              position: absolute
+              top: 30%
+              left: 25%
+              border: 2px solid $white
+              border-top: none
+              border-right: none
+              background: transparent
+              transform: rotate(-45deg)
+        .checkedType
+          border: 1px solid $pinkTextColor
+          .redCheck
+            display: block
+          .planIcon
+            background-position: -73px -117px
+        .uncheckedType
+          border: 1px solid $lightFontGreyCCC
+          .redCheck
+            display: none
+          .planIcon
+            background-position: -7px -117px
+      .systemConfigurationsList
+        width: 100%
+        position: relative
+        ul
+          max-height: 228px
+          overflow-y: scroll
+          margin-top: 30px
+          padding-top: 10px
+          li
+            border: 1px solid $lightFontGreyCCC
+            background-color: $white
+            padding: 15px 10px
+            margin-bottom: 10px
+            div
+              display: inline-block
+              width: 58%
+            &.hoverData
+              span
+                display: inline-block
+                vertical-align: text-bottom
+                margin-left: 18px
+                &.wid10
+                  width: 17%
+                  text-align: center
+            span
+              display: inline-block
+              vertical-align: text-bottom
+              margin-left: 20px
+              &.wid10
+                width: 9%
+                text-align: center
+              &.startingPrice
+                margin-left: 20px
+            .listDetails
+              margin: 5px 0 0 29px
+              label, span
+                display: inline-block
+              span
+                color: $greyFontAAA
+                margin-left: 5px
+            &.formTHead
+              border-left: none
+              border-right: none
+              position: absolute
+              top: 0
+              left: 0
+              width: 100%
+              z-index: 5
+              padding: 10px 0 5px 0
+              span
+                margin-left: 20px
+                &.planDisk
+                  width: 7%
+              span.wid10
+                width: 9%
+          li.configSelected
+            border-color: $pinkTextColor
+            input
+              position: relative
+            input[type='radio']:checked
+              &::before
+                content: ''
+                display: block
+                width: 12px
+                height: 12px
+                border-radius: 50%
+                background: $pinkTextColor
+                position: absolute
+                top: 20%
+                left: 20%
+  .configSelectionContainer
+    .configUpperList
+      padding: 15px 30px
+      border-bottom: 1px solid $lightFontGreyCCC
+      background-color: $white
+    .contractSelection
+      padding-bottom: 10px
+      border-bottom: 1px solid $lightFontGreyCCC
+      .customSelectGroup:nth-child(2)
+        .Select-control
+            border-left: none
+      .contractPeriodBlock
+          height: 46px
+          border: 1px solid $lightFontGreyCCC
+          background-color: $white
+          border-left: none
+          span
+            display: block
+            color: $darkBlackish333
+            margin: 18px 0 0 11px
+      .contractUnit
+        .customSelectGroup
+          width: 290px
+          height: 46px
+          border: 1px solid $lightFontGreyCCC
+          label
+            color: $greyFontAAA
+          span
+            display: block
+            color: $darkBlackish333
+            margin: 18px 0 0 11px
+      .customSelectGroup
+        width: 190px
+        float: left
+        margin-bottom: 10px
+        position: relative
+
+      .selectProject
+        .createProject
+          input
+            padding: 20px 9px 8px 9px
+            width: 190px
+            border-bottom: 1px solid $lightFontGreyCCC
+        .customSelectGroup.selectProjectDropDown
+          margin-bottom: 0
+          margin-left: 15px
+          width: 240px
+          float: left
+        .createNew
+          float: left
+          width: 87px
+          margin-left: 10px
+          color: $blueLink
+          border: 1px solid $blueLink
+          padding: 12px 5px
+          background-color: $white
+          text-align: center
+          cursor: pointer
+          &:hover
+            color: $white
+            background-color: $blueLink
+    .configListing
+      padding: 20px 30px 25px 30px
+      h3
+        color: $greyFontAAA
+        font-size: 18px
+        line-height: 20px
+        margin: 10px 0
+        font-family: $fontRobotLight
+      .quantityDetails
+        padding: 20px 0
+        margin-bottom: 20px
+        border-top: 1px solid $lightGreyBorderDDD
+        border-bottom: 1px solid $lightGreyBorderDDD
+        .productLabel
+          span
+            display: block
+            color: $darkBlackish333
+            font-family: $fontRobotoRegular
+            font-size: 16px
+            line-height: 18px
+          span:nth-child(2)
+            font-size: 12px
+            line-height: 14px
+            margin-top: 10px
+        .productQuantity
+          .createProject
+              display: inline-block
+              width: 52px
+              margin-right: 15px
+          .increaseBtn
+              &::before
+                content: ''
+                opacity: 0.9
+                position: absolute
+                top: 49%
+                left: 24%
+                transform: rotate(90deg)
+                display: block
+                width: 12px
+                border: 1px solid $darkBlackish333
+          .decreaseBtn, .increaseBtn
+            position: relative
+            display: inline-block
+            border: 1px solid $darkBlackish333
+            height: 25px
+            width: 25px
+            border-radius: 50%
+            cursor: pointer
+            &::after
+              content: ''
+              opacity: 0.9
+              position: absolute
+              top: 49%
+              left: 24%
+              display: block
+              width: 12px
+              border: 1px solid $darkBlackish333
+
+          .productCount
+            background-color: $fontColorDarker666
+            color: $white
+            border-radius: 50%
+            height: 50px
+            width: 50px
+            font-size: 16px
+            line-height: 50px
+            text-align: center
+            cursor: pointer
+        span, input
+          display: inline-block
+          vertical-align: middle
+          color: $darkBlackish333
+          font-family: $fontRobotoRegular
+          font-size: 16px
+          line-height: 18px
+        span
+          margin-right: 15px
+        input
+          width: 50px
+          height: 50px
+          border: 1px solid $blueLink
+          text-align: center
+      .row.configurationBlock
+        margin-left: 0
+        margin-right: 0
+      .configurationBlock
+        .col-lg-6
+          padding: 0
+        .configDetailsBlock
+          padding-right: 30px
+          .configurationDetails
+            padding-right: 15px
+            margin-bottom: 15px
+            .customSelectGroup
+                .labelHoverData
+                    display: none
+                    top: 50%
+                    margin-bottom: -35px
+                    width: 100%
+                    text-align: left
+                    left: 0
+                    background-color: $darkBlackish333
+                    color: $white
+                    border-radius: 2px
+                    font-size: 12px
+                    line-height: 14px
+                    padding: 8px 15px
+                    &::after
+                        content: ''
+                        position: absolute
+                        top: 0
+                        left: 49%
+                        margin-top: -5px
+                        width: 0
+                        height: 0
+                        border-left: 5px solid transparent
+                        border-right: 5px solid transparent
+                        border-bottom: 5px solid rgba(0, 0, 0, 0.8)
+                        border-radius: 5px
+                &:hover
+                    .labelHoverData
+                        display: block !important
+                .customSelectList
+                    top: 62px !important
+                label
+                    z-index: 3
+                    top: 6%
+                    left: 9%
+                p
+                    border: 1px solid $lightGreyBorderDDD
+                    &::after
+                        left: 83%
+                        margin-top: -3px
+        .getProductPricing
+          padding-left: 30px
+          .pricingBlock
+            padding: 30px 20px
+            background-color: $white
+          .getPricing
+            border: 1px dashed $blueLink
+            .pricingIcon
+              display: block
+              width: 160px
+              height: 109px
+              margin: 70px auto
+              background: url(/app/theme/default/images/dashBoard-widget-info-icons.png) no-repeat -5px -679px
+            .pricingBtn
+              text-align: center
+              padding: 5px 0
+              color: $blueLink
+              border: 1px solid $blueLink
+              display: block
+              width: 150px
+              margin: 20px auto
+              cursor: pointer
+          .finalPricing
+            border: 1px solid $greyFontAAA
+            .priceTitle
+              font-size: 14px
+              line-height: 14px
+              color: $darkBlackish333
+              text-transform: uppercase
+              font-family: $fontRobotoRegular
+              display: block
+              margin-bottom: 20px
+            .chargeType, .amt
+              color: $darkBlackish333
+              font-size: 14px
+              line-height: 14px
+              text-transform: uppercase
+              display: block
+            .hourlyCharges
+              color: $greyFontAAA
+              font-family: 12px
+              line-height: 14px
+              font-family: $fontRobotLight
+            .chargeType
+              font-family: $fontRobotLight
+            .amt
+              font-family: $fontRobotoRegular
+            .priceDetails
+              margin-bottom: 0
+              padding-left: 10px
+              li
+                margin-bottom: 20px
+                .priceLabel
+                    color: $greyFontAAA
+                    font-size: 12px
+                    line-height: 14px
+  .productPreviewContainer
+    .reviewUpperList
+      padding: 15px 30px
+      border-bottom: 1px solid $lightFontGreyCCC
+      background-color: $white
+    .reviewList
+      padding: 20px 30px 25px 30px
+    .row.previewBlock
+      margin-left: 0
+      margin-right: 0
+    .previewBlock
+      .col-lg-6
+        padding: 0
+      .quantityDetails
+        padding-bottom: 20px
+        margin-bottom: 20px
+        .productLabel
+          width: 217px
+          span
+            display: block
+            color: $darkBlackish333
+            font-family: $fontRobotoRegular
+            font-size: 16px
+            line-height: 18px
+            word-wrap: break-word
+          span:nth-child(2)
+            font-size: 12px
+            line-height: 14px
+            margin-top: 10px
+        .productQuantity
+          width: 190px
+        span
+          display: inline-block
+          vertical-align: middle
+          color: $darkBlackish333
+          font-family: $fontRobotoRegular
+          font-size: 16px
+          line-height: 18px
+        span:nth-child(1)
+          margin-right: 15px
+        .quantityNum
+          width: 23%
+          height: 50px
+          border: 1px solid $blueLink
+          text-align: center
+          padding: 15px 0
+      .previewListBlock
+        .listDetails
+          margin-bottom: 30px
+      .getProductPricing
+        padding-left: 30px
+        .pricingBlock
+          padding: 30px 20px
+          background-color: $white
+        .finalPricing
+          border: 1px solid $greyFontAAA
+          .priceTitle
+            font-size: 14px
+            line-height: 14px
+            color: $darkBlackish333
+            text-transform: uppercase
+            font-family: $fontRobotoRegular
+            display: block
+            margin-bottom: 20px
+          .chargeType, .amt
+            color: $darkBlackish333
+            font-size: 14px
+            line-height: 14px
+            text-transform: uppercase
+            display: block
+          .hourlyCharges
+            color: $greyFontAAA
+            font-family: 12px
+            line-height: 14px
+            font-family: $fontRobotLight
+          .chargeType
+            font-family: $fontRobotLight
+          .amt
+            font-family: $fontRobotoRegular
+          .priceDetails
+            margin-bottom: 0
+            padding-left: 10px
+            li
+              margin-bottom: 20px
+  .cartListContainer
+    ul
+      list-style-type: none
+    .productType
+      width: 160px
+    .contract
+      width: 100px
+    .location
+      width: 120px
+    .quantity
+      width: 100px
+      text-align: center
+    .monthly, .oneTime
+      width: 129px
+    .listOfConfiguration
+      margin-bottom: 15px
+    .listHeader
+      padding: 10px 20px
+      margin-bottom: 20px
+      border: 1px solid $lightFontGreyCCC
+      border-left: none
+      border-right: none
+      li:nth-child(1)
+        span
+          display: block
+      li
+        display: inline-block
+        vertical-align: middle
+        margin-right: 10px
+        span
+          display: inline-block
+          vertical-align: middle
+          color: $greyFontAAA
+          font-size: 12px
+          line-height: 14px
+    .productPreviewContainer
+      list-style-type: none
+      .cartUpperList
+        padding: 15px 18px
+        border: 1px solid $lightFontGreyCCC
+        .listDetails
+          margin-right: 10px
+          vertical-align: middle
+        .listDetails.productType
+          span
+            font-family: $fontRobotoRegular
+          span:nth-child(1)
+            color: $pinkTextColor
+            font-size: 16px
+            line-height: 18px
+            margin-bottom: 10px
+          span:nth-child(2)
+            font-size: 12px
+            line-height: 14px
+            color: $darkBlackish333
+        .listDetails.monthly, .listDetails.oneTime
+          span
+            font-weight: 600
+        .listDetails.quantity
+          span
+            padding: 5px
+            border: 1px solid $lightFontGreyCCC
+            display: inline-block
+        .accordianBtn
+          float: none
+          display: inline-block
+          vertical-align: middle
+          cursor: pointer
+    .cartDetailsBlock
+      padding: 20px 0
+      border: 1px solid $lightFontGreyCCC
+      border-top: none
+      .cntrlBtns
+        padding-left: 15px
+        .editBtn, .removeLink
+          display: inline-block
+          vertical-align: middle
+          margin-right: 20px
+          cursor: pointer
+        .editBtn
+          color: $blueLink
+          border: 1px solid $blueLink
+          cursor: pointer
+          padding: 7px 25px
+          text-decoration: none
+        .removeLink
+          font-size: 12px
+          line-height: 14px
+          color: $pinkTextColor
+          text-decoration: underline
+      .listDetails
+        margin-bottom: 30px
+      .getProductPricing
+        padding-left: 30px
+        .pricingBlock
+          padding: 30px 20px
+          background-color: $white
+        .finalPricing
+          border: 1px solid $greyFontAAA
+          .priceTitle
+            font-size: 14px
+            line-height: 14px
+            color: $darkBlackish333
+            text-transform: uppercase
+            font-family: $fontRobotoRegular
+            display: block
+            margin-bottom: 20px
+          .chargeType, .amt
+            color: $darkBlackish333
+            font-size: 14px
+            line-height: 14px
+            text-transform: uppercase
+            display: block
+          .hourlyCharges
+            color: $greyFontAAA
+            font-family: 12px
+            line-height: 14px
+            font-family: $fontRobotLight
+          .chargeType
+            font-family: $fontRobotLight
+          .amt
+            font-family: $fontRobotoRegular
+          .priceDetails
+            margin-bottom: 0
+            padding-left: 10px
+            li
+              margin-bottom: 20px
+.provisionCart
+  margin-top: 122px
+  .provisionModal
+      .modal-content
+          max-height: 100%
+          overflow-y: auto
+      .modal-dialog
+          width: 100%
+          height: 100%
+          margin: 0
+          .close
+              span
+                  font-size: 30px
+  ul
+    list-style-type: none
+    li
+      display: inline-block
+  .sofId
+    width: 100px
+    text-align: left
+    span
+      color: $pinkTextColor
+  .lineItem
+    width: 110px
+    text-align: center
+    span
+      color: $darkBlackish333
+  .code
+    width: 180px
+    text-align: left
+    span
+      color: $darkBlackish333
+  .productName
+    width: 240px
+    text-align: left
+    span
+      display: block
+  .contract
+    width: 115px
+    text-align: center
+    span
+      color: $darkBlackish333
+  .location
+    width: 145px
+    text-align: left
+    span
+      color: $darkBlackish333
+      display: block
+    span:nth-child(2)
+      margin-top: 7px
+  .quantity
+    width: 130px
+    margin-right: 13px
+    text-align: left
+    span
+      display: block
+    span:nth-child(2)
+      color: $redColorText
+      margin-top: 7px
+  .provisionHeader
+    border: 1px solid $lightFontGreyCCC
+    padding: 10px 0 10px 80px
+    background-color: $white
+    ul
+      li
+        span, i
+          display: inline-block
+          vertical-align: middle
+        span
+          color: $lightColorGreyBBB
+          font-size: 14px
+          line-height: 16px
+          margin-right: 10px
+        .sortDownArrow
+          position: relative
+          right: 0
+          margin-left: 5px
+  .provisionListContainer
+    background-color: $whiteShadeColor
+    padding: 10px 60px
+    width: 100%
+    ul
+
+      li
+        background-color: $white
+        border: 1px solid $lightFontGreyCCC
+        display: block
+        .upperList > span
+          display: inline-block
+          vertical-align: middle
+        .upperList
+          padding: 15px 15px 15px 20px
+          span
+            font-size: 14px
+            line-height: 16px
+          .provisionBtn
+            visibility: hidden
+            padding: 5px 15px
+            color: $blueLink
+            border: 1px solid $blueLink
+            margin-right: 18px
+            margin-top: -3px
+            cursor: pointer
+            &:hover
+              background-color: $blueLink
+              color: $white
+          .accordianBtn
+            float: none
+            display: inline-block
+            vertical-align: middle
+            cursor: pointer
+        .provisionData
+          border-top: 1px solid $lightFontGreyCCC
+          background-color: $white
+          padding: 15px 20px 15px 20px
+      li
+        &:hover
+          .provisionBtn
+            display: inline-block
+            visibility: visible
+            vertical-align: middle
+.cartFinalPayment
+    .cntrlBtns
+        padding: 20px 0 10px
+        border-top: 1px solid $lightColorGreyBBB
+        form
+          width: 97px
+          margin-right: 20px
+          float: left
+        .cancelLink
+            font-size: 14px
+            line-height: 16px
+            color: $blueLink
+            margin: 10px 0
+            text-decoration: underline
+        .payNowBtn
+            font-size: 14px
+            line-height: 16px
+            color: $white
+            background-color: $colorPink
+            padding: 10px 65px
+            cursor: pointer
+@media (max-width: 1199px)
+    .provisionCart
+        width: 970px
+        margin: 140px auto 0 auto
+        .sofId
+            width: 90px
+        .lineItem
+            width: 90px
+            text-align: left
+        .code
+            width: 170px
+        .productName
+            width: 126px
+        .contract
+            width: 115px
+        .location
+            width: 125px
+        .quantity
+            width: 70px
+            text-align: left
+            margin-right: 13px
+        .provisionHeader
+            padding: 5px
+        .provisionListContainer
+            padding: 10px 0
+            width: 970px
+            margin: 0 auto
+            ul li
+                .upperList
+                    padding: 15px 5px
+                    .code
+                        span
+                            word-wrap: break-word
+                            padding-right: 10px
+                            display: block
+                    .lineItem
+                        text-align: center
+
+@media (max-width: 1199px)
+    .addInfraBtn
+        margin-left: 0
+        margin-right: 8px
+    .shoppingCartContainer
+        .configSelectionContainer
+            .configListing .contractSelection
+                .customSelectGroup
+                    width: 156px
+            .configListing .configurationBlock
+                .configDetailsBlock
+                    padding-right: 0
+                    .configurationDetails
+                        padding-right: 0
+                        display: inline-block
+                        width: 307px
+                    .configurationDetails:nth-child(odd)
+                        margin-right: 50px
+                    .getProductPricing
+                        padding-left: 0
+        .cartListContainer
+            .productType
+                width: 115px
+            .contract
+                width: 70px
+            .location
+                width: 100px
+            .quantity
+                width: 70px
+            .oneTime
+                width: 115px
+            .cartDetailsBlock .getProductPricing
+                padding-left: 15px
+                margin-bottom: 20px
+        .locationSelectionContainer
+            .locationListing
+                .selectProducts
+                    .productList
+                        .productType:nth-child(4)
+                                margin-left: 0
+        .totalPricingBlock
+            .pricingList
+                li
+                    margin-bottom: 15px
+                    span
+                        float: none !important
+                        display: inline-block
+                        word-wrap: break-word
+                        vertical-align: middle
+                        font-family: $fontRobotoRegular
+                    span:nth-child(1)
+                        width: 80px
+                    span:nth-child(2)
+                        text-align: right
+                        width: 92px
+.borderBtm
+  border-bottom: 1px solid $lightFontGreyCCC
+.buttonWrapper
+  .blueLink
+    line-height: 42px
+  .darkPinkBtn
+    width: 68px
+    margin-right: 20px
+    display: inline-block

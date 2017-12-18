@@ -1,0 +1,810 @@
+// Starts: Title header section
+.peopleSection
+  padding-top: 154px
+.peopleWrap
+  min-height: 500px
+  margin-top: 145px
+  .midHeader
+    padding: 7px 0
+    h1
+      margin: 10px 0 3px 0
+    .firstBtn
+      margin-left: 20px
+    .darkPinkBtn
+      margin-top: 7px
+  .breadCrumbCustom
+    margin: 0
+  .tableHeader
+    .dataCell
+      cursor: default
+      &:hover
+        color: $lightColorGreyBBB
+  .tickeListTable
+    min-height: 230px
+    padding-bottom: 18px
+.peopleListTable
+  padding-bottom: 20px
+  .extraDetailCell
+    margin-top: 0 !important
+    border-top: none !important
+    width: 100%
+  .listingFilterWrap
+    top: 151px
+  .tabelDataCell
+    float: left
+    margin-top: 14px
+    border: 1px solid $lightFontGreyCCC
+    background: $lightGreyRowFA
+    &:nth-child(odd)
+      border-color: $lightFontGreyCCC
+    &:nth-child(2)
+      border: 1px solid $lightFontGreyCCC
+    &:hover
+      background: $white
+      border-color: $lightFontGreyCCC
+      .editIconContact
+        opacity: 1
+        z-index: 1
+      .dataCell
+        box-shadow: none
+      .headActionWrap
+        .buttonControlWrap
+          z-index: 1
+          opacity: 1
+
+  .tableHeader
+    top: 122px
+    .dataCell
+      height: 27px
+      padding: 4px 10px
+    .nameCell
+      padding-left: 50px
+      i
+        display: inline-block
+        pointer-events: none
+        border-color: #9E9E9E transparent transparent
+        border-style: solid
+        border-width: 4px
+        vertical-align: middle
+        margin-left: 5px
+
+  .dataCell
+    padding: 10px 15px
+    vertical-align: top
+  .nameCell
+    width: 300px
+    padding: 4px 5px 4px 15px !important
+  .filterIconWrap
+    top: 4px
+    left: -44px
+  .associateCell, .projectCell
+    vertical-align: middle
+  .contactListItems
+    i, img, .userImgWrap
+      width: 29px
+      height: 29px
+      border-radius: 50%
+    .userImgWrap
+      overflow: hidden
+      margin: 5px 10px 0 0
+      img
+        width: 100%
+        height: 100%
+    .userDetails
+      a.ticketNoCell
+        text-decoration: none !important
+        cursor: pointer
+    i
+      background-position: -32px -252px
+  .contactTypeCell
+    width: 170px
+  .emailCell
+    width: 290px
+    padding: 4px 5px 4px 17px !important
+    .userDetails
+      h4
+        margin-bottom: 5px
+  .associateCell
+    width: 278px
+    padding: 4px 5px 4px 12px !important
+  .projectCell
+    width: 400px
+    padding: 10px 0px 10px 11px !important
+    .editIconContact
+      opacity: 0
+      z-index: -1
+      +transitions
+      +posAbsolute
+      top: 9px
+      right: 13px
+    +posRelative
+    .headActionWrap
+      .buttonControlWrap
+        +transitions
+        z-index: -1
+        opacity: 1
+        a
+          margin-left: 9px
+          &:first-child
+            margin-left: 0
+        .provideInputBtn
+          padding: 8px 14px
+    .toggleUpDown
+      top: -5px
+      right: 8px
+  .userDetails
+    h4, h5
+      margin: 0
+      font:
+        family: $fontRobotoRegular
+        size: 14px
+      line-height: 18px
+      text-align: left
+    h5
+      font-size: 12px
+      line-height: 14px
+      color: $darkBlackish333
+  .projectCell
+    .userDetails
+      h4
+        margin-top: 6px
+  .nameCell
+    h4
+      margin-bottom: 5px
+      width: 200px
+  .subTypeLabel, .subType
+    font:
+      family: $fontRobotoRegular
+      size: 12px
+    line-height: 18px
+    color: $lightColorGreyBBB
+  .subType
+    color: $darkBlackish333
+    margin: 0
+  .contactTypeCell, .associateCell, .projectCell
+    h4
+      color: $darkBlackish333
+  .fullProjectDesc
+    .subProjDesc
+      margin-left: 5px
+      &:first-child
+        margin-left: 0
+    .mnpRoleDetails
+      width: 150px
+    .emailDesc
+      width: 270px
+    .contactDesc, .callingHrsDesc
+      width: 100px
+
+// Starts: People details section
+.peopleDetailsSection
+  padding-top: 126px
+  .midHeader
+    border-bottom: 1px solid $lightFontGreyCCC
+  .peopleDetailsTable
+    margin: 27px 0 20px 0
+    .tabelDataCell
+      background: $white
+      cursor: default
+      margin: 0
+      border: 1px solid $lightFontGreyCCC
+      .marginBottom25
+        margin-bottom: 25px
+      &:hover
+        box-shadow: none
+      &:first-child
+        border-bottom: none
+        .dataCell
+          padding: 17px 15px
+      .userDetails
+        h4
+          margin: 0
+        h5
+          margin: 0
+          line-height: 16px
+      .nameCell,
+      .emailCell
+        .userDetails
+          h4
+            line-height: 16px
+      .associateCell, .projectCell, .emailCell
+        h4
+          margin-top: 8px
+      .marginBottom10
+        margin-bottom: 10px
+      .contactTypeCell
+        width: 231px
+      .fullProjectDesc
+        .emailDesc
+          width: 260px
+    .projectCell
+      .headActionWrap
+        .buttonControlWrap
+          z-index: 1
+          opacity: 1
+    .editIconContact
+      z-index: 1
+      opacity: 1
+      top: 50%
+      margin-top: -16px
+    .greenDarkText
+      color: $greenDarkText
+    .extraDetailCell
+      .nameCell
+        padding-left: 50px
+      .projectCell
+        .fullProjectDesc
+          margin-bottom: 62px
+        .buttonControlWrap
+          a
+            margin-right: 9px
+            &:first-child
+              margin-right: 0
+
+//Starts:  Add/Edit Contact
+
+.addContactWrap
+  padding-top: 20px
+  min-height: auto
+  .breadCrumbSection
+    top: 54px
+  .mainTitle
+    margin: 10px 0 0 0
+  .formInnerWrap
+    padding: 0
+  .whiteCancelBtn
+    margin: 7px 9px 0 21px
+    padding: 0
+    font-size: 14px
+    line-height: 42px
+    cursor: pointer
+  .selectContent
+    background: $white
+    span
+      height: 20px
+      line-height: 20px
+      display: inline-block
+      width: 95px
+  .phoneWrap
+    .countryCode
+      .selectContent
+        padding: 20px 0 0 14px
+  .notificationWrap
+    .tabList
+        margin-bottom: 0
+
+.rowContactTitle
+  position: relative
+  display: inline-block
+  font-size: 14px
+  margin-top: 0
+  .mandatoryStar
+    top: -1px
+    right: -11px
+
+.rowContact
+  margin: 0 -4px 17px 1px
+  .formElementWrap
+    width: 33.334%
+    margin: 0 -1px
+    input
+      border-bottom: 1px solid $lightGreyBorderDDD
+      background: $white
+      &:focus
+        top: 0
+        z-index: 2
+        border-bottom: 1px solid $lightColorGreyBBB
+      &.prefilledField
+        background: $lightGreyBorderDDD
+  &.contactEmailInput
+    margin-right: 0
+    .formElementWrap
+      margin-right: 0
+  .contactInfo
+    margin-bottom: 10px
+  .whiteCancelBtn
+    margin: 0 15px
+    line-height: 25px
+.phoneWrap
+  .contactNumberInfo
+    width: 50%
+    float: left
+    padding-right: 15px
+    &:nth-child(even)
+      padding-left: 15px
+      padding-right: 0
+  .customSelectGroup
+    .phone
+        margin-left: -1px
+    &.countryCode
+      .customSelectList
+        height: 150px
+        overflow-y: auto
+    p
+      &:after, &:before
+        left: 80%
+  .customSelectGroup p.category
+    &:after
+      background: none !important
+  .inputNumber
+    width: 66.66%
+  .formElementWrap
+    width: 100%
+    .formElementWrap
+      width: 130px
+.rowContact .callingWrap
+  margin-left: 40px
+  width: 48%
+
+.callingWrap .customSelectGroup
+  width: 50%
+
+.callWithin
+  background: $lightGreyEEE
+  border-radius: 50%
+  position: absolute
+  width: 38px
+  height: 38px
+  line-height: 38px
+  text-align: center
+  display: inline-block
+  left: 26%
+  top: 50%
+  margin: -19px 0 0 -19px
+  z-index: 3
+
+.formElementWrap .callTo
+  label
+    left: 28px
+  .selectContent
+    padding-left: 28px
+
+.notificationWrap
+  padding: 20px 0
+
+.settingTabs
+  border: 1px solid $lightFontGreyCCC
+  .cssCheckBox
+    font-family: $fontRobotoRegular
+.includeAll
+  float: right
+  margin: 12px 15px 0 0
+  .cssCheckBox
+    font-weight: normal
+    color: $blueLink
+  .NMIcon-checkbox
+    margin-right: 4px
+
+.settingTabs
+  .contactTypeGrid
+    li
+      float: none
+  .outerTabWrap
+    min-height: 99px
+    padding: 20px
+  ul
+    background: $lightGreyRowFA
+    list-style-type: none
+    margin: 0
+    padding: 0
+    border-bottom: 1px solid $lightFontGreyCCC
+  li
+    float: left
+    margin-bottom: -1px
+    a
+      color: $greyColorLight999
+      padding: 15px 20px
+      display: block
+      font-size: 16px
+      &:hover
+        color: $darkBlackish333
+        text-decoration: none
+      &.activeTab
+        color: $darkBlackish333
+        background: $white
+        border-color: $white
+        border-right: 1px solid $lightFontGreyCCC
+        border-left: 1px solid $lightFontGreyCCC
+        margin-left: -1px
+
+.settingTabWrap
+  font-size: 12px
+  background: $white
+  padding: 20px 20px 19px 20pxs
+  width: 100%
+  opacity: 0
+  z-index: -1
+  left: 0
+  top: 0
+  +transitions
+  &.activeContentTab
+    opacity: 1
+    z-index: 1
+  .contactTypeGrid
+    width: 16%
+  .roleTypeInfo
+    margin-top: 22px
+  .severityGrid
+    width: 10%
+    text-align: center
+  .settingHead
+    font-family: $fontRobotoMedium
+    color: $darkBlackish333
+    margin-bottom: 4px
+    text-overflow: ellipsis
+    word-break: normal
+    overflow: hidden
+  .settingTitle
+    font-size: 14px
+    color: $darkBlackish333
+    span
+      display: inline-block
+      color: $greenDarkText
+      border: 1px solid $greenDarkText
+      padding: 1px 3px
+      font-size: 9px
+      margin-right: 11px
+      vertical-align: text-bottom
+  .cssCheckBox
+    display: block
+    margin-top: 3px
+  .checkboxWrap
+    display: inline-block
+    margin: 0 10px
+    color: $greyColorLight999
+.contactTypeSelect
+  p
+    border-left: 1px solid $lightGreyBorderDDD
+.customSelectCheckbox
+    .customSelectList
+        li
+            padding-top: 0
+            padding-bottom: 0
+        label
+            padding-top: 7px
+            padding-bottom: 9px
+            cursor: pointer
+            input[type=checkbox]
+                margin: 1px 0 0 0
+.contactsWidget
+  .widgetDataCount
+    padding: 0 0 15px
+    border-bottom: 1px solid $lightGreyEEE
+  .userProfilePic
+    max-width: 31px
+    max-height: 29px
+    img
+      width: 25px
+      height: 25px
+  i
+    width: 29px
+    height: 29px
+    border-radius: 50%
+    background-position: -32px -252px
+.contactTypeWrapper
+  max-width: 163px
+  .contactTypeCount
+    margin-left: 10px
+    display: block
+    width: 29px
+    height: 29px
+    border-radius: 50%
+    background: $blueLinkColor
+    color: $white
+    text-align: center
+    line-height: 28px
+.contactsCount
+  padding-top: 75px
+  .tcktTxtDetails
+    p
+      line-height: 24px
+.contactListItems
+  padding-top: 165px
+
+.listsDetailsView
+  height: 60px
+  &:first-child
+    margin-bottom: 8px
+  .userGroupLabel
+    width: 138px
+    margin-left: 0
+    +transitions
+    &.redText
+      color: $colorREDff0000
+.toggleDiv
+  position: absolute
+  top: -6px
+  right: 25px
+  margin-top: 20px
+  width: 30px
+  height: 30px
+  cursor: pointer
+  .toolTipBox
+    width: 84px
+    top: 58px
+    left: 28px
+  i
+    width: 11px
+    height: 11px
+    +displayBlock
+    margin: 8px auto 0
+    background-position: -50px -93px
+    box-sizing: border-box
+    +rotate-180deg
+  &.rotateArrow
+    .NMIcon-accrodArow
+      +rotate360deg
+  &:hover
+    background: $blueLinkColor
+    .NMIcon-accrodArow
+      background-position: -50px -109px
+    .toolTipBox
+      +displayBlock
+.peopleDetailsTable
+  .associateCell
+    width: 188px
+  .projectCell
+    width: 690px
+    padding-right: 50px
+    padding: 10px 10px 10px 100px !important
+  .nameCell
+    width: 300px
+.peopleWrap
+  .midHeader
+    border-bottom: 1px solid $lightFontGreyCCC
+  .paddingTop110
+    padding-top: 125px !important
+.emailWrapper
+  width: 50%
+  float: left
+  padding-right: 15px
+  .formElementWrap
+    width: 50%
+.contactWrapper
+  width: 50%
+  float: left
+  padding-left: 15px
+  .customSelectGroup
+    width: 50%
+    p:after
+      left: 90%
+.phoneWrap
+  .codeWrapper
+    margin-left: 10px
+  .callingWrap
+    .customSelectGroup
+      width: 135px
+.darkBlueBtn
+  background: none
+  color: $blueLink
+  border: 1px solid $blueLink
+  float: left !important
+  padding: 16px 9px
+  margin-left: 10px
+  &:hover
+    background: $blueLink
+    color: $white
+.timeWrapper
+  position: relative
+.timeDropDowns
+  max-height: 200px
+  overflow-y: auto
+.tabContents
+  display: none
+  &.activeTabContent
+    display: block
+.notificationWrap
+  .tabList
+    list-style: none
+    padding: 0
+    margin-bottom: 20px
+    li
+      float: left
+      a
+        color: $greyColorLight999
+        font: 14px/16px 'robotoregular'
+        padding: 15px
+        display: block
+        background-color: $lightGreyEEE
+        border: 1px solid $lightFontGreyCCC
+        &:hover, &.active
+          color: $darkBlackish333
+          text-decoration: none
+          background-color: $white
+      &:first-child a
+        border-radius: 4px 0 0 4px
+        border-right: none
+      &:last-child a
+        border-radius: 0 4px 4px 0
+.settingTabs ul.tableGrid
+  background: $white
+  border-bottom: 0
+.tableGrid
+  > li
+    width: 100%
+    padding: 15px 0
+    border-top: 1px solid $subMenuHoverColor
+    &:first-child
+      border: none
+      padding-top: 0
+      .settingHead
+        font-size: 12px
+        font-weight: bold
+        margin-bottom: 5px
+      .severityGrid
+        padding-top: 0
+    .checkboxWrap
+      display: block
+    .settingHead
+      font-size: 14px
+      margin-bottom: 0
+    .severityGrid
+      width: 80px
+      padding-top: 20px
+      margin-left: 38px
+    .checkboxWrap
+      margin: 0
+    .contactTypeGrid
+      width: 180px
+      margin-top: 7px
+    .settingTitle
+      margin: 0
+    .customSelectGroup
+      p
+        border-left: 1px solid $lightGreyBorderDDD
+      .selectContent
+        padding-top: 21px
+      label
+        color: $greyFontAAA
+    .customSelectGroup p:after
+      left: auto
+      right: 10px
+    .cssCheckBox .NMIcon-checkbox
+      border: 1px solid #c1c1c1
+      background-color: #fdfdfd
+    .cssCheckBox input[type="checkbox"]:checked + .NMIcon-checkbox
+      border: 1px solid $darkBlackish333
+.ticketListSection article.contactWrapper
+  overflow: visible
+  .settingTabWrap
+    position: static
+    display: none
+    &.activeContentTab
+      display: block
+.roleTypes
+  .severityGrid
+    margin-top: 0
+.notificationWrap
+  .severityGrid
+    pointer-events: all
+  .severityGrid.editable
+    pointer-events: all
+.customerWrapper
+  margin-top: 20px
+  min-height: 40px
+.settingTabWrap
+  .redText
+    color: $colorREDff0000
+.peopleDetailsTable
+  .userImgWrap
+    overflow: hidden
+    margin: 5px 10px 0 0
+
+  i
+    width: 29px
+    height: 29px
+    border-radius: 50%
+    background-position: -32px -252px
+.editDetailsForm
+  margin-bottom: 30px
+  .contactNumberInfo
+    .removeLink
+      color: $colorREDff0000
+.countryFlag
+  width: 15px
+  height: 10px
+  margin-right: 10px
+.countryCode,
+.callingCode
+  display: inline-block
+.roleTypeDropDown
+  border-left: 1px solid $lightColorGreyBBB
+  p
+    &::after
+      left: 88% !important
+.roleTypeDropDown.dropDownOpened
+  border-left: none
+
+.editableTabWrap
+  padding-bottom: 100px !important
+
+.contactListContainer
+  margin-top: 124px
+  margin-bottom: 50px
+  position: relative
+  .contactListWrap
+      border: 1px solid #ccc
+      padding: 0 15px
+  .assetsMenu
+      width: auto
+  .virtualServerHeader
+      width: 1137px
+      left: 17px
+  .assetsHeader
+    border-bottom: 1px solid $headerBorderColor
+    background-color: $white
+    position: fixed
+    width: 1138px
+    z-index: 2
+    margin-left: -15px
+  .assetsContent
+    margin-top: 94px
+  .virtualServerHeader
+    padding-bottom: 27px
+    top: 10px
+    border: none
+    .tableHeader
+      position: absolute
+      width: 100%
+      top: 38px
+      left: 0
+      border-top: none !important
+      z-index: 0
+      margin: 0
+      .nameCell
+        width: 306px
+        padding-left: 71px
+      .emailCell
+        width: 239px
+      .associateCell
+        width: 232px !important
+  .contactListData
+    padding-top: 0 !important
+.countryCodeList
+  li:nth-child(1)
+    color: $darkBlackish333 !important
+.switchBtn
+  display: block
+  background: $infoLabelGrey80
+  color: $white
+  padding: 5px 10px
+  border-radius: 5px
+  cursor: pointer
+.disableSwitch
+  display: block
+  background: $lightGreyBorderDDD
+  color: $white
+  padding: 5px 10px
+  border-radius: 5px
+@media (max-width: 1199px)
+    .addNewBtn
+        padding: 14px 10px
+    .contactListContainer
+        .virtualServerHeader
+            width: 937px
+        .assetsHeader
+            width: 938px
+            .assetsMenu
+                width: 938px
+        .assetsContent
+            .virtualServerHeader .tableHeader, .contactsListHeader
+                width: 100% !important
+            .virtualServerHeader .tableHeader
+                .nameCell
+                    width: 279px !important
+                .emailCell
+                    width: 184px !important
+                .associateCell
+                    width: 175px !important
+    .settingTabWrap .severityGrid
+        width: 12%
+    .peopleListTable .nameCell h4
+        width: 175px
+
+.peopleManagementDetails
+  .notificationWrap
+    .severityGrid
+      pointer-events: none
+.mnpUserCell
+  width: 221px !important
+  padding: 15px 5px 10px 1px !important

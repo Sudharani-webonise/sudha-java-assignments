@@ -1,0 +1,448 @@
+.serviceLedgerWrap
+  padding-top: 182px
+  .filterIconWrap
+    top: 105px
+  .listingFilterWrap
+    top: 182px
+
+.serviceLedgerInner
+  background: $lightGreyRowFA
+  .midHeader
+    border-bottom: 1px solid $lightFontGreyCCC
+  .headBarLeft
+    padding-top: 15px
+    padding-bottom: 0
+  .servicelevelChange
+    .customSelectGroup
+      width: 288px
+      float: left
+      margin-right: 15px
+      p
+        padding-top: 17px
+        &:after
+          background: none
+      .dropDownArrow
+        display: block
+        z-index: 9
+      li, p
+        font:
+          size: 14px
+          family: $fontArialRegular
+      li
+        border-bottom: 1px solid $lightFontGreyCCC
+        padding: 15px
+        &:last-child
+          border-bottom: 0
+      .dropDownArrow
+        right: 15px
+        top: 20px
+    .darkPinkBtn
+      font-size: 14px
+      padding: 16px 10px
+    .customSelectGroup.dropDownOpened
+      li
+        &:first-child
+          +displayNone
+      .dropDownArrow
+        margin-top: 4px
+        right: 19px
+        top: 21px
+        -webkit-transform: rotate(-180deg)
+        -ms-transform: rotate(-180deg)
+        transform: rotate(-180deg)
+
+  .serviceTabs
+    width: 100%
+    padding: 20px 0 20px
+    ul
+      width: 100%
+      margin: 0
+    li
+      float: left
+      margin-right: 45px
+      &:last-child
+        margin-right: 0
+    a
+      font:
+        size: 14px
+        family: $fontRobotoRegular
+      text-decoration: none
+      padding: 0 5px 20px 5px
+      &:hover , &:active , &:focus
+        border-bottom: 2px solid $pinkTextColor
+        color: $blueLinkColor
+    li.active
+      a
+        border-bottom: 2px solid $pinkTextColor
+        color: $blueLinkColor
+
+
+.toolTipDownArrow
+  width: 260px
+  white-space: normal
+  text-align: left
+  top: 15px
+  &:before
+    top: 42px
+    left: 60px
+    bottom: -20px
+    border-color: rgba(51, 51, 51, 0)
+    border-top-color: rgba(51, 51, 51, 0.9)
+    border-width: 8px
+.ticketListSection.serviceLedgerInner
+    min-height: 100px
+    .breadcrumb
+      margin-bottom: 0
+.seviceContentWrap
+  padding-top: 146px
+  position: relative
+  .loader
+    top: 150%
+  .leftTabs
+    width: 200px
+    background: $lightGreyRowFA
+    font-family: $fontArialRegular
+    height: 400px
+    overflow-y: scroll
+    overflow-x: hidden
+    margin-top: 1px;
+    li
+      border-bottom: 1px solid $lightGreyEEE
+    li.active
+      .tabInnerContent
+        padding: 20px 0 20px 45px
+        background: $white
+        border-right: 0
+        margin: -10px;
+        .contractId
+          font:
+            size: 13px
+          color: $darkBlackish333
+          margin-bottom: 10px
+        .contractMonths
+          font:
+            size: 12px
+          color: $greyColorLight999
+          margin-bottom: 15px
+        .highLightContract
+          font:
+            size: 11px
+          padding: 5px
+      .idCode
+        &:hover
+          .contractToolTip
+            +displayBlock
+
+.tabInnerContent
+  margin: -10px;
+  cursor: pointer
+  padding: 20px 0 20px 45px
+  border-right: 1px solid $lightGreyEEE
+  .checkActive
+    margin-left: -30px
+  .contractId
+    font:
+      size: 13px
+    color: $blueLink
+    margin-bottom: 10px
+    +displayBlock
+    .idCode
+      text-decoration: underline
+      margin-left: 8px
+      cursor: pointer
+      +posRelative
+  .contractMonths
+    font:
+      size: 12px
+    color: $greyColorLight999
+    margin-bottom: 15px
+  .highLightContract
+    font:
+      size: 11px
+    padding: 5px
+  .blueLink
+    font-size: 12px
+    text-decoration: none
+  .changeRequest
+    font-size: 12px
+    color: $greyColorLight999
+    margin: 10px 0 0 0
+.contractToolTip
+  width: 342px
+  left: 100px
+  top: -20px
+  text-align: left
+  padding: 15px
+  background: $white
+  white-space: normal
+  border-radius: 0
+  -webkit-box-shadow: -6px 0px 53px -9px rgba(0,0,0,0.69)
+  -moz-box-shadow: -6px 0px 53px -9px rgba(0,0,0,0.69)
+  box-shadow: -6px 0px 53px -9px rgba(0,0,0,0.69)
+  &:before
+    top: 15px
+    border-color: rgba(255, 255, 255, 0)
+    border-right-color: rgba(255, 255, 255, 0.9)
+    border-width: 8px
+    margin-left: 0
+    left: -20px
+  h6
+    font:
+      size: 14px
+      family: $fontRobotoMedium
+    margin: 0 0 5px
+  span
+    +displayBlock
+    font:
+      size: 12px
+      family: $fontArialRegular
+  .companyCode
+    margin-bottom: 10px
+
+.activeContent
+  border-bottom: 1px solid $lightFontGreyCCC
+  margin-bottom: 5px
+  margin-top: 10px
+.firstRow
+  border-bottom: 1px solid $lightGreyEEE
+  padding-bottom: 10px
+  margin-bottom: 20px
+.rightContentTabs
+  background: $white
+.activesTab
+  width: 920px
+  padding: 25px 55px 0 20px
+.activesTab.active
+  .serverData
+    h6
+      color: $greyColorLight999
+.serverData
+  padding-left: 35px
+  .customSelectList
+    z-index: 6
+  .ordersDetail
+    li
+      float: left
+      margin-right: 40px
+      &:last-child
+        margin-right: 0
+      .title
+        +displayBlock
+        font:
+          size: 14px
+          family: $fontArialRegular
+        color: $greyColorLight999
+        text-transform: capitalize
+        margin-bottom: 10px
+      .qty
+        font:
+          size: 14px
+          family: $fontRobotoRegular
+        color: $darkBlackish333
+  .customSelectGroup
+    width: 200px
+    .selectContent
+      border-left: 1px solid $lightGreyBorderDDD
+      padding-top: 17px
+      height: 45px
+      font:
+        size: 14px
+        family: $fontArialRegular
+      color: $darkBlackish333
+      &:after
+        background: none
+    li
+      border-bottom: 1px solid $lightFontGreyCCC
+      padding: 15px
+      font:
+        size: 14px
+        family: $fontArialRegular
+      color: $darkBlackish333
+      &:last-child
+        border-bottom: 0
+    .dropDownArrow
+      right: 15px
+      top: 20px
+      +displayBlock
+      z-index: 6
+  .customSelectGroup.dropDownOpened
+    li
+      &:first-child
+        color: $darkBlackish333
+    .dropDownArrow
+      margin-top: 4px
+      right: 19px
+      top: 21px
+      -webkit-transform: rotate(-180deg)
+      -ms-transform: rotate(-180deg)
+      transform: rotate(-180deg)
+    .selectContent
+      border-left: 1px solid $lightColorGreyBBB
+  h6
+    font:
+      size: 16px
+      family: $fontRobotoMedium
+    color: $darkBlackish333
+    margin-top: 12px
+.lineNumber
+  font:
+    size: 14px
+    family: $fontArialRegular
+  color: $darkBlackish333
+  .statusId
+    padding: 2px 3px
+    margin-left: 10px
+    font:
+      size: 11px
+      family: $fontRobotoRegular
+.ordersDetail
+  margin-left: 160px
+.manageServer
+  font-family: $fontRobotoRegular
+  padding: 0 0 10px 35px
+  h5
+    font-size: 16px
+    margin: 0 0 25px
+  span
+    +displayBlock
+    margin-bottom: 15px
+  .spaceTop
+    margin-top: 20px
+    margin-bottom: 10px
+  .quantityDetail
+    margin: 0
+    li
+      float: left
+      margin-right: 50px
+      &:last-child
+        margin-right: 0
+  .nameQty
+    font:
+      size: 14px
+      family: $fontArialRegular
+    margin: 0
+  .totalQty
+    font:
+      size: 24px
+      family: $fontRobotLight
+    margin: 0
+
+textarea
+  resize: none
+
+.changeRequestPopUp,
+.dueforRenewalPopUp
+  height: 430px
+  width: 670px
+  +posFixed
+  top: 50%
+  left: 50%
+  margin: -215px 0 0 -335px
+  z-index: 15
+  +displayNone
+  .topContent
+    background: $white
+    padding: 20px 30px
+    border-bottom: 1px solid $lightGreyEEE
+    a
+      display: inline-block
+      vertical-align: middle
+  .sendRequestBtn
+    font-size: 14px
+    padding: 11px 15px
+    margin-right: 20px
+  .blueLink
+    font-size: 14px
+  .bottomContent
+    padding: 20px 30px
+    background: $lightGreyRowFA
+    .contractId, .lineNumber
+      +displayBlock
+    .contractId
+      font:
+        size: 13px
+      color: $blueLink
+      margin-bottom: 5px
+      .idCode
+        margin-left: 8px
+        cursor: pointer
+    .lineNumber
+      color: $greyColorLight999
+      .statusId
+        border: 1px solid $lightGreyBorderDDD
+        padding: 1px 3px
+    h6
+      font:
+        size: 16px
+        family: $fontRobotoMedium
+      color: $darkBlackish333
+      margin: 12px 0 20px 0
+    textarea
+      width: 100%
+      height: 88px
+      padding: 8px 10px
+      border: 1px solid $lightFontGreyCCC
+  .topSideContent
+    border-bottom: 1px solid $lightGreyEEE
+    padding-bottom: 10px
+  .bottomSideContent
+    padding-top: 30px
+    width: 100%
+    display: table
+  .manageServer
+    padding: 30px 0 0
+  .nameQty
+    margin-bottom: 10px
+  .totalQty
+    font-size: 16px
+    text-align: center
+  input[type="number"]
+    width: 60px
+    height: 35px
+    text-align: right
+    padding-right: 10px
+    &:focus
+      outline: none
+  input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button
+    -webkit-appearance: none
+    -moz-appearance: none
+    -ms-appearance: none
+    -o-appearance: none
+    appearance: none
+
+.requestMailSentPopUp
+  height: 300px
+  width: 670px
+  text-align: center
+  +posFixed
+  display: table
+  top: 50%
+  left: 50%
+  margin: -150px 0 0 -335px
+  z-index: 15
+  visibility: hidden
+  background: $white
+  h5
+    font:
+      size: 18px
+      family: $fontRobotoRegular
+    margin: 0 0 25px
+  .okBtn
+    font-size: 14px
+    padding: 8px 40px
+    +displayInlineBlock
+  .wrappPop
+    display: table-cell
+    vertical-align: middle
+
+// Note: Service Ledger CHECK BOXES DISPLAY:NONE
+.leftTabs
+  .checkActive
+    +displayNone
+.rightContentTabs
+  .activeCheck
+    +displayNone
+
+@media (max-width: 1199px)
+    .activesTab
+      width: 740px

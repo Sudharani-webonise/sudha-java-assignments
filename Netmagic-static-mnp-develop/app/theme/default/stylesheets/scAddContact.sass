@@ -1,0 +1,345 @@
+.infoBlock
+    margin-bottom: 15px
+    .customInputBox,
+    .customSelectGroup
+        position: relative
+        border: 1px solid $lightGreyBorderDDD
+        height: 55px
+        label
+            position: absolute
+            top: 5%
+            left: 5%
+            color: $greyFontAAA
+            font-family: $fontRobotThin
+            font-size: 12px
+            line-height: 14px
+    .customInputBox
+        width: 220px
+        input
+            width: 100%
+            height: 38px
+            margin-top: 15px
+            padding: 0 12px
+            border: none
+        &:nth-child(1)
+            border-right: none
+    .customSelectGroup
+        width: 375px
+        .projectLabel
+            left: 3%
+        .Select-control
+            padding-top: 10px
+            border-radius: 0
+            height: 53px
+            border: none
+        .Select-placeholder
+            margin-top: 10px
+            color: $darkBlackish333
+        .Select-value-label
+            position: absolute
+            top: 31%
+        .Select-arrow-zone
+            position: relative
+            .Select-arrow
+              border: none
+              background: url(/app/theme/default/images/icon-sprite.png) no-repeat -48px -324px
+              top: 50%
+              margin-top: -7px
+              right: 50%
+              content: " "
+              width: 13px
+              height: 8px
+              position: absolute
+              pointer-events: none
+        .Select-menu-outer
+          z-index: 100
+    &.editableBlock
+        .customSelectGroup
+            width: 253px
+
+.addContactContainer
+    background-color: $lightGreyFC
+    font-family: $fontRobotoRegular
+    margin-top: 54px
+    a
+        display: block
+        text-decoration: none
+    ul
+        list-style-type: none
+    .contactHeader
+        background-color: $white
+        border-bottom: 1px solid $lightGreyBorderDDD
+        padding: 1px 0 10px
+        .container
+            padding-right: 0
+            padding-left: 0
+        .breadCrumbBox
+            li
+                display: inline-block
+                margin-right: 15px
+                position: relative
+                &::after
+                    content: '>'
+                    position: absolute
+                    right: 0
+                    margin-right: -15px
+                    top: 0
+                    margin-top: -2px
+                    color: $lightColorGreyBBB
+                    height: 12px
+                    width: 10px
+                &.active
+                    &::after
+                        display: none
+
+            a
+                color: $blueLink
+                text-decoration: underline
+            span
+                color: $lightColorGreyBBB
+            a , span
+                font-size: 12px
+                line-height: 14px
+            h3
+                font-size: 20px
+                line-height: 22px
+                margin: 10px 0 5px
+                color: $darkBlackish333
+        .headerBtns
+            margin: 21px 0
+            .payNowBtn
+                color: $white
+                background-color: $pinkTextColor
+                padding: 9px 30px
+                font-size: 13px
+                line-height: 15px
+                cursor: pointer
+    .addContactDetails
+        background-color: $white
+        padding: 20px 0
+        .container
+            border: 1px solid $lightGreyBorderDDD
+            padding-right: 0
+            padding-left: 0
+.projectDetails
+    padding: 15px 20px
+    border-bottom: 1px solid $lightGreyBorderDDD
+    .projectName,.projectType
+        display: inline-block
+        vertical-align: bottom
+        margin-bottom: 5px
+    .projectName
+        color: $pinkTextColor
+        font-size: 14px
+        line-height: 16px
+        margin-right: 10px
+        text-transform: capitalize
+    .projectType
+        color: $greyFontAAA
+        font-size: 12px
+        line-height: 14px
+    p
+        font-size: 12px
+        line-height: 14px
+        color: $fontColorDarker666
+        margin-bottom: 5px
+.newContactBlock
+    padding: 15px 20px
+    border-right: 1px solid $lightGreyBorderDDD
+    .sofDetails
+        width: 526px
+        span:nth-child(1)
+            color: $fontColorDarker666
+            font-size: 14px
+            line-height: 16px
+            display: block
+        p
+            font-size: 12px
+            line-height: 14px
+            color: $fontColorDarker666
+            margin-top: 10px
+            span:nth-child(1), span:nth-child(2)
+                display: inline
+                font-size: 12px
+                line-height: 14px
+            span:nth-child(1)
+                color: $darkBlackish333
+            span:nth-child(2)
+                color: $fontColorDarker666
+            .mandatoryStar
+                color: $pinkTextColor
+    .addContactBtn
+        padding: 10px 15px
+        color: $blueLink
+        border: 1px solid $blueLink
+        cursor: pointer
+    .addContactInfo
+        margin-bottom: 30px
+        h4
+            font-size: 14px
+            line-height: 16px
+            color: $darkBlackish333
+            margin: 0 0 10px
+
+        .saveBtn
+            color: $blueLink
+            border: 1px solid $blueLink
+            font-size: 14px
+            line-height: 16px
+            padding: 18px 35px 19px
+            margin-left: 20px
+            cursor: pointer
+            &:hover
+                background-color: $blueLink
+                color: $white
+    .contactSelectionList
+        li:nth-child(odd)
+            margin-right: 20px
+        li
+            display: inline-block
+            border: 1px solid $lightGreyBorderDDD
+            padding: 10px
+            margin-bottom: 15px
+            width: 407px
+            .userPinkIcon
+                background: url("../images/icon-sprite.png") no-repeat center
+                background-position: -39px -350px
+                display: inline-block
+                margin: 0 15px 0 0
+            .contactDetails
+                width: calc(100% - 37px)
+                .userName, .userEmail
+                    display: block
+                .userName
+                    font-size: 14px
+                    line-height: 16px
+                    color: $pinkTextColor
+                    margin-bottom: 5px
+                .userEmail
+                    font-size: 12px
+                    line-height: 14px
+                    color: $fontColorDarker666
+                    margin-bottom: 10px
+                .contactTypeList
+                    span
+                        display: inline-block
+                        vertical-align: middle
+                    .checkBox
+                        height: 20px
+                        width: 20px
+                        margin-right: 10px
+                        border: 1px solid $fontColorDarker666
+                        cursor: pointer
+                    .contactType
+                        font-size: 12px
+                        color: $fontColorDarker666
+                        cursor: pointer
+                    li
+                        width: 165px
+                        padding: 0
+                        margin-bottom: 10px
+                        border: none
+                        &.checkedContact
+                            .checkBox
+                                position: relative
+                                &::after
+                                    width: 10px
+                                    height: 4px
+                                    content: ''
+                                    position: absolute
+                                    top: 50%
+                                    margin-top: -4px
+                                    left: 50%
+                                    margin-left: -5px
+                                    border: 1px solid $darkBlackish333
+                                    border-top: none
+                                    border-right: none
+                                    background: transparent
+                                    transform: rotate(-45deg)
+                            .contactType
+                                color: $darkBlackish333
+                        &:nth-child(odd)
+                            margin-right: 15px
+.addressBlock
+    padding: 15px 20px
+    h5
+        font-size: 14px
+        line-height: 16px
+        color: $darkBlackish333
+        margin: 0 0 10px
+    p
+        font-size: 12px
+        line-height: 14px
+        color: $fontColorDarker666
+        span
+            color: $pinkTextColor
+    .billingAddressList
+        margin-bottom: 15px
+        li
+            padding: 10px 15px
+            margin-bottom: 10px
+            border: 1px solid $lightGreyBorderDDD
+            position: relative
+            cursor: pointer
+        .addressIcon
+            width: 22px
+            height: 26px
+            background: url("../images/icon-sprite.png") no-repeat center
+            background-position: -39px -655px
+            margin-right: 23px
+        .addressDetails
+            width: calc(100% - 45px)
+        span
+            display: block
+            color: $darkBlackish333
+        span:nth-child(1)
+            font-size: 14px
+            line-height: 16px
+            margin-bottom: 5px
+        span:nth-child(2)
+            font-size: 12px
+            line-height: 14px
+            margin-bottom: 10px
+        p
+            font-size: 12px
+            line-height: 14px
+            color: $fontColorDarker666
+        .redCheck
+          padding: 12px
+          background-color: $pinkTextColor
+          position: absolute
+          display: none
+          top: 0
+          right: 0
+          &::after
+            width: 12px
+            height: 6px
+            content: ''
+            position: absolute
+            top: 50%
+            margin-top: -6px
+            left: 50%
+            margin-left: -6px
+            border: 2px solid $white
+            border-top: none
+            border-right: none
+            background: transparent
+            transform: rotate(-45deg)
+        li.checkedBox
+            border: 1px solid $pinkTextColor
+            .addressIcon
+                background-position: -39px -627px
+            .redCheck
+                display: block
+            span:nth-child(1)
+                color: $pinkTextColor
+.projectName
+    text-transform: capitalize
+@media (max-width: 1199px)
+    .infoBlock
+        .customInputBox
+            width: 145px
+    .newContactBlock
+        .contactSelectionList
+            li
+                width: 332px

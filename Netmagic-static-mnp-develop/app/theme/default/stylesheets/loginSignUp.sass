@@ -1,0 +1,607 @@
+// Variables declarations
+.signUpModal
+    .modal-body
+        color: $darkBlackish333
+        h3
+            color: $darkBlackish333
+
+=labelFormating
+  +posAbsolute
+  font:
+    family: $fontRobotoRegular
+    weight: normal
+    size: 12px
+  top: 4px
+  left: 13px
+  color: $darkBlackish333
+  padding: 0
+=formCustomInput
+  margin: 0
+  border-radius: 2px
+  padding-top: 22px
+  height: 51px
+  box-shadow: none
+  color: $black
+
+// Starts: Login page
+.container
+  +posRelative
+.loginColumn
+  margin-top: 30px
+  h1, .loginFormWrap > legend
+    font:
+      family: $fontRobotThin
+      size: 36px
+      weight: normal
+    line-height: 56px
+    color: $darkBlackish333
+    margin: 0 0 20px 0
+  h1
+    text-align: center
+
+.regenerateFormWrap
+    margin-top: 60px
+    .regenerateHeading
+        font-size: 28px
+        line-height: 30px
+        margin: 0
+    .loginFormWrap
+        margin-top: 30px
+        p
+            margin-bottom: 20px
+            color: $greySemiDark888
+
+.signUpWrap
+    .greyColorText
+        color: $greyFontAAA
+        text-decoration: none
+.loginFormWrap
+  width: 280px
+  margin: 40px auto
+  .formGroup, .error
+    margin-bottom: 20px
+  .customFormInput
+    +formCustomInput
+    border: 1px solid $greyFontAAA
+    border-radius: 0
+    margin: 0
+  .addressFieldWrap
+      margin-top: 20px
+  .firstChild
+    border-bottom: 1px solid $lightGreyEEE
+  .customSubmitBtn
+    line-height: 30px
+.loginFormBox
+    .firstChild
+        margin-bottom: 0
+        border-bottom: none
+        .customFormInput
+            border-bottom: none
+.customLabels
+  +labelFormating
+  color: #aaa
+.formGroup, .resetPwdWrap
+  +posRelative
+  .strongLabel, .weakLabel
+    +posAbsolute
+    right: 9px
+    bottom: 9px
+  &:hover, &:focus
+    label
+      color: $black
+    .customFormInput
+      background: $white
+  .customFormInput:focus
+    background: $white
+  .customFormInput:focus + label
+    color: $black
+.customSubmitBtn
+  +displayBlock
+  +buttonPink
+  border-radius: 0
+  width: 100%
+  height: 42px
+  font-size: 14px
+  line-height: 30px
+  border: none
+  margin-top: 10px
+  font-size: 16px
+  cursor: pointer
+  &:hover
+    background: $colorPinkHover
+.subLinkWrap
+  a, .loginLink
+    font-size: 11px
+    color: $blueLinkColor
+    &:hover
+      color: $darkBlackish333
+      text-decoration: none
+.portalMsg
+    margin: 0 auto
+    color: $pinkTextColor
+    width: 541px
+    font-size: 13px
+    a
+        color: $blueLink
+        display: inline-block
+        text-decoration: underline
+.chromeMsg
+    margin: 10px auto
+    width: 243px
+    font-size: 13px
+
+.signUpWrap
+  a
+    color: $blueLink
+    &:hover
+        color: $blueLink
+.formSubLink
+  margin-top: 11px
+  font-size: 11px
+  color: $pinkTextColor
+  cursor: pointer
+
+.regenerateLink
+    cursor: pointer
+.errorMsg
+    color: $colorREDff0000
+    font-size: 10px
+    line-height: 12px
+.blueLink
+  color:blue
+  cursor: pointer
+.infoLabels
+  font:
+    family: $fontArialRegular
+    size: 12px
+  line-height: 14px
+  color: $infoLabelGrey80
+// Starts: Frogot Password/Reset Password
+.validInvalidLabel
+  +displayBlock
+  padding: 0 3px
+  height: 15px
+  font-size: 8px
+  line-height: 14px
+  border: 1px solid $validDarkGreen
+  color: $validDarkGreen
+  +posAbsolute
+  right: 8px
+  bottom: 6px
+  text-transform: uppercase
+  &.inValid
+    color: $invalidRed
+    border-color: $invalidRed
+.resetPwdWrap
+  +posRelative
+  width: 50%
+  &:first-child
+    .customFormInput
+      border-right: 1px solid $lightFontGreyCCC
+  .validInvalidLabel
+    border: none
+    padding: 0
+    right: 10px
+    bottom: 10px
+    line-height: 10px
+    height: auto
+.resetGroup
+  +posRelative
+  .infoLabel
+    right: -26px
+    top: 50%
+    margin-top: -8px
+
+// Starts: Signup flow
+.loginLinkWrap
+  margin-top: 35px
+  font:
+    family: $fontArialRegular
+    size: 14px
+    weight: normal
+  line-height: 16px
+  color: $greyColorLight999
+  a
+    color: $lightGreyEEE
+.signupFormWrap
+  width: 370px
+  min-height: 865px
+  margin: 0 auto 90px
+  .govtIdTypeForm
+    border: 1px solid $greyFontAAA
+    border-bottom: none
+    .customSelectGroup
+      .Select-control 
+        .Select-placeholder
+          top: 26%
+      .Select-menu-outer
+        z-index: 4
+      .Select-input
+        margin-top: 15px
+  .errorMsg
+    color: $colorPink
+    font-size: 10px
+    line-height: 12px
+    margin-top: 5px
+    margin-bottom: 10px
+.govtIdTypeForm
+  .Select-control
+      border-radius: 0
+      height: 52px
+      border: 1px solid $lightGreyEEE
+      border-top: none
+      border-left: none
+      .Select-value:after
+        border: none
+        background: url(/theme/default/images/icon-sprite.png) no-repeat -48px -324px
+        top: 50%
+        left: 93%
+        border: none
+        content: " "
+        width: 13px
+        height: 8px
+        position: absolute
+        pointer-events: none
+        margin-top: -4px
+        transition: all .2s ease-in-out
+        -webkit-transition: all .2s ease-in-out
+        -moz-transition: all .2s ease-in-out
+        transform: rotate(0deg)
+      .Select-arrow-zone
+          .Select-arrow
+              border: none
+              background: url(/app/theme/default/images/icon-sprite.png) no-repeat -48px -324px
+              top: 50%
+              right: 50%
+              content: " "
+              width: 13px
+              height: 8px
+              position: absolute
+              pointer-events: none
+              margin-top: -4px
+      .Select-placeholder
+          top: 20%
+          left: 2%
+          color: $darkBlackish333
+
+      .Select-value
+          .Select-value-label
+              margin-top: 15px
+              margin-left: 2px
+              display: block
+ 
+  .dropDownOpened
+    .Select-control
+      .Select-value:after
+        border: none
+        transform: rotate(-180deg)
+  p
+    font:
+      family: $fontArialRegular
+      size: 11px
+    .mandatoryStar
+      margin-left: 4px
+      font-size: 18px
+      padding-top: 4px
+  .formGroup
+    textarea
+      height: 76px
+      resize: none
+  .customSelectGroup
+    select, p
+      border-color: $lightGreyEEE
+      border-top: none
+      color: $darkGrey222
+      font-size: 13px
+    .customLabels
+        color: $greyFontAAA
+    &.dropDownOpened
+      .selectContent
+        border: 1px solid $lightColorGreyBBB
+      .customSelectList
+        border-top: none
+    p:after, p:before
+      left: 88%
+  .selectBoxWrap
+    .customSelectGroup
+      width: 50%
+      border: 1px solid $greyFontAAA
+      border-bottom: none
+    .customSelectGroup:nth-child(1)
+        border-right: none
+  .selectBoxWrap.horzGroupWrap
+      .customSelectGroup
+          border: none
+          .customFormInput
+              border-right: none
+  .contactWrap, .nameWrap, .passwordWrap
+      .formGroup:nth-child(1)
+        border-right: none
+        .customFormInput
+            border-right: none
+
+
+.radioChoose
+  margin-bottom: 10px
+  margin-top: 20px
+  p
+    font:
+      family: $fontRobotoRegular
+      size: 18px
+      weight: normal
+    line-height: 30px
+    margin-bottom: 0
+  &:hover
+    label
+      color: $white
+  .radioButtons
+    width: 105px
+    label
+      width: 105px
+      left: 0
+      padding-left: 37px
+      &:first-child
+        left: -105px
+        padding: 0 38px 0 0
+        text-align: right
+    &.toggleSlide
+      .toggleIcon
+        left: 77px
+      label
+        left: 105px
+        &:first-child
+          left: 0
+.horzGroupWrap
+  +posRelative
+  .formGroup
+    width: 185px
+    border-bottom: 1px solid $lightGreyEEE
+    &:first-child
+      border-right: 1px solid $lightGreyEEE
+  .infoLabel
+    top: 50%
+    right: 6%
+.verticalSelectBox
+  .customSelectGroup
+    p:before, p:after
+      left: 95%
+.policiesWrap
+  .checkBoxCell
+    margin-top: 3px
+  .checkBoxCell, .cssCheckBox input[type="checkbox"], .cssCheckBox .NMIcon-checkbox
+    width: 19px
+    height: 19px
+    .cssCheckBox
+      .NMIcon-checkbox
+        border-color: $darkBlackish333
+        background-color: transparent
+      input[type="checkbox"]:checked + .NMIcon-checkbox
+        background-position: -47px -75px
+  p
+    margin: 0 0 17px 13px
+    font:
+      family: $fontArialRegular
+      size: 12px
+    line-height: 18px
+    color: $greyColorLight999
+    a
+      color: $darkBlackish333
+.singupCongrats.paymentConfirmMsg
+  height: 340px
+  width: 770px
+  +posAbsolute
+  top: 50%
+  left: 50%
+  margin: -170px 0 0 -385px
+  background: $white
+  padding: 54px 0
+  color: $black
+  h3
+    margin: 12px 0 22px 0
+  p
+    margin: 0 0 14px 0
+  a
+    text-transform: none
+.faxTimeWrap
+  .customSelectGroup
+    select, p
+      border: none
+      border-left: none
+      border-color: none
+    p
+      height: 47px
+.fileBrowseBtn
+  +posAbsolute
+  width: 71px
+  height: 32px
+  overflow: hidden
+  top: 7px
+  right: 9px
+  input
+    width: 165px
+    height: 32px
+    +posAbsolute
+    z-index: 5
+    opacity: 0
+    margin-left: -94px
+    cursor: pointer
+  .provideInputBtn
+    width: 71px
+    height: 32px
+    +posAbsolute
+    z-index: 2
+    text-align: center
+  &:hover
+    .provideInputBtn
+      background-color: $blueLinkColorHover
+      color: $white
+.invalid
+  position: absolute
+  top: 16px
+  right: 12px
+  display: block
+  background: $colorREDff0000
+  color: $white
+.resetPassword
+  .portalMsg
+    width: auto
+    display: block
+    margin-bottom: 10px
+.loginBackground
+  height: 100vh
+input.govtIdNo
+  text-transform: uppercase
+.termsConditions
+  .modal-dialog
+    top: 0px
+    width: 95%
+    transition: top 0.4s
+    height: 100%
+    margin: 15px auto
+    .modal-content
+      height: 95%
+      .modal-body
+        height: 535px
+        overflow-y: auto
+      .modal-header
+        h4
+          text-align: center
+      .modal-footer
+        padding: 0
+.termsConditions1
+  .modal-dialog
+    top: 150px !important
+    transition: top 0.4s
+    margin: 15px auto
+    .modal-content
+      .modal-body
+        height: 110px
+        overflow-y: auto
+      .modal-header
+        h4
+          text-align: center
+.termsConditions1
+   .close
+      font-size: 35px !important
+	  padding-top: 5px !important
+	  padding-right: 5px !important
+
+.termsConditions
+   .close
+      font-size: 35px !important
+	  padding-top: 5px !important
+	  padding-right: 5px !important
+.btn-glyphicon
+  padding: 8px
+  background: #ffffff
+  margin-right: 4px
+
+.padtop
+  padding-top: 60px
+  
+.padtop20
+  padding-top: 20px
+  
+.padtop_25
+  padding-top: -25px !important  
+
+.padleft80
+  margin-left: 10px
+  margin-top: -10px !important  
+
+.padbtm10
+  padding-bottom: 10px
+
+.borderLeft
+  border-left: 1px solid #dadada  
+
+.login_radio
+  position: absolute !important
+  clip: rect(0, 0, 0, 0)
+  overflow: hidden
+
+.btn_login
+  border: 1px solid #ed1651 !important
+  cursor: pointer !important
+  font-size: 14px !important
+  font-weight: 400 !important
+  line-height: 14px !important
+  font-family: robotoregular,"sans-serif",arial !important
+  padding: 15px 40px !important
+  color: #ed1651 !important
+
+.dis_login
+  border: 1px solid #bfbdbe !important
+  font-size: 14px !important
+  font-weight: 400 !important
+  line-height: 14px !important
+  font-family: robotoregular,"sans-serif",arial !important
+  padding: 15px 40px !important	
+  color: #bfbdbe !important   
+
+.btn_signup
+  border: 1px solid #16e !important
+  cursor: pointer !important
+  font-size: 14px !important
+  font-weight: 400 !important
+  line-height: 14px !important
+  font-family: robotoregular,"sans-serif",arial !important
+  padding: 15px 45px!important
+  color: #16e !important
+
+.dis_signup
+  border: 1px solid #bfbdbe !important
+  font-size: 14px !important
+  font-weight: 400 !important
+  line-height: 14px !important
+  font-family: robotoregular,"sans-serif",arial !important
+  padding: 15px 45px !important	
+  color: #bfbdbe !important 
+  
+.floatnone
+  float: none !important      
+
+.line50
+  line-height: 80px !important
+
+.loginhead
+  font-family: robotothin,"sans-serif",arial !important
+  font-size: 20px !important
+  font-weight: 400 !important
+  line-height: 30px !important
+  color: #333 !important
+  text-align: center !important
+.loginFlowWrapper
+  .darkPinkBtn
+    width: 185px
+    display: block
+.selectBoxWrap
+  .customSelectGroup
+    width: 50%
+    border: none
+    .Select-menu-outer
+      z-index: 4
+  .customSelectGroup:nth-child(1)
+    border-right: none
+  .selectBoxWrap.horzGroupWrap
+    .customSelectGroup
+      border: none
+      .customFormInput
+        border-right: none
+.reactSelectRow
+  .Select-control
+    border: 1px solid $greyFontAAA
+
+.margin_less
+   margin-left: -2px !important
+   
+.right5
+   margin-right: 10px !important   
+
+.DragPara
+   font-size: 12px !important
+   margin: 5px 0 0 8px !important
+   line-height: 18px !important   
+
+
+   	

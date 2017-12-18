@@ -1,0 +1,456 @@
+.ticketDetailsSection
+  .downloadFile
+    color: $darkBlackish333
+    font-family: $fontRobotoRegular
+  padding-top: 7px
+  background: $white
+  .workLogMainWrapper
+    background: $lightGreyFC
+  .breadCrumbSection
+    border-bottom: none
+    .container
+      padding: 0
+    .raiseBread, .raiseLink
+      +displayNone
+    .ticketListBread
+      +displayBlock
+.assignedToWrap
+  .NMIcon-assignedUserIcon
+    width: 46px
+    height: 46px
+    margin-right: 13px
+.userGroupLabel
+  color: $fontColorDarker666
+  font:
+    family: $fontRobotoRegular
+    size: 12px
+  padding-top: 7px
+  span
+    font:
+      size: 12px
+  .boldText
+    font:
+      color: $darkBlackish333
+      weight: bold
+  .lightTextColor
+    font:
+      family: $fontArialRegular
+    color: $greyFontAAA
+  .severityTextColor
+    font:
+      family: $fontArialRegular
+    color: $colorREDff0000
+  .ticketDetailValue
+    color: $fontColorDarker666
+    font:
+      family: $fontRobotoRegular
+  span.danger
+    color: $danger
+    font:
+      size: 12px
+.assignedToWrap
+  .userGroupLabel
+    font-family: $fontRobotoMedium
+    color: $darkBlackish333
+
+.userGroupLabel
+    .labelData
+        font-size: 14px
+        line-height: 24px
+    .boldFont
+        font-weight: bold
+
+.listsDetailsView
+  &:first-child
+    margin-bottom: 8px
+  .userGroupLabel
+    width: 138px
+    margin-left: 0
+    min-height: 100px
+    .labelData
+        font-size: 14px
+        line-height: 24px
+    +transitions
+    &.redText
+      color: $colorREDff0000
+.toggleUpDown
+  margin-top: 11px
+  width: 30px
+  height: 30px
+  border: none
+  cursor: pointer
+  .toolTipBox
+    width: 84px
+    top: 58px
+    left: 28px
+  i
+    width: 11px
+    height: 11px
+    +displayBlock
+    margin: 8px auto 0
+    background-position: -50px -93px
+    box-sizing: border-box
+    +rotate-180deg
+  &.rotateArrow
+    .NMIcon-accrodArow
+      +rotate360deg
+  &:hover
+    .NMIcon-accrodArow
+      background-position: -50px -109px
+    .toolTipBox
+      +displayBlock
+
+.IconDoubleArrow
+  .NMIcon-doubleArrowUp
+    transform: rotate(0) !important
+.IconDoubleArrow.rotateArrow
+  .NMIcon-doubleArrowUp
+    transform: rotate(180deg) !important
+.bigMessageInfo
+  .container
+    padding: 18px 55px
+  h3
+    font:
+      family: $fontRobotoMedium
+      size: 18px
+      weight: normal
+    line-height: 20px
+    color: $darkGrey222
+    margin: 0
+  p
+    font:
+      family: $fontArialRegular
+      size: 14px
+      weight: normal
+    line-height: 18px
+    color: $fontColorDarker666
+    margin-top: 16px
+.bgGreyWrap
+  background: $lightGreyFC
+  border: 1px solid $lightFontGreyCCC
+  border-left: none
+  border-right: none
+.workLogNotification
+  padding: 16px 70px 16px 55px
+  .mesgLabel
+    +posRelative
+    font-family: $fontRobotoRegular
+    font-size: 14px
+    line-height: 15px
+    padding: 3px 10px
+    margin-left: 8px
+    cursor: pointer
+    span.mesgLabel-danger
+      cursor: pointer
+    &:hover
+      text-decoration: underline
+      .attachToolTip
+        +displayBlock
+  h2
+    position: relative
+    font:
+      family: $fontRobotoMedium
+      size: 18px
+      weight: normal
+    line-height: 22px
+    color: $darkBlackish333
+    text-transform: capitalize
+    margin: 0
+    span.largerText
+      font-size: 18px
+      line-height: 14px
+
+.attachToolTip
+  +displayNone
+  +posAbsolute
+  height: 140px
+  width: 260px
+  background: $black
+  opacity: 0.8
+  top: 30px
+  &:before
+    position: absolute
+    content: ""
+    display: block
+    left: 40px
+    top: -8px
+    border-bottom: 8px solid $black
+    border-left: 8px solid transparent
+    border-right: 8px solid transparent
+  .cssCheckBox input[type="checkbox"], .cssCheckBox .NMIcon-checkbox
+    width: 15px
+    height: 15px
+    top: 5px
+  .cssCheckBox
+    .NMIcon-checkbox
+      border-color: $greyFontAAA
+      background-color: transparent
+    input[type="checkbox"]:checked + .NMIcon-checkbox
+      background-position: -17px -520px
+  ul
+    margin: 0
+    padding: 15px
+    border-bottom: 1px solid $fontColorDarker666
+    .attachedJpg
+      font:
+        family: $fontRobotoRegular
+        size: 12px
+        weight: bold
+      color: $greyFontAAA
+      margin-left: 8px
+      text-transform: initial
+  .toolTipButtons
+    width: 100%
+    text-align: center
+    padding: 10px 0
+    a
+      margin-right: 10px
+      padding-right: 10px
+      border-right: 1px solid $white
+      &:last-child
+        margin-right: 0
+        padding-right: 0
+        border-right: 0
+.detailsPostComment
+  margin-top: 20px
+  .postText
+    width: 81%
+    height: 49px
+    padding: 0 14px 10px
+    font-size: 12px
+    margin-right: 20px
+  .submitBtnWrap
+    margin-left: 10px
+  .darkPinkBtn
+    padding: 15px 21px
+    &:last-child
+      margin-left: 5px
+  .fileTypeWrap
+    margin-left: 10px
+    width: 99px
+    height: 40px
+    overflow: hidden
+    +posRelative
+    .inputFileType, .darkGreyBtn
+      width: 100px
+      +posAbsolute
+    .inputFileType
+      z-index: 10
+      opacity: 0
+      height: 40px
+      margin-left: -100px
+      width: 199px
+      cursor: pointer
+      &:hover + .darkGreyBtn
+        background: $darkGreyHover12
+    .darkGreyBtn
+      z-index: 0
+      padding: 10px 10px 11px
+.viewCommentingSection
+  margin-top: 10px
+.detailsPostComment + .viewCommentingSection
+  margin-top: 28px
+.userProfilePic
+  width: 44px
+  height: 44px
+  overflow: hidden
+  border-radius: 50%
+.commentWrapper
+  width: 94.3%
+  margin-left: 15px
+  box-sizing: border-box
+.commentCommonProp
+  padding: 10px 19px
+  margin-top: 10px
+  .userName
+    font:
+      family: $fontArialRegular
+      size: 11px
+      weight: bold
+    line-height: 14px
+    margin: 0
+    span
+      color: $fontColorDarker666
+  .commentTime
+    font-size: 11px
+    line-height: 14px
+  .userReply
+    font:
+      family: $fontArialRegular
+      size: 14px
+      weight: normal
+    line-height: 18px
+    color: $fontColorDarker666
+    word-wrap: break-word
+    margin-bottom: 0
+.commentWrapper
+  .commentCommonProp
+    &:first-child
+      margin-top: 0
+.greenCommentSection
+  border: 1px solid $greenColorBorder
+  background: $greenColorBG
+  color: $greenColorText
+.pinkCommentSection
+  border: 1px solid $pinkColorBorder
+  background: $pinkLightBG
+  color: $colorPink
+
+.brdrRadiusLeftNone
+  border-radius: 0 20px 20px 20px
+.brdrRadiusRightNone
+  border-radius: 20px 0 20px 20px
+.ticketDropZone
+    margin-top:  70px !important
+.dropZone
+  width: 100%
+  margin-top: 19px
+  .dropArea
+    width: 100%
+  p
+    cursor: pointer
+  ul
+    list-style: none
+    padding-left: 0
+    li
+      max-height: 50px
+      float: left
+      position: relative
+      border: 1px solid pink
+      margin: 0 0 10px 5px
+      padding: 5px 20px 5px 5px
+      p
+        font-size: 12px
+        margin-top: 0
+        line-height: 30px
+  i
+    &.cancel
+      position: absolute
+      top: -2px
+      font-style: normal
+      font-weight: bold
+      color: #EC1A51
+      right: 3px
+      cursor: pointer
+    &.NMIcon-attachFile
+      width: 62px
+      height: 50px
+.commentWrapper
+  ul
+    list-style: none
+    padding-left: 0
+    margin: 0
+    li
+      margin-top: 5px
+      &:first-child
+        margin-top: 10px
+    i
+      &.NMIcon-attachFile
+        width: 62px
+        height: 50px
+      &.NMIcon-download
+        margin-right: 10px
+    p
+      line-height: 24px
+.userProfilePic
+  .userPinkIcon
+    width: 50px
+    height: 50px
+    margin-top: 0
+  .NMIcon-userPink
+    background-position: -29px -250px
+.ticketListHeading
+  margin: 0 auto
+  width: 1170px
+  .ticketNoCell
+    width: 193px
+    padding-left: 20px
+    max-width: 193px
+.ticketDataList
+  width: 1170px
+  &:hover
+      box-shadow: 0 3px 5px -3px $black
+  .ticketNoCell
+    width: 203px
+    max-width: 203px
+  .serverListCell
+    width: 88px
+    max-width: 88px
+  .typeCell
+    width: 100px
+    max-width: 100px
+    padding-left: 15px !important
+    text-align: center !important
+  .statusCell
+    width: 160px
+    max-width: 160px
+    text-align: center !important
+    padding: 0 16px !important
+  .summaryCell
+    padding-left: 8px !important
+  &.tabelDataCell
+      .dataCell
+          padding: 17px 8px
+      .ticketNoCell
+          padding-left: 20px
+.tipBox
+  background-color: #000
+  width: 260px
+  position: absolute
+  left: 74px
+  top: 30px
+  padding: 10px 25px
+  opacity: 0.7
+  height: auto
+  z-index: 1000
+  h2
+    color: $white
+    font-size: 12px
+  &::before
+    content: ''
+    display: block
+    width: 0
+    height: 0
+    position: absolute
+    border-right: 8px solid transparent
+    border-left: 8px solid transparent
+    border-bottom: 8px solid black
+    top: -6px
+    left: 43px
+  .fileAttachment
+    margin-top: 5px
+    display: block
+    &::first-child
+      margin-top: 0
+  .downloadIcon
+    background: url("../images/icon-download.png")
+    display: block
+    width: 20px
+    height: 20px
+    background-size: cover
+    margin-top: 0px
+    float: left
+    margin-right: 10px
+  .downloadText
+    display: block
+    line-height: 20px
+    float: left
+    word-wrap: normal
+    overflow: hidden
+    width: 180px
+    text-overflow: ellipsis
+
+@media (max-width: 1199px)
+    .detailsPostComment
+      .darkPinkBtn
+        padding: 15px 12px
+    .userProfilePic, .userProfilePic .userPinkIcon
+        width: 33px
+    .summaryCell
+        min-width: 255px
+    .ticketDataList, .ticketListHeading
+        width: 970px
+    .ticketListHeading .ticketNoCell
+        width: 163px
+    .lastUpdatedCell
+        width: 100px

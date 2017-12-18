@@ -1,0 +1,299 @@
+//Start: Breadcrumb css on listing
+.ticketListSection
+  .breadCrumbSection
+    .detailsBread2, .raiseLink
+      +displayNone
+  .darkPinkBtn
+    font-size: 16px
+  article
+    overflow: hidden
+.listElementWrap
+  .breadCrumbSection
+    .darkPinkBtn, .ticketListBread
+      +displayBlock
+    .raiseBread
+      +displayNone
+//Start: Listing Css
+.alignBtn
+  margin: 7px 0
+.tickeListTable
+  min-height: 1000px
+  display: table
+  width: 100%
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    border: 1px solid #ddd
+    margin-top: 15px
+    &.tableHeader
+      background: $white
+      border-color: $lightFontGreyCCC
+      border-right: none
+      top: 109px
+    font-size: 13px
+  .filersLists > li:nth-child(odd)
+    background: $white
+    .accordionChild
+      li
+        background: none
+        border: none
+  .filersLists > li
+    border-bottom: 1px solid $lightFontGreyCCC
+  .filersLists > li:nth-child(odd):hover
+    background: $colorGreyHoverHeader
+.rowCell
+  display: table-row
+.tableHeader
+  +posFixed
+  width: 100%
+  background: $white
+  top: 109px
+  left: 0
+  +borderTopBottom
+  border-color: $lightFontGreyCCC
+  z-index: 7
+  .dropDownWrapper
+    color: $darkBlackish333
+    &.openDropDown
+      .dropDownArrow
+        margin-top: 4px
+        right: 14px
+        +rotate-180deg
+  .redText
+    color: $colorREDff0000
+  .lastUpdatedCell:hover, .creationCell:hover, .openSinceCell:hover
+    color: $darkBlackish333
+    .sortDownArrow
+      &:before, &:after
+        border-top-color: $darkBlackish333
+  .sortingCell.sortArrow
+    .sortDownArrow
+      right: 15px
+      margin-top: 0
+      +rotate-180deg
+.dataCell
+  display: table-cell
+  +posRelative
+  padding: 4px 10px
+  height: 45px
+  vertical-align: middle
+  font:
+    family: $fontArialRegular
+  color: $lightColorGreyBBB
+.innerTableWrap
+  display: table
+  +posRelative
+.tabelDataCell
+  float: left
+  .dataCell
+    color: $fontColorDarker666
+    padding: 20px 8px
+    +posRelative
+  &:hover
+    background: $white
+    border-color: $lightFontGreyCCC
+  &:nth-child(odd):hover
+    border-color: $lightFontGreyCCC
+  .actionCell
+    text-align: center
+    .provideInputBtn
+      opacity: 0
+      float: right
+    .mesgLabel
+      margin-top: 5px
+      float: left
+      margin-left: 5px
+  &:hover
+    .actionCell
+      .provideInputBtn
+        opacity: 1
+  .ticketNoCell
+    color: $blueLinkColor !important
+    text-decoration: underline
+    &:hover
+      text-decoration: underline
+  .nonAuthCell
+    font-weight: bold
+    color: $darkBlackish333 !important
+  a:hover
+    text-decoration: none
+.nonAuthCell
+  +ellipsisProp
+.ticketNoCell
+  width: 132px
+  max-width: 132px
+  cursor: pointer
+.openSinceCell
+  width: 78px
+  max-width: 78px
+  visibility: hidden
+.creationCell, .lastUpdatedCell
+  width: 110px
+  max-width: 110px
+.tabelDataCell
+  .dataCell.lastUpdatedCell
+    color: $greyFontAAA
+.summaryCell
+  width: 255px
+  max-width: 255px
+.serverListCell
+  width: 85px
+  max-width: 85px
+.typeCell
+  width: 88px
+  max-width: 88px
+.statusCell
+  width: 154px
+  max-width: 154px
+.actionCell
+  width: 130px
+  max-width: 130px
+.tableHeader
+  .creationCell, .serverListCell, .typeCell, .statusCell, .lastUpdatedCell,
+  .openSinceCell
+    +disableTextSelection
+    cursor: pointer
+  .typeCell
+    border-left: 1px solid $lightFontGreyCCC
+.ticketListSection
+  min-height: 1000px
+  .actionCell
+    width: 166px
+    max-width: 166px
+    .btn
+        border-radius: 0
+        margin-right: -10px
+  .serverListCell
+    text-align: center !important
+.redText
+  color: $colorREDff0000
+.tabelDataCell
+  .redText
+    color: $colorREDff0000
+  .serverListCell.redText
+    color: $colorREDff0000
+.tableHeader
+  .serverListCell, .typeCell, .statusCell
+    border-right: 1px solid $lightFontGreyCCC
+  .serverListCell
+    border-left: 1px solid $lightFontGreyCCC
+.actionCell,
+.actionBtnGrp
+  a
+    +outLineNone
+    text-decoration: none
+    text-transform: capitalize
+    +displayInlineBlock
+    min-width: 94px
+    &.reOpenBtn
+      min-width: 69px
+    &.closeBtn
+      min-width: 60px
+      margin-left: 9px
+    &.updateBtn
+      line-height: 22px !important
+      margin-left: 5px !important
+.provideInputBtn
+  +buttonBorderPorp
+  +buttonBlueBorder
+  cursor: pointer
+.reOpenBtn
+  +buttonBorderPorp
+  +buttonPinkBorder
+  cursor: pointer
+.filterIconWrap
+  width: 46px
+  height: 46px
+  border-radius: 50%
+  background: $blueLinkColor
+  +transitions
+  +posAbsolute
+  left: -30px
+  top: 21px
+  z-index: 9
+  cursor: pointer
+  span
+    +displayBlock
+    +posAbsolute
+    top: 50%
+    left: 50%
+  &.filterActive
+    background: $darkBlackish333
+.tickeListTable
+  .dataCellDropDown
+    +posAbsolute
+    +displayNone
+    background: $white
+    top: 15px !important
+    left: -11px
+    width: 85px
+    margin: 0
+    padding: 0
+    list-style: none
+    border: 1px solid $lightFontGreyCCC
+    border-top: none
+    box-shadow: 0 3px 5px rgba(0,0,0,0.05)
+    li
+      padding: 13px 10px
+      border: 0
+      margin-top: 0
+      border-top: 1px solid $lightFontGreyCCC
+      background: $white
+      font:
+        family: $fontArialRegular
+        size: 14px
+        weight: normal
+      color: $darkBlackish333
+      &.redText
+        color: $colorREDff0000
+      &:nth-child(odd)
+        background: $white
+        &:hover
+          background: $colorGreyHoverHeader
+      &:first-child
+        border-top: none
+      &:hover
+        background: $colorGreyHoverHeader
+.statusCell
+  .dataCellDropDown
+    width: 150px
+.dropDownWrapper:hover
+  background: $colorGreyHoverHeader
+.typeCell
+  .dataCellDropDown
+    width: 87px
+.defaultTextTransform
+  text-transform: initial
+.modal-footer
+  padding: 35px
+  .darkPinkBtn
+    text-transform: capitalize
+    &:last-child
+      margin-left: 5px
+.customDropDown
+  li:nth-child(1)
+    color: $darkBlackish333 !important
+.customSelectGroup
+  .statusDropDown
+    width: 161px !important
+    height: 255px !important
+  .typeDropDown
+    width: 91px !important
+    height: 94px !important
+.severityDropDown
+  .severityDropDownList
+    width: 88px !important
+    height: 329px !important
+.noDataBlock
+  text-align: center
+
+@media (max-width: 1199px)
+    .actionCell,
+    .actionBtnGrp
+      a
+          &.reOpenBtn
+              margin-bottom: 5px
+          &.closeBtn
+              min-width: 69px
+              margin-left: 0

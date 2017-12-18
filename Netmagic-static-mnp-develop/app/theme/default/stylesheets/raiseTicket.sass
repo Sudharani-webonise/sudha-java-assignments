@@ -1,0 +1,393 @@
+//Starts: Raise form section
+.raiseTktBoardIcon
+  background: url('../images/raise-ticket-icon.png') no-repeat center
+  width: 147px
+  height: 70px
+.userBellIconLrg
+  background: url('../images/user-bell-icon-large.png') no-repeat center
+  width: 109px
+  height: 84px
+.raiseElementWrap
+  padding-top: 125px
+  .breadCrumbSection
+    .darkPinkBtn, .ticketListBread
+      +displayNone
+.raiseTicketSection
+    margin-top: 20px
+.raiseTicketWrap
+    h2
+      +posRelative
+      padding: 0  0 0 30px
+      font-family: $fontRobotoRegular
+      text-transform: capitalize
+      span
+        +posAbsolute
+        right: 30px
+        bottom: 0
+.raiseTicketWrap
+  h2
+    +posRelative
+    padding: 0  0 22px 30px
+    font-family: $fontRobotoRegular
+    text-transform: capitalize
+    span
+      +posAbsolute
+      right: 30px
+      bottom: 0
+.raiseTicketWrap
+  h2
+    padding: 0
+    margin: 10px 0 3px 0
+.addNewContact
+    padding-bottom: 30px
+.subCasetype
+  p
+    border-left: 1px solid $lightGreyBorderDDD
+.radioWrap
+  margin-bottom: 17px
+  width: 33.334%
+.raiseTicketForm
+  .radioButtons
+    width: 90px
+    label
+      width: 90px
+      left: 0
+      padding-left: 33px
+      &:first-child
+        left: -90px
+        padding: 0 33px 0 0
+        text-align: right
+    &.toggleSlide
+      .customRadioLabel
+        left: 90px
+        &:first-child
+          left: 0
+      .toggleIcon
+        left: 62px
+  .customSelectGroup
+    width: 33.334%
+.formCustomLabel
+  font:
+    family: $fontRobotoRegular
+    size: 14px
+    weight: normal
+  color: $darkBlackish333
+  line-height: 30px
+  margin-right: 10px
+.formElementWrap
+  +posRelative
+  input, textarea
+    +posRelative
+  label
+    +posAbsolute
+  label
+    +formElementLabel
+  textarea#summary
+    height: 45px
+  input, textarea
+    width: 100%
+    height: 48px
+    padding: 20px 14px 0
+    +transitions
+    +posRelative
+  input
+    border-bottom: none
+    &:focus
+      z-index: 1
+      top: 1px
+      border-bottom: 1px solid $lightColorGreyBBB
+  textarea
+    height: 90px
+    resize: none
+.draggableWrap
+  border: 2px dashed $pinkLightBorder
+  background: $pinkLightBG
+  padding: 17px 30px
+  box-sizing: border-box
+  +posRelative
+  i.NMIcon-attachFile
+    width: 62px
+    height: 50px
+  p
+    font:
+      family: $fontArialRegular
+      size: 14px
+      weight: normal
+    line-height: 16px
+    color: $greyFontAAA
+    margin: 18px 0 0 8px
+    span
+      color: $colorPink
+    span.anchorLink
+      border-bottom: 2px solid $pinkDarkBorder
+  .attachFileType
+    +posAbsolute
+    width: 120px
+    left: 298px
+    top: 32px
+    overflow: hidden
+    cursor: pointer
+    input
+      margin-left: -92px
+      width: 215px
+      opacity: 0
+      cursor: pointer
+.addNewContact
+  .darkBlueBtn
+    padding: 10px 20px
+    height: 48px
+    text-align: center
+    font-family: $fontRobotoRegular
+    font-size: 14px
+    font-weight: normal
+    text-transform: capitalize
+    color: $blueLinkColor
+    background: $white
+    border: 1px solid $blueLinkColor
+    margin-left: 0
+.maxContactInfo
+  color: $greyColorLight999
+  font-size: 12px
+
+.raiseTicketForm
+  .mandatoryStar
+    font-size: 20px
+    +posAbsolute
+    top: -2px
+    right: -12px
+//Starts: Additional Notifications section
+.additionalNotify
+  h2
+    padding-top: 30px
+.customTextGroup
+  +posRelative
+  width: 29.73%
+  height: 48px
+  label
+    +posAbsolute
+    +formElementLabel
+  input
+    width: 100%
+    height: 100%
+    padding: 20px 0 0 14px
+    font-size: 12px
+    border-left-width: 0
+    +posRelative
+    +transitions
+    &:focus
+      z-index: 1
+      margin-left: -1px
+      width: 100.5%
+      border-left: 1px solid $lightColorGreyBBB
+  &:first-child
+    input
+      border-left-width: 1px
+
+//Starts: Contact List
+.preContactList
+  list-style: none
+  margin: 0 0 0 -14px
+  padding: 0
+  li
+    float: left
+    margin: 0 0 12px 14px
+    width: 32%
+    label
+      cursor: pointer
+      +displayBlock
+.contactListInner
+  background: $white
+  border: 1px solid $lightGreyEEE
+  padding: 0 14px
+  +transitions
+  &:hover
+    border-color: $lightColorGreyBBB
+  &.checkedContact
+    border-color: $fontColorDarker666
+.customCheckBox
+  +posRelative
+  width: 36px
+  height: 37px
+  border-radius: 50%
+  overflow: hidden
+  margin-top: 16px
+  label
+   width: 36px
+   height: 37px
+   border-radius: 50%
+   background-color: $white
+   border: 1px solid #d1d1d1
+   position: absolute
+   cursor: pointer
+   top: 0
+   left: 0
+  label.unchecked
+   background-color: $white
+   border: 1px solid $lightFontGreyCCC
+   &::before
+    content: ''
+    width: 12px
+    height: 1px
+    position: absolute
+    top: 16px
+    left: 11px
+    border: 1px solid $lightFontGreyCCC
+   &::after
+    content: ''
+    width: 1px
+    height: 12px
+    position: absolute
+    top: 11px
+    left: 16px
+    border: 1px solid $lightFontGreyCCC
+
+  label.checked
+   background-color: $blueLinkColor
+   border: 1px solid $blueLinkColor
+   &:after
+    content: ''
+    width: 15px
+    height: 6px
+    position: absolute
+    top: 12px
+    left: 10px
+    border: 1px solid $white
+    border-top: none
+    border-right: none
+    background: transparent
+    opacity: 1
+    transform: rotate(-45deg)
+
+  label
+  .customCheckboxChild
+    +displayBlock
+    +posAbsolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    -webkit-backface-visibility: hidden
+    backface-visibility: hidden
+    +transitions
+    &.NMIcon-userGrey
+      -webkit-transform: rotateY(0)
+      transform: rotateY(0)
+    &.NMIcon-darkTickMark
+      -webkit-transform: rotateY(-180deg)
+      transform: rotateY(-180deg)
+.contactListInner
+  &.checkedContact
+    .NMIcon-darkTickMark
+      -webkit-transform: rotateY(0)
+      transform: rotateY(0)
+    .NMIcon-userGrey
+      -webkit-transform: rotateY(-180deg)
+      transform: rotateY(-180deg)
+  input
+    +posAbsolute
+    width: 40px
+    height: 40px
+    top: -5px
+    left: -2px
+    cursor: pointer
+
+.contactInfoWrap
+  padding: 8px 0 0 0
+  margin-left: 50px
+  h4
+    font:
+      family: $fontRobotoMedium
+      size: 14px
+      weight: normal
+    color: $darkGrey222
+    line-height: 16px
+    text-transform: capitalize
+    margin: 0
+  p
+    font:
+      family: $fontArialRegular
+      size: 12px
+      weight: normal
+    color: $greyColorLight999
+  h4, p
+    margin-bottom: 6px
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: nowrap
+
+//Starts: Raise Submit Button
+.footerButtonWrap
+  padding: 14px 0
+  background: $white
+  border-top: 1px solid $lightGreyEEE
+  border-bottom: 1px solid $lightGreyEEE
+  margin-top: 18px
+.raiseButtonWrap
+  padding: 0 15px
+  a
+    margin: 16px 0 0 18px
+
+.raiseTicketBtns
+  margin-top: 10px
+  .customLinks
+    margin-left: 10px
+    line-height: 46px
+.chooseTicket
+  margin-bottom: 20px
+  .customSelectGroup p
+    border-left: 1px solid $lightGreyBorderDDD
+
+a.attachmentLink
+  color: $greenColorText
+  background: transparent
+  &:hover,
+  &:focus
+    color: $greenColorText
+    background: transparent
+
+.sumDescWrap
+  .formEditWrap:nth-child(1)
+    border-bottom: none
+  .formEditWrap
+    border: 1px solid $lightColorGreyBBB
+    display: block
+    padding: 5px 10px
+    label, textarea
+      display: block
+    label
+      position: relative
+      font:
+        family: $fontRobotoRegular
+        size: 12px
+        weight: normal
+      color: $darkBlackish333
+      .mandatoryStar
+        position: absolute
+        top: 0
+        left: 6%
+        margin-top: -3px
+
+  textarea#summary
+    height: 20px
+    padding: 0
+  input, textarea
+    border: none
+    width: 100%
+    height: 48px
+    line-height: 15px
+    +transitions
+.customSelectGroup
+  .customSelectList.ticketCustomList
+    height: 90px!important
+    overflow-y: auto
+  .customSelectList.subTypeList
+      li:nth-child(1)
+        color: $darkBlackish333 !important
+
+@media (max-width: 1199px)
+    .customTextGroup
+        width: 28%
+    .inputBoxesWrap .darkBlueBtn
+        float: right !important
+    .preContactList li
+        width: 48%

@@ -1,0 +1,45 @@
+.no_mar
+  margin: 0 !important
+
+.pad10
+  padding: 10px
+
+.pad20
+  padding: 20px
+
+.pad_lef15
+  padding-left: 15px
+
+.pad_lef20
+  padding-left: 20px
+
+.pad_tp10
+  padding-top: 10px
+
+.pad_tp5
+  padding-top: 8px
+
+.para1
+  font-size: 14px
+  line-height: 16px
+
+.para2
+  font-size: 14px
+  line-height: 20px
+  text-align: justify
+
+ol
+  counter-reset: item
+  padding-left: 15px
+  display: table
+  li
+    display: block
+    list-style: none
+    display: table-row
+    &:before
+      content: counters(item, ".") " "
+      counter-increment: item
+      -webkit-padding-start: 0
+      display: table-cell
+      text-align: right
+      padding-right: .3em

@@ -1,0 +1,1430 @@
+/**Start: Outstanding Listing**/
+
+.sortArw
+  display: inline-block
+  pointer-events: none
+  border-color: $colorDarkGreyArrow9E transparent transparent
+  border-style: solid
+  border-width: 4px
+  vertical-align: middle
+  margin-left: 5px
+
+.sortingCell.sortArrow
+  .sortArw
+    margin-top: -7px
+    +rotate-180deg
+
+.doulbleLineText
+  display: inline-block
+  vertical-align: middle
+  text-align: left
+
+.arrowCell
+  width: 40px
+.cellInWrap
+  .amtOutCell
+    text-align: left !important
+    padding-left: 17px !important
+.listStyle
+  .remainDays
+    padding: 2px 5px
+    margin-left: 10px
+    font:
+      size: 13px
+      family: $fontRobotoMedium
+  .forSpace, .creditCheckBox
+    width: 59px
+    padding: 0
+    position: relative
+    .selectInvoiceBox
+      position: absolute
+      right: 0
+      top: 38%
+      height: 20px
+      width: 20px
+      background-color: $white
+      border: 1px solid $black
+    label.checked
+      &::after
+        content: ''
+        width: 10px
+        height: 5px
+        position: absolute
+        top: 20%
+        left: 25%
+        border: 1px solid $black
+        border-top: none
+        border-right: none
+        background: transparent
+        opacity: 1
+        transform: rotate(-45deg)
+    input
+      position: absolute
+      right: 0
+      top: 31%
+      height: 20px
+      width: 20px
+      z-index: -1
+  .checkBoxCell, .tabelDataCell .checkBoxCell
+    padding-left: 30px
+    width: 50px
+    max-width: 50px
+    padding-right: 0
+  .pendingSinceCell
+    width: 128px
+    max-width: 128px
+    border-left: 1px solid transparent
+    border-right: 1px solid transparent
+    text-align: center !important
+  .tdsPercentCell
+    width: 100px
+    max-width: 100px
+    border-left: 1px solid transparent
+    border-right: 1px solid transparent
+    .dropDownArrow
+      right: 23px
+  .outStatusCell
+    width: 110px
+    max-width: 110px
+    .pinkText
+      color: $colorPink
+    .greenText
+      color: $stronGreenColor
+  .fromCell, .toCell
+    width: 113px
+    max-width: 113px
+  .invoiceValueCell
+    width: 132px
+    max-width: 132px
+  .amtOutCell, .amtPaidCell
+    width: 130px
+    max-width: 130px
+  .sofCell, .poCell
+    width: 94px
+    max-width: 94px
+  .dataCell
+    font-family: $fontRobotoRegular
+    word-break: break-all
+  .amtOutCell
+    font-family: $fontRobotoMedium
+    text-align: left
+    .doulbleLineText
+      font-family: $fontRobotoRegular
+  .invoiceNoCell
+    width: 125px
+    max-width: 125px
+  .sortingCell
+    .pendingDropdown
+      +displayNone
+      +posAbsolute
+      background: $white
+      width: 102%
+      margin: 0
+      padding: 0
+      left: -1px
+      top: 46px
+      list-style: none
+      border: 1px solid $lightFontGreyCCC
+      border-top: none
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05)
+      li
+        background-color: $white
+        border-bottom: 1px solid $lightFontGreyCCC
+        font:
+          size: 12px
+          family: $fontArialRegular
+        color: $darkBlackish333
+        padding: 15px 5px
+        text-align: center
+        &:last-child
+          border-bottom: 0
+
+  .pendingSinceCell.sortArrow, .tdsPercentCell.sortArrow
+    border-left: 1px solid $lightFontGreyCCC
+    border-right: 1px solid $lightFontGreyCCC
+    color: $darkBlackish333
+    .pendingDropdown
+      +displayBlock
+    .sortArw
+      border-color: $darkBlackish333 transparent transparent
+
+.dataCell.cellColor
+  color: $colorPink
+.outStandingWrap
+  .midHeader
+      z-index: 1000
+  .makePaymentBtn
+      margin: 26px 22px
+      padding: 5px 40px
+  .tickeListTable
+    padding-bottom: 30px
+  .arrowCell
+    .toolTipBox
+      width: 74px
+      left: -33px
+      &:before
+        margin-left: 8px
+  .tableHeader
+    top: 176px
+    .tdsPercentCell
+      border-left: 1px solid $lightFontGreyCCC
+      border-right: 1px solid $lightFontGreyCCC
+    .dataCell
+      cursor: pointer
+  .listingFilterWrap
+    top: 223px
+  .seperateSubRow
+    margin-top: 18px
+    width: 100%
+    border-color: $lightGreyEEE
+    &:nth-child(odd)
+      border-color: $lightGreyEEE
+    .arrowAccordWrap
+      +posRelative
+      .toolTipBox
+        width: 74px
+        box-sizing: border-box
+        top: 33px
+        left: -45px
+        &:before
+          margin-left: 11px
+      .accordTrigger:hover + .toolTipBox
+        +displayBlock
+    .upCertificateBtn
+      font:
+        size: 14px
+        family: $fontRobotoRegular
+      padding: 10px 21px
+      vertical-align: middle
+      margin: -5px 20px 0 0
+      +displayNone
+    .tdsCertificate .upCertificateBtn
+      +displayInlineBlock
+    .accordRow
+      &:nth-child(odd)
+        border-color: $darkGreyRow
+        background: $darkGreyRow
+    &:hover
+      border-color: $lightFontGreyCCC
+.cssRadio, .cssCheckBox, .subCssCheckBoxes
+  position: relative
+  margin: 0
+  display: inline-block
+
+.cssRadio input[type="radio"]
+  opacity: 0
+  position: absolute
+  cursor: pointer
+  margin: 0
+
+.cssCheckBox, .subCssCheckBoxes
+  input[type="checkbox"]
+    opacity: 0
+    position: absolute
+    cursor: pointer
+    margin: 0
+    width: 17px
+    height: 17px
+  .NMIcon-checkbox
+    border: 1px solid $darkBlackish333
+    height: 17px
+    width: 17px
+    background-color: $white
+    display: inline-block
+    background: none
+  input[type="checkbox"]:checked + .NMIcon-checkbox
+    background: url("../images/icon-sprite.png") no-repeat -48px -76px
+
+.cssRadio
+  .radioInner
+    width: 18px
+    height: 18px
+    background: $white
+    display: inline-block
+    border: 1px solid $outstandingLightGrey
+    border-radius: 50%
+    text-align: left
+  input[type="radio"]:checked + .radioInner:after
+    width: 10px
+    height: 10px
+    background: $colorPink
+    border-radius: 50%
+    content: " "
+    display: inline-block
+    margin: 3px 0 0 3px
+    vertical-align: top
+
+.tickeListTable li.selectedRow
+  background: $white
+
+.accordCell
+  display: none
+
+.selectedRow
+  .cellInWrap
+    display: none
+  .accordCell
+    display: block
+    background: $lightGreyRowFA
+    border: 1px solid $lightGreyEEE
+    margin: 20px 0
+
+.accordHead
+  padding: 19px 10px 19px 20px
+  h3
+    font-size: 16px
+    color: $black
+    font-family: $fontRobotoRegular
+    margin: 0
+    line-height: 22px
+
+.greenText
+  color: $green
+
+.blueLink
+  color: $blueLink
+  text-decoration: underline
+  font-size: 12px
+  &:hover
+    color: $blueLinkColor
+  &:focus
+    color: $darkBlackish333
+
+.compCode
+  color: $greyColorLight999
+  font-size: 11px
+  margin-top: 7px
+
+.mainTitle
+  font-size: 24px
+  color: $darkBlackish333
+  font-family: 'Roboto', sans-serif
+  font-weight: 400
+  margin: 3px 0 2px 0
+  text-transform: capitalize
+
+.outStandList
+  .tableHeader
+    top: 176px
+
+.midLink
+  font-family: $fontRobotoRegular
+  font-size: 12px
+
+.headBarLeft
+  padding-bottom: 20px
+  padding-top: 7px
+  ol
+    margin-bottom: 0
+
+.col2, .col1
+  position: relative
+  border-left: 1px solid $lightFontGreyCCC
+  padding: 20px 10px 0 20px
+  min-height: 122px
+  width: 210px
+
+.col2
+  width: 230px
+  padding: 20px 20px 0 30px
+  display: table
+  .paymentButton
+    display: table-cell
+    vertical-align: middle
+    .darkPinkBtn
+      font-size: 14px
+      padding: 10px 41px
+
+.customAccountType
+  padding-top: 15px
+  span
+    +displayBlock
+    font:
+      family: $fontArialRegular
+      size: 12px
+    color: $darkBlackish333
+    margin-bottom: 8px
+  .customSelectGroup
+    width: 135px
+    p.selectContent,
+    p.selectContentBox
+      padding: 10px 15px 10px 10px
+      border: 1px solid $lightGreyBorderDDD
+      height: 35px
+      font:
+        size: 16px
+        family: $fontRobotoRegular
+      color: $darkBlackish333
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow: hidden
+      +posRelative
+      &:after
+        display: none
+      &:before
+        content: ''
+        pointer-events: none
+        border-color: $darkBlackish333 transparent transparent
+        border-style: solid
+        border-width: 4px
+        vertical-align: middle
+        +posAbsolute
+        right: 10px
+        top: 15px
+    p.selectContent.selectOpen,
+    p.selectContentBox.selectOpen
+      &:before
+        top: 10px
+        -webkit-transform: rotate(-180deg)
+        -ms-transform: rotate(-180deg)
+        transform: rotate(-180deg)
+
+.CurrencyNote
+  position: absolute
+  left: 0
+  top: 0
+  background: $whiteShadeGrey
+  font-size: 11px
+  padding: 2px
+
+.midHeader
+  background: $white
+  position: fixed
+  width: 100%
+  z-index: 8
+  top: 54px
+
+.colLabel
+  font-size: 12px
+  color: $greyColorLight999
+  font-weight: normal
+  margin: 0 0 10px
+
+.unadjustLabel
+  line-height: 12px
+
+.labelAmount
+  font-size: 14px
+  color: $stronGreenColor
+  font-weight: normal
+  margin-bottom: 5px
+  line-height: 14px
+  display: block
+
+.amountCnt
+  font-size: 22px
+  color: $greyColorLight999
+  font-family: $fontRobotLight
+  line-height: 26px
+
+.openInvo
+  width: 160px
+
+.midHeader .cssRadio
+  margin-top: 4px
+  input
+    width: 18px
+    height: 18px
+
+.linkOuter
+  width: 147px
+  padding: 22px 0 0 19px
+  a
+    display: block
+    margin-bottom: 5px
+  span
+    text-decoration: underline
+
+.pinkBtn
+  background: $colorPink
+  font-size: 14px
+  color: $white
+  display: inline-block
+  padding: 8px 17px
+  font-family: $fontRobotoRegular
+  &:hover
+    text-decoration: none
+    background: $colorPinkHover
+.radioButtonWrap
+  .pinkBtn
+    +displayNone
+  &.checkedRadio
+    .pinkBtn
+      +displayInlineBlock
+.midHeader .pinkBtn
+  margin-top: 3px
+  display: none
+
+.noRightSpace
+  padding-right: 0
+
+.lastCol
+  width: 225px
+  border-right: 0
+  padding: 0
+
+.selectedPay
+  .amountCnt, .colLabel
+    color: $darkBlack111
+.outStandingWrap, .paymentOptionSection
+  .dataCell:hover
+    color: $darkBlackish333
+    .sortArw
+      border-color: $darkBlackish333 transparent transparent
+
+.paymentOptionSection
+  .filterIconWrap
+    left: -50px
+  .tickeListTable
+    margin-top: 15px
+    li:nth-child(2)
+      border-top: 1px solid $lightFontGreyCCC
+    .tabelDataCell
+      border: 1px solid $lightFontGreyCCC
+      margin-bottom: 15px
+      .dataCell
+        padding: 13px 10px
+    .customSelectList
+      li
+        background-color: $white
+      li:nth-child(2)
+        border-top: 0
+    .listingFilterWrap
+      top: 225px
+    .invoiceNoCell
+      width: 125px
+    .fromCell , .toCell
+      width: 113px
+    .sofCell , .poCell
+      width: 91px
+    .pendingSinceCell
+      width: 111px
+      .remainDays
+        padding: 2px 5px
+        margin-left: 10px
+        font-size: 13px
+        font-family: $fontRobotoMedium
+    .invoiceValueCell
+      width: 131px
+    .outStatusCell
+      width: 110px
+    .tdsPercentCell
+      width: 100px
+    .amtOutCell
+      width: 130px
+      .lastAmount
+        text-align: right
+        font-family: $fontRobotoMedium
+        +displayBlock
+    .customSelectGroup
+      .customSelectList
+        li
+          border-bottom: 1px solid $lightFontGreyCCC
+          &:last-child
+            border-bottom: 0
+      .selectContent,
+      .selectContentBox
+        width: 80px
+        height: 35px
+        padding: 10px
+        &:after
+          left: 75%
+  .creditpayment
+    margin: 0 20px
+    padding: 20px 0
+    border-top: 1px solid $lightGreyEEE
+    .customSelectGroup
+      width: 200px
+      height: 50px
+      float: left
+      margin-left: 20px
+      label
+        font:
+          size: 11px
+          family: $fontArialRegular
+        color: $greyFontAAA
+      .customSelectList.roleDropDown
+        height: 55px !important
+        overflow-y: auto
+      .customSelectList
+        li
+          padding: 13px 15px
+          +posRelative
+          .subCssCheckBoxes
+            top: 12px
+            left: 15px
+          border-bottom: 1px solid $lightFontGreyCCC
+          &:last-child
+            border-bottom: 0
+      li:nth-child(2)
+        border-top: 0
+      .selectContent,
+      .selectContentBox
+        width: 200px
+        height: 50px
+        padding: 26px 0 0 14px
+        border-left: 1px solid $lightGreyBorderDDD
+        &:after
+          left: 85%
+    .reOpenBtn
+      float: left
+      padding: 8px 45px
+      font:
+        size: 14px
+        family: $fontRobotoRegular
+    .amountSelectWrap
+      margin-left: 75px
+      float: left
+      &:first-child
+        margin-left: 200px
+      .accType
+        font:
+          size: 14px
+          family: $fontRobotoMedium
+        color: $darkBlackish333
+        margin-top: 8px
+      .selectAmount
+        font:
+          size: 13px
+          family: $fontArialRegular
+        color: $darkBlackish333
+        padding-left: 25px
+      .amountCode
+        font:
+          size: 10px
+          family: $fontArialRegular
+        color: $white
+        text-transform: uppercase
+        background-color: $lightColorGreyBBB
+        padding: 2px 3px
+    .confirmBtnWrap
+      width: 142px
+      margin-left: 25px
+      float: left
+      p
+        +displayNone
+        font:
+          size: 14px
+          family: $fontRobotoRegular
+        color: $greenIconColor
+        padding: 10px 20px
+        margin-bottom: 0
+        i
+          margin-right: 5px
+  .totalDataTable
+    border: 1px solid $lightGreyEEE
+    border-left: 0
+    border-right: 0
+    padding: 13px 60px
+    text-align: right
+    .rowCell
+      &:hover
+        border: 1px solid $lightGreyEEE
+        border-left: 0
+        border-right: 0
+      span
+        vertical-align: middle
+        font:
+          size: 22px
+          family: $fontRobotLight
+      .currencies
+        font-size: 11px
+      .grayAmount
+        background-color: $grayBgcolor
+        color: $fontColorDarker666
+      .greenAmount
+        background-color: $lightSuccessGreen
+        color: $stronGreenColor
+      .pinkAmount
+        background-color: $pinkBgcolor
+        color: $pinkTextColor
+        margin-left: 20px
+
+.correctIcon
+  content: ''
+  background: url("../images/icon-sprite.png") no-repeat -34px -523px
+  height: 10px
+  width: 12px
+  +displayInlineBlock
+
+
+
+
+
+/**End: Outstanding Listing**/
+
+/**Start: Outstanding Payment Option**/
+.paymentOptionWrap
+  padding-top: 225px
+  .tableHeader
+    top: 178px
+    .dataCell
+      cursor: pointer
+  .breadCrumbSection .darkPinkBtn
+    display: block
+  .breadCrumbCustom a
+    text-decoration: underline
+
+.blueLink
+  color: $blueLinkColor
+  text-decoration: underline
+  &:focus
+    color: $blueLinkColor
+    text-decoration: underline
+
+.paymentOptionSection
+  .breadCrumbSection
+    padding: 12px 0 17px
+  .breadCrumbCustom a:hover
+    color: $fontColorDarker666
+
+.blueLink:hover
+  color: $fontColorDarker666
+
+.headerPaymentOption
+  padding: 5px 0
+
+.makePaymentStep
+  margin: 22px 0 0 0
+  padding: 0
+  list-style-type: none
+  text-align: center
+  li
+    display: inline-block
+    margin: 0 12px
+    color: $greyColorLight999
+
+  .stepNo
+    width: 26px
+    height: 26px
+    line-height: 24px
+    margin-right: 8px
+    display: inline-block
+    border-radius: 50%
+    border: 1px solid $greyColorLight999
+
+    vertical-align: middle
+  li.activeStep
+    color: $darkBlackish333
+    .stepNo
+      background: $greenIconColor
+      border-color: $greenIconColor
+      color: $white
+
+.headerPaymentOption .darkPinkBtn
+  padding: 10px 0
+  width: 135px
+  text-align: center
+  margin-top: 20px
+
+.whiteCancelBtn
+  margin-top: 20px
+  padding: 10px 30px
+  color: $blueLinkColor
+  text-decoration: underline
+  &:focus
+    margin-top: 20px
+    padding: 10px 30px
+    color: $blueLinkColor
+    text-decoration: underline
+  &:hover
+    color: $fontColorDarker666
+
+.checkBoxCell
+  width: 40px
+
+.invoiceNoCell, .sofCell
+  width: 110px
+
+.poCell
+  width: 90px
+
+.invoiceValueCell
+  width: 130px
+
+.outStandingCell
+  width: 115px
+
+.paymentCell, .tdsCell
+  width: 125px
+
+.totalAmtCell
+  width: 920px
+  text-align: right
+
+.lineBreak
+  display: block
+
+a.invoiceNoCell
+  color: $blueLinkColor !important
+  text-decoration: underline
+  &:hover
+    color: $darkBlackish333 !important
+    text-decoration: underline
+
+.tabelDataCell
+  .pendingSinceCell, .outStandingCell
+    font-size: 13px
+    color: $darkBlackish333
+    font-family: $fontRobotoMedium
+  .salesText
+    color: $green
+    text-transform: uppercase
+
+.tableHeader .headCellRight
+  padding-right: 11px
+  display: inline-block
+
+.amountPaidCell, .outStandingCell
+  text-align: right
+
+.totalAmt
+  background: $lightGreenish
+  font-family: $fontRobotLight
+  font-size: 22px
+  color: $black
+  padding: 2px 5px
+  display: inline-block
+  margin-left: 48px
+  border-radius: 4px
+
+.currencies
+  background: $whiteShadeGrey
+  font-size: 11px
+  padding: 2px 5px
+  display: inline-block
+  vertical-align: top
+/**End: Outstanding Payment Option**/
+
+/**Start: Outstanding Payment Final**/
+.paymentFinalWrap
+  padding-top: 179px
+  .breadCrumbSection
+    .darkPinkBtn
+      +displayBlock
+
+.payableWrap
+  width: 500px
+  border: 1px solid $lightGreyEEE
+  background: $white
+  margin: 50px auto
+
+.netAmtWrap
+  padding: 30px 34px 25px 34px
+  text-align: center
+  p
+    font-size: 24px
+    color: $blueLinkColor
+    margin: 20px 0 30px
+    line-height: 28px
+    font-family: $fontRobotLight
+  .totalAmt
+    margin-left: 0
+    padding: 2px 10px
+    font-size: 26px
+  .icon-tickMark
+    background: $blueLinkColor
+    height: 82px
+    width: 82px
+    display: inline-block
+    border-radius: 50%
+  .payAmttext
+    padding: 16px 0 14px
+    border-top: 1px solid $blueLink
+    border-bottom: 1px solid $lightFontGreyCCC
+    margin-bottom: 19px
+    span
+      font:
+        size: 18px
+        family: $fontRobotoRegular
+      color: $greyColorLight999
+    p
+      font:
+        size: 18px
+        family: $fontRobotLight
+      color: $darkBlackish333
+      margin: 0
+  .usedAcdetails
+    ul
+      border-bottom: 1px solid $lightFontGreyCCC
+      margin-bottom: 20px
+      li
+        margin-bottom: 15px
+        &:last-child
+          display: table
+          margin: 20px 0 0
+          padding-bottom: 15px
+          width: 100%
+          span.grayText
+            display: table-cell
+            vertical-align: middle
+            text-align: right
+            .rightSpace
+              margin-right: 25px
+          a
+            font:
+              size: 14px
+              family: $fontRobotoRegular
+      .grayText
+        font:
+          size: 14px
+          family: $fontArialRegular
+      .greenText
+        font:
+          size: 14px
+          family: $fontRobotoRegular
+  .netPayText
+    font:
+      size: 18px
+      family: $fontRobotLight
+    color: $darkBlackish333
+  .pinkAmount
+    background-color: $pinkBgcolor
+    color: $pinkTextColor
+    font:
+      size: 22px
+      family: $fontRobotLight
+    padding: 0 15px
+    border-radius: 5px
+
+
+.paymentConfirmMsg .icon-tickMark
+  background: $blueLinkColor
+  height: 82px
+  width: 82px
+  display: inline-block
+  border-radius: 50%
+
+.netAmtWrap .icon-tickMark:before, .paymentConfirmMsg .icon-tickMark:before
+  content: ''
+  background: url('../images/icon-tickMark.png')
+  height: 19px
+  width: 27px
+  display: inline-block
+  margin-top: 32px
+
+.payMentIcon
+  background: url('../images/payment.png')
+  height: 95px
+  width: 105px
+  display: inline-block
+
+/**End: Outstanding Payment Final**/
+/**Start: Outstanding Thank you**/
+.paymentConfirmWrap
+  padding-top: 54px
+  background: $white
+
+.paymentConfirmMsg
+  text-align: center
+  padding: 160px 0
+  .icon-tickMark
+    background: $greenIconColor
+  p
+    font-family: $fontRobotLight
+    font-size: 24px
+    line-height: 28px
+    margin: 20px 0
+  .transactionWrap
+    display: block
+    font-size: 18px
+    margin-top: 15px
+    span
+      font-family: $fontRobotoMedium
+      background: $lightGreenish
+      padding: 2px 8px
+      border-radius: 4px
+      margin-left: 4px
+  .darkPinkBtn
+    display: inline-block
+
+.checkedRow
+  .cellInWrap, .accordCell, .dataCell
+    background-color: $checkedRowColor
+.totalDataTable
+  li:nth-child(odd)
+    background: none
+    border: none
+    &:hover
+      background: none
+      border: none
+/**End: Outstanding **/
+
+/**Start: Ticket ID Popup */
+.ticketIdPopUp
+  height: 360px
+  width: 545px
+  +posFixed
+  top: 50%
+  left: 50%
+  margin: -180px 0 0 -272px
+  z-index: 15
+  background-color: $lightGreyRowFA
+  +displayNone
+  h2
+    font:
+      size: 20px
+      family: $fontRobotoRegular
+    color: $darkBlackish333
+    margin: 0
+    display: table-cell
+    vertical-align: middle
+  .topWrap
+    padding: 18px 40px
+    border-bottom: 1px solid $lightGreyEEE
+    display: table
+    width: 100%
+    a
+      display: table-cell
+      vertical-align: middle
+      +displayInlineBlock
+      text-transform: capitalize
+    .darkPinkBtn
+      padding: 10px 17px
+      margin-right: 20px
+      font-size: 14px
+  .XlsFile
+    .reOpenBtn
+      padding: 9px 30px
+      +displayNone
+    padding: 40px 0
+    text-align: center
+    width: 50%
+    height: 289px
+    &:hover
+      background-color: $white
+      .reOpenBtn
+        +displayInlineBlock
+    img
+      +displayBlock
+      margin: 0 auto
+    span
+      font:
+        size: 14px
+        family: $fontRobotoMedium
+      color: $darkBlackish333
+      margin: 15px 0
+      +displayBlock
+    p
+      font:
+        size: 12px
+        family: $fontRobotoRegular
+      color: $greyColorLight999
+.outStandingWrap
+  .tableHeader
+    .forSpace
+      width: 100px
+  .tabelDataCell
+    .dataCell
+      text-align: right
+    .outStatusCell
+      padding-left: 25px
+      text-align: center
+      text-transform: uppercase
+  .customSelectList
+    top: 35px
+.ticketListTable
+  min-height: 1000px
+  display: table
+  width: 100%
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    border: 1px solid $lightGreyFC
+    &:nth-child(2)
+      border-top: none
+    &:nth-child(odd)
+      background: $darkGreyRow
+      border: 1px solid $darkGreyRow
+      &:hover
+        background: $white
+    &.tableHeader
+      background: $white
+      border-color: $lightFontGreyCCC
+      border-right: none
+    font-size: 13px
+.rowCell
+  display: table-row
+.tableHeader
+  +posFixed
+  width: 100%
+  background: $white
+  top: 109px
+  left: 0
+  +borderTopBottom
+  border-color: $lightFontGreyCCC
+  z-index: 7
+  .dropDownWrapper
+    color: $lightColorGreyBBB
+    &.openDropDown
+      .dropDownArrow
+        margin-top: 4px
+        right: 14px
+        +rotate-180deg
+  .redText
+    color: $colorREDff0000
+  .lastUpdatedCell:hover, .creationCell:hover, .openSinceCell:hover
+    color: $darkBlackish333
+    .sortDownArrow
+      &:before, &:after
+        border-top-color: $darkBlackish333
+  .sortingCell.sortArrow
+    .sortDownArrow
+      right: 15px
+      margin-top: 0
+      +rotate-180deg
+.tabelDataCell
+  float: left
+  .dataCell
+    color: $fontColorDarker666
+    padding: 20px 8px
+    text-align: left
+    +posRelative
+    &.cellColor
+      color: $pinkTextColor
+  &:hover
+    background: $white
+    border-color: $lightFontGreyCCC
+  &:nth-child(odd):hover
+    border-color: $lightFontGreyCCC
+  .actionCell
+    text-align: center
+    .provideInputBtn
+      opacity: 0
+      float: right
+    .mesgLabel
+      margin-top: 5px
+      float: left
+      margin-left: 5px
+  &:hover
+    .actionCell
+      .provideInputBtn
+        opacity: 1
+
+.invoiceInfo
+  border: 1px solid $lightFontGreyCCC !important
+  margin-bottom: 18px
+/**End: Ticket ID Popup */
+/*Make Payment Page*/
+.selectedPaymentList
+  border-color: $lightFontGreyCCC !important
+.primaryConfirmationHeader
+  margin: 0 auto 24px auto
+  ul
+    list-style-type: none
+    margin: 15px 0
+    li
+      display: inline-block
+      margin-right: 15px
+      .greenCircle, .greyCircle
+        padding: 4px 7px
+        border-radius: 50%
+        font-size: 14px
+        margin-right: 10px
+      .greenCircle
+        background-color: $greenCircleColor
+        color: $white
+      .greyCircle
+        color: $lightFontGreyCCC
+        border: 1px solid $lightFontGreyCCC
+      .greenCircle + span
+        color: $darkBlackish333
+        font-family: $fontRobotoRegular
+      .greyCircle + span
+        color: $darkBlackish333
+        font-family: $fontRobotLight
+      .greenCircle + span,
+      .greyCircle + span
+        font-size: 16px
+        line-height: 18px
+  .confirmBtns
+    .darkPinkBtn
+      padding: 10px
+      margin: 5px 0
+      margin-right: 20px
+      font-size: 14px
+      display: block
+      line-height: 16px
+    .blueLink
+        font-size: 14px
+        line-height: 16px
+        margin-left: 10px
+.paymentConfirmationDetails.accordianData
+  border: none
+  border-top: 1px solid $lightFontGreyCCC
+  padding-bottom: 70px
+.paymentConfirmationDetails
+  .customSelectGroup p
+    &::after
+      left: 88% !important
+  .creditList:nth-child(1)
+    border-top: none !important
+  .creditList
+    padding: 6px 7px 25px 7px !important
+    border-top: 1px solid $lightFontGreyCCC !important
+    position: relative
+    input
+        float: left
+    .creditCheckBox
+      position: relative
+      input
+        right: 41%
+        top: -4px
+    .creditValue
+      margin-left: 10px
+      float: left
+      line-height: 14px
+      margin-top: 4px
+    .creditID
+      position: relative
+      float: right
+      left: 0
+      color: $white !important
+      background-color: $lightFontGreyCCC
+      padding: 3px 10px
+      min-width: 73px
+      top: 7%
+.outStandingHeader
+    text-align: center
+    width: 100%
+    margin-bottom: 10px
+    ul
+      display: inline-block
+      width: 400px
+      margin: 10px 0 0 300px
+      float: left
+    .confirmBtns
+      .darkPinkBtn
+        float: left
+        margin-top: 0
+      .blueLink
+        float: right
+        margin: 10px 0
+.creditBox , .paymentLabels
+  display: inline-block
+.paymentLabels
+  vertical-align: top
+  margin: 17px 20px 17px 40px
+  font-size: 16px
+  line-height: 18px
+  color: $darkBlackish333
+.creditBox + a
+  display: inline-block
+  vertical-align: top
+  margin: 10px 41px
+  padding: 7px 24px
+.customSelectGroup
+  .accountTypeList
+    border-top: 1px solid $lightGreyBorderDDD !important
+    height: 95px !important
+    li:nth-child(1)
+      color: $darkBlackish333 !important
+.accordianData
+  span.confirmedMsg
+    font-size: 14px
+    line-height: 16px
+    color: $greenCircleColor
+    position: relative
+    display: inline-block !important
+    vertical-align: top
+    margin: 15px 40px
+    &:before
+      content: ''
+      width: 12px
+      height: 4px
+      position: absolute
+      top: 31%
+      left: 0
+      margin-left: -16px
+      border: 1px solid $greenCircleColor
+      border-top: none
+      border-right: none
+      background: transparent
+      opacity: 1
+      transform: rotate(-45deg)
+.ticketListTable.paymentList
+  min-height: 0
+  .tableHeader
+      z-index: 500
+.totalPaymentBox
+  margin-top: 25px
+  border: 1px solid $lightGreyFC
+  border-left: none
+  border-right: none
+  padding: 30px 60px 20px
+  text-align: right
+  span
+    margin-left: 60px
+    font-size: 18px
+    line-height: 20px
+    color: $darkBlackish333
+    padding: 3px 7px
+  .totalAmt
+    background-color: $grayBgcolor
+
+  .subtractAmt
+    background-color: $greeBgLight
+    color: $greenColorFont
+  .netPayment
+    background-color: $pinkBgcolor
+    color: $pinkColorFont
+.paymentNavPills
+  margin-top: -15px
+  margin-right: 90px
+
+.finalPayment
+  border: 1px solid $lightColorGreyBBB
+  padding: 20px 25px
+  width: 550px
+  margin: 100px auto
+  .paymentIcon
+      display: block
+      height: 105px
+      width: 104px
+      margin: 0 auto
+      background: url("../images/payment.png") no-repeat center
+  h2
+    text-align: center
+    color: $blueLink
+    font-size: 24px
+    line-height: 26px
+    font-family: $fontRobotLight
+    margin: 30px 0
+  .paymentDetails
+    border-top: 1px solid $blueLink
+    li:nth-child(1)
+      border-bottom: 1px solid $lightColorGreyBBB
+      padding: 20px 0
+      span
+        font-size: 18px
+        line-height: 20px
+      span:nth-child(2)
+        color: $darkBlackish333
+    li:nth-child(2),
+    li:nth-child(3)
+      span:nth-child(2)
+        color: $greenCircleColor
+    li:nth-child(4)
+      border-bottom: 1px solid $lightColorGreyBBB
+      input
+        padding: 5px 10px
+      span:nth-child(2)
+        margin-left: 0
+    li:nth-child(5)
+      span
+        font-size: 18px
+        line-height: 20px
+      span:nth-child(1)
+        color: $darkBlackish333
+        font-family: $fontRobotoRegular
+      span:nth-child(2)
+        padding: 2px 5px
+        background-color: $pinkBgcolor
+        color: $pinkColorFont
+    li
+      padding: 12px 0
+      span
+        color: $fontColorDarker666
+        font-size: 16px
+        line-height: 18px
+        font-family: $fontRobotLight
+.midHeader
+  border-bottom: 1px solid $lightFontGreyCCC
+.paymentDoneMsg
+  width: 585px
+  margin: 165px auto
+  .greenCheck
+    display: block
+    margin: 0 auto
+    margin-bottom: 35px
+    height: 82px
+    width: 82px
+    border-radius: 50%
+    background-color: $greenCircleColor
+    position: relative
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      top: 23%
+      left: 45%
+      width: 11px
+      height: 33px
+      border: solid #FFFFFF
+      border-width: 0 3px 3px 0
+      transform: rotate(45deg)
+  .thankYouMsg
+    font-size: 24px
+    line-height: 26px
+    font-family: $fontRobotLight
+    color: $darkBlackish333
+    margin-bottom: 45px
+  .transactionInfo
+    font-size: 14px
+    line-height: 16px
+    font-family: $fontRobotoRegular
+    color: $darkBlackish333
+    margin-bottom: 20px
+    text-align: center
+    span
+      font-weight: bold
+      padding: 10px 8px
+      background-color: $lightGreenish
+  .backButton
+    color: $blueLink
+    border: 1px solid $blueLinkColor
+    background-color: $white
+    padding: 13px 16px
+    margin: 0 15px 0 145px
+    &:hover
+      color: $white
+      background-color: $blueLink
+  a
+    padding: 15px 20px
+    font-size: 14px
+    line-height: 16px
+    font-family: $fontRobotoRegular
+    display: inline-block
+    margin: 0 auto
+    text-decoration: none
+
+@media (max-width: 1199px)
+    .invoiceListItems
+        padding-top: 258px
+    .outstandingHeaderWrap
+        .col1
+            width: 198px
+        .col2
+            width: 180px
+        .makePaymentBtnWrap.col1
+            width: 170px
+            .makePaymentBtn
+                padding: 5px
+    .paymentConfirmationDetails
+        .ownedBy, .assignTo
+            width: 243px
+        .creditBox + a
+            margin: 10px 0 10px 23px
+    .accordianData span.confirmedMsg
+        margin: 15px 30px
+    .primaryConfirmationHeader
+        margin: 0 auto 10px auto
+    .primaryConfirmationHeader.paymentNavPills
+        margin-right: 0
+        width: 669px
+    .listStyle .invoiceNoCell
+        width: 141px
+        max-width: 140px
+    .listStyle .fromCell, .listStyle .toCell
+        width: 118px
+    .outStandingWrap .tabelDataCell .outStatusCell
+        text-align: center
+    .outStandingWrap .tableHeader .invoiceValueCell
+        width: 161px
+        max-width: 160px
+    .outStandingWrap .tableHeader .forSpace
+        width: 96px
+    .outStandingWrap .tabelDataCell .invoiceValueCell,
+    .outStandingWrap .tabelDataCell .tdsPercentCell
+        text-align: center

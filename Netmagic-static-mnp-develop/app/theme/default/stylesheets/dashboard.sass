@@ -1,0 +1,409 @@
+//Sprite Icon css for dashboard
+[class^="DBicon-"], [class*="DBicon--"]
+  width: 166px
+  height: 108px
+  vertical-align: text-top
+  background: none
+  border: none
+  +outLineNone
+  background: url("../images/dashBoard-widget-info-icons.png") no-repeat center
+.SSO-DB_Icon
+    width: 166px
+    height: 108px
+    vertical-align: text-top
+    background: none
+    border: none
+    display: block
+    +outLineNone
+    background: url("../images/ssoIcon.png") no-repeat center
+.DBicon-alert
+  background-position: 0 1px
+.DBicon-outstanding
+  background-position: 0 -107px
+.DBicon-assets
+  background-position: 0 -215px
+.DBicon-services
+  background-position: 0 -323px
+.DBicon-contacts
+  background-position: 0 -430px
+.DBicon-customer
+  background-position: 0 -680px
+  display: block
+.DBicon-customer
+  background-position: 0 -680px
+.dashboardBreadCrumb
+  background: #FCFCFC
+  +posRelative
+  border-bottom: none
+.dashboardBreadCrumb.bottomShadowScroll
+  box-shadow: none
+//Starts: Custom Container Css
+.dashBoardContainer
+  padding: 65px 9px 18px
+  text-align: center
+.widgetContainer
+  width: 100%
+  text-align: center
+  list-style: none
+  margin: 0 0 0 -20px
+  padding: 0
+  li
+    +posRelative
+    +displayInlineBlock
+    +transitions
+    margin: 0 0 10px 10px
+    vertical-align: top
+    &:hover
+      box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3)
+//Starts: Widget Css
+.widgetCommonProp
+  width: 370px
+  height: 370px
+  border: 1px solid $lightFontGreyCCC
+  background: $white
+  padding: 0 19px
+.dashedBorder
+  border-style: dashed
+  p
+    font-family: $fontArialRegular
+
+
+.widgetHead
+  margin-top: 14px
+  h3, .ssoLinks
+    margin: 0
+    font:
+      family: $fontRobotoRegular
+      size: 18px
+      weight: normal
+    line-height: 30px
+    color: $blueLinkColor
+    text-transform: uppercase
+    text-decoration: none
+    cursor: pointer
+  .darkPinkBtn
+    padding: 8px 16px
+.widgetDataCount
+  margin-top: 0
+  p
+    margin: 0
+    font:
+      family: $fontRobotThin
+      size: 46px
+    line-height: 50px
+    color: $blueLinkColor
+.dataCountBrdrBtm
+  padding-bottom: 12px
+  border-bottom: 1px solid $lightGreyEEE
+  margin-bottom: 20px
+
+  .incidentRequestCount
+    .widgetLabel
+      font-size: 14px
+.incidentRequestCount, .serverDataWidget
+  width: 70px
+  text-align: left
+  &.firstChild
+    padding-left: 10px
+.widgetLabel
+  font:
+    family: $fontArialRegular
+    size: 16px
+    weight: normal
+  line-height: 24px
+  color: $darkBlackish333
+.widgetSpan
+  font:
+    family: $fontRobotLight
+    size: 22px
+    weight: normal
+  line-height: 26px
+  color: $blueLinkColor
+  +displayBlock
+.serverDataWidget
+  width: 82px
+  cursor: pointer
+  label
+    margin: 0
+    line-height: 14px
+    padding-left: 2px
+  span
+    font-size: 22px
+    line-height: 32px
+    margin-top: 5px
+    +displayBlock
+.severityHigh
+  span, label
+    color: $colorREDff0000
+.txtColorRed
+  color: $colorREDff0000
+.txtBlack
+  color: $black
+.widgetOpenStatus
+  margin-top: 12px
+  label
+    +displayBlock
+    text-align: left
+    margin-bottom: 0
+.openSinceWrap
+  width: 140px
+.statusWrap
+  width: 160px
+  margin-left: 28px
+.tcktTxtDetails
+  display: block
+  margin-top: 7px
+  p
+    width: 110px
+    font:
+      family: $fontArialRegular
+      size: 14px
+      weight: normal
+    line-height: 14px
+    color: $fontColorDarker666
+    text-align: left
+    margin: 0
+  span
+    font:
+      family: $fontRobotoRegular
+      size: 14px
+      weight: normal
+    line-height: 16px
+    text-align: right
+    color: $blueLinkColor
+.statusWrap
+  .tcktTxtDetails
+    p
+      width: 133px
+.widgetInfoIcon
+  margin: 72px auto 0
+  +displayBlock
+.demoText
+  font:
+    family: $fontArialRegular
+    size: 12px
+    weight: normal
+  line-height: 14px
+  text-align: center
+  margin: 0
+  color: $darkBlackish333
+.linkPresent
+  cursor: pointer
+
+.outStandWidget,
+.serviceWidget
+  .widgetLabel
+    font-size: 16px
+    width: 100%
+    text-align: left
+  .outstandingUnit
+    float: left
+    margin: 27px 0 0 10px
+    font:
+      family: $fontArialRegular
+      size: 14px
+      weight: normal
+    line-height: 24px
+    color: $darkBlackish333
+
+  .widgetDataCount
+    width: 100%
+    padding: 0
+    border-bottom: 1px solid $lightGreyEEE
+    margin-bottom: 20px
+    .creditData
+      margin-right: 50px
+      .widgetSpan
+        text-align: left
+  .tcktTxtDetails
+    p
+      width: 130px
+  .highLightPrices
+    width: 100%
+    clear: both
+    ul
+      width: 100%
+      margin: 0 auto
+      li
+        width: 33.33%
+        float: left
+        margin: 0
+        &:hover
+          box-shadow: none
+        span
+          +displayInlineBlock
+        .maxDays
+          margin-bottom: 15px
+          padding: 2px 5px
+          font:
+            size: 12px
+            family: $fontArialRegular
+        .dayAmount
+          font:
+            size: 16px
+            family: $fontRobotoRegular
+          color: $darkBlackish333
+
+.serviceWidget
+  .widgetDataCount
+    border-bottom: 1px solid $lightGreyEEE
+  .outstanding
+    border-bottom: 0
+    .serverWrap:nth-child(1)
+      margin-right: 40px
+    .serverWrap
+      display: inline-block !important
+      width: 43.9% !important
+      margin-bottom: 10px
+      margin-top: 0 !important
+      p, span
+        display: block
+        text-align: center
+        text-align: left
+      p
+        font-family: $fontArialRegular
+        font-size: 16px
+        line-height: 18px
+        margin-bottom: 5px
+        color: $darkBlackish333
+      span
+        font-size: 22px
+        line-height: 32px
+        color: $blueLink
+        font-family: $fontRobotLight
+    .secondServerWrap
+      display: block
+      margin-top: 10px
+      span
+        display: inline-block
+        font-size: 14px
+        line-height: 16px
+      span:nth-child(1)
+        font-family: $fontArialRegular
+        color: $fontColorDarker666
+        text-align: left
+      span:nth-child(2)
+        font-family: $fontRobotoRegular
+        color: $blueLink
+        text-align: right
+  .serviceDetail
+    ul
+      width: 100%
+      padding: 0 5px
+      li
+        margin: 0 0 10px 0
+        width: 100%
+        &:hover
+          box-shadow: none
+        span
+          font:
+            size: 14px
+            family: $fontRobotoRegular
+.outStandWidget
+  .widgetDataCount
+    margin-top: 0
+    padding: 0 0 15px
+    border-bottom: 1px solid $lightGreyEEE
+    margin-bottom: 12px !important
+    &:nth-child(2)
+      border-bottom: none
+      padding-bottom: 0
+  .highLightPrices
+    padding: 10px 0 15px
+  .maxDays,
+  .dayAmount
+    float: left
+  .dayAmount
+    width: 75px
+    text-align: left
+.amountUnit
+  font-size: 36px
+.currenciesText
+  +posAbsolute
+  top: 0
+  right: 0
+  font-size: 12px
+  color: $darkBlackish333
+  background: #f9f9ee
+  padding: 5px
+  border-bottom-right-radius: 6px
+  border-bottom-left-radius: 6px
+.viewAll
+  display: block
+  width: 100%
+  color: $blueLinkColor
+  font-size: 14px
+  line-height: 16px
+  margin-top: 5px
+  text-align: left
+  text-decoration: underline
+  +posAbsolute
+  bottom: 25px
+  left: 19px
+  &:hover
+    color: $darkBlackish333
+    text-decoration: underline
+.noDataFound
+  margin: 30%
+  display: block
+.severityDropDown
+  .filterLabel
+    padding-right: 10px
+    word-wrap: break-word
+.dashBoardContainer
+  .dashboardLink
+    font-size: 24px
+    color: $blueLinkColor
+.rupeeIcon
+  float: left
+  font-size: 22px
+  line-height: 24px
+  color: $blueLinkColor
+  margin: 5px 6px 0 0
+.rupeeIcon-credit
+  float: left
+  font-size: 17px
+  line-height: 20px
+  color: $blueLinkColor
+  margin: 0px 6px 0 0
+
+.outstanding
+  .creditData
+    width: 45%
+    margin-right: 16px !important
+    .outstandingUnit
+      margin: 5px 0 0 10px
+
+.ssoWidgetList
+  list-style-type: none
+  width: 960px
+  margin: 10px auto
+  li
+    display: inline-block
+    vertical-align: middle
+    border: 1px solid $blueLinkColor
+    margin: 0 15px
+    width: 210px
+    a
+      display: block
+      color: $blueLinkColor
+      text-decoration: none
+      padding: 15px 0
+      &:hover
+        color: $white
+        background-color: $blueLinkColor
+.newModules
+  text-transform: uppercase
+
+@media (max-width: 1199px)
+    .widgetContainer
+        width: 760px
+        margin: 0 auto
+    .ssoWidgetList
+        width: 760px
+        margin: 10px auto
+        li:nth-child(1)
+            margin-left: 15px
+        li
+            margin: 0 5px
+            width: 160px
